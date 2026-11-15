@@ -1,0 +1,98 @@
+{
+  "verified_at": "2026-11-15T07:08:33.353193+00:00",
+  "release": "https://github.com/shubhrgunjan/beyond-recovery/releases/tag/research-2026-11-15",
+  "public": true,
+  "assets": [
+    {
+      "file": "SHA256SUMS",
+      "bytes": 996,
+      "digest": "sha256:a2cdf55c3f8109f110acea01ba4daeee518952e3bae8e57617f8462de6e101b4",
+      "url": "https://github.com/shubhrgunjan/beyond-recovery/releases/download/research-2026-11-15/SHA256SUMS",
+      "anonymous_http": 200
+    },
+    {
+      "file": "baseline-live-and-training.tar.zst",
+      "bytes": 663687036,
+      "digest": "sha256:7b0d20a533c3f2b9a3b47ad09ec7b0dc655490c5d62f48bba9e0c362916714ee",
+      "url": "https://github.com/shubhrgunjan/beyond-recovery/releases/download/research-2026-11-15/baseline-live-and-training.tar.zst",
+      "anonymous_http": 200
+    },
+    {
+      "file": "calibrated-20261115-033031.tar.zst",
+      "bytes": 920359273,
+      "digest": "sha256:dbd1886d054b867816704b16c6e0b72602dbdf6cac1cfbe83b39aaac8744b9a1",
+      "url": "https://github.com/shubhrgunjan/beyond-recovery/releases/download/research-2026-11-15/calibrated-20261115-033031.tar.zst",
+      "anonymous_http": 200
+    },
+    {
+      "file": "command-qualification-extended.tar.zst",
+      "bytes": 11888539,
+      "digest": "sha256:0d9c8c98ff4e21085d750f7fef1aba8dc04a7f686d9671834bbb68362b7764b2",
+      "url": "https://github.com/shubhrgunjan/beyond-recovery/releases/download/research-2026-11-15/command-qualification-extended.tar.zst",
+      "anonymous_http": 200
+    },
+    {
+      "file": "command-qualification.tar.zst",
+      "bytes": 11467700,
+      "digest": "sha256:7ffb49f3ea283ea2b52fdbb0c4816101cca9d417fa7ae48625cf50a8cabc76f7",
+      "url": "https://github.com/shubhrgunjan/beyond-recovery/releases/download/research-2026-11-15/command-qualification.tar.zst",
+      "anonymous_http": 200
+    },
+    {
+      "file": "dataset-index.json",
+      "bytes": 3369,
+      "digest": "sha256:d8acffa2bc13cad9fc5dbc2fb6d66a13a5ae731c87325e3f8fb9b300b41aa173",
+      "url": "https://github.com/shubhrgunjan/beyond-recovery/releases/download/research-2026-11-15/dataset-index.json",
+      "anonymous_http": 200
+    },
+    {
+      "file": "endurance-20261115-032805.tar.zst",
+      "bytes": 321260441,
+      "digest": "sha256:5ff54e1e891aa34e9cf71e1bc03e94c30d6a570532d0adeaa588c5695628d9ed",
+      "url": "https://github.com/shubhrgunjan/beyond-recovery/releases/download/research-2026-11-15/endurance-20261115-032805.tar.zst",
+      "anonymous_http": 200
+    },
+    {
+      "file": "endurance-20261115-033219.tar.zst",
+      "bytes": 112361104,
+      "digest": "sha256:f91975931c810f2ed64fdefd80488a15549d76e856144238c3526e26d719f9af",
+      "url": "https://github.com/shubhrgunjan/beyond-recovery/releases/download/research-2026-11-15/endurance-20261115-033219.tar.zst",
+      "anonymous_http": 200
+    },
+    {
+      "file": "impact-20261115-032222.tar.zst",
+      "bytes": 550142721,
+      "digest": "sha256:3810a880ad71baed50a907e414eca1257add8802b976d6636e10ade288f961d4",
+      "url": "https://github.com/shubhrgunjan/beyond-recovery/releases/download/research-2026-11-15/impact-20261115-032222.tar.zst",
+      "anonymous_http": 200
+    },
+    {
+      "file": "matched-20261115-025833.tar.zst",
+      "bytes": 356953939,
+      "digest": "sha256:bd4e5af14702521fae82e5fe45b16efc0d0dad822f6141088ac3846c0b39ae7b",
+      "url": "https://github.com/shubhrgunjan/beyond-recovery/releases/download/research-2026-11-15/matched-20261115-025833.tar.zst",
+      "anonymous_http": 200
+    },
+    {
+      "file": "probes-20261115-030642.tar.zst",
+      "bytes": 1325291350,
+      "digest": "sha256:3d75f8562555b70a0d3e08fc9bd3b142c132260a1b2b9081e73c9e5f54d3736c",
+      "url": "https://github.com/shubhrgunjan/beyond-recovery/releases/download/research-2026-11-15/probes-20261115-030642.tar.zst",
+      "anonymous_http": 200
+    },
+    {
+      "file": "replanning-20261115-032004.tar.zst",
+      "bytes": 324767152,
+      "digest": "sha256:b67c8489bc5dd149c4d3c6b7ee7b27a9de3269f9bfae9a064c37ccb946866681",
+      "url": "https://github.com/shubhrgunjan/beyond-recovery/releases/download/research-2026-11-15/replanning-20261115-032004.tar.zst",
+      "anonymous_http": 200
+    },
+    {
+      "file": "research-bundle.zip",
+      "bytes": 16700775,
+      "digest": "sha256:9a57cd037cbaaff7637cc4399528125f396068096c7065c461954c75deaaeed4",
+      "url": "https://github.com/shubhrgunjan/beyond-recovery/releases/download/research-2026-11-15/research-bundle.zip",
+      "anonymous_http": 200
+    }
+  ]
+}

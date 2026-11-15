@@ -25,3 +25,5 @@ No connected browser surface was available for automated visual interaction. HTT
 The live lab uses a shared native MuJoCo instance on Thor and a Cloudflare Quick Tunnel. Its availability depends on both processes remaining online, and the tunnel address changes after restart. The Vercel report and GitHub data release remain independent of that live transport.
 
 The research release consists of ten checksummed raw archives totaling 4,598,179,255 bytes, plus the archive index, checksum list and compact offline report bundle. Release publication includes a final comparison against GitHub's server-side asset digests. Raw data is outside Git history and the Vercel build.
+
+Final release verification: all thirteen assets are anonymously downloadable with exact advertised lengths. Their GitHub server-side SHA-256 digests match the export index or compact-file hashes. The public receipt is [deployment/release-verification.json](../deployment/release-verification.json).
