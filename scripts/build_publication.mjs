@@ -4,7 +4,7 @@ const root=path.resolve(import.meta.dirname,'..');
 const config=JSON.parse(fs.readFileSync(path.join(root,'deployment/public.json'),'utf8'));
 const out=path.join(root,'public');fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});
 const escape=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
-const publicText=s=>s.replaceAll('http://localhost:8080',config.live).replaceAll('/home/saidevdhal/beyond-recovery/','').replaceAll('/home/shubhr/Shubhr/Projects/Research/beyond-recovery/','');
+const publicText=s=>s.replaceAll('http://localhost:8080',config.site+'/lab').replaceAll('/home/saidevdhal/beyond-recovery/','').replaceAll('/home/shubhr/Shubhr/Projects/Research/beyond-recovery/','');
 let home=fs.readFileSync(path.join(root,'web/public/index.html'),'utf8');
 for(const [key,value] of Object.entries({REPOSITORY_URL:config.repository,RELEASE_URL:config.release,LIVE_URL:config.live,SITE_URL:config.site}))home=home.replaceAll(`__${key}__`,escape(value));
 fs.writeFileSync(path.join(out,'index.html'),home);fs.copyFileSync(path.join(root,'web/public/style.css'),path.join(out,'style.css'));
