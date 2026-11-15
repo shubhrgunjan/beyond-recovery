@@ -24,7 +24,7 @@ export RSYNC_RSH="ssh -o BatchMode=yes -o StrictHostKeyChecking=yes -o UserKnown
 case "${1:-help}" in
   sync)
     "${SSH[@]}" "$HOST" "mkdir -p $REMOTE/third_party $REMOTE/reports"
-    rsync -az --exclude=.git --exclude=.aws --exclude=/reports/ --exclude=.venv --exclude=.cache --exclude=artifacts \
+    rsync -az --exclude=.git --exclude='.env*' --exclude=.vercel --exclude=/public/ --exclude=.aws --exclude=/reports/ --exclude=.venv --exclude=.cache --exclude=artifacts \
       --exclude=logs --exclude=third_party --exclude=__pycache__ --exclude=node_modules \
       --exclude=reports/WAKE_UP_REPORT.md --exclude=reports/figures --exclude=reports/clips --exclude=reports/data \
       --exclude=web/dist/research-bundle.zip --exclude=web/dist/research-report.html --exclude=web/dist/WAKE_UP_REPORT.md --exclude=web/dist/figures --exclude=web/dist/clips --exclude=web/dist/data ./ "$HOST:$REMOTE/"
