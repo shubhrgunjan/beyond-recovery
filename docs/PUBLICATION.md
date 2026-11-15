@@ -4,7 +4,7 @@ The public repository is `shubhrgunjan/beyond-recovery`. The root Vercel configu
 
 ## Static publication
 
-Run `npm ci`, `npm run build` and `npm run test:publication`. The builder writes ignored `public/`. It copies the report and supporting assets without running physics. Production Git pushes deploy through the connected Vercel project. For an explicit deployment with existing CLI authentication, use `npx vercel --prod`.
+Run `npm ci`, `npm run build` and `npm run test:publication`. To refresh the offline ZIP after changing a report, run `python3 scripts/package_publication.py` after the build and build again. The builder writes ignored `public/`. It copies the report and supporting assets without running physics. Production Git pushes deploy through the connected Vercel project. For an explicit deployment with existing CLI authentication, use `npx vercel --prod`.
 
 The research report and compact videos/tables stay available on Vercel independently of the live lab. The raw archives are GitHub Release assets. `deployment/dataset-index.json` records names, sizes, original relative directories and SHA-256 digests; `deployment/SHA256SUMS` verifies the initial raw release. Each `.tar.zst` file is below GitHub's per-asset size limit.
 

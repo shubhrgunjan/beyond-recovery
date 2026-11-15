@@ -10,3 +10,5 @@ Upstream code, robot assets and pretrained controller weights remain governed by
 - **cloudflared:** an optional external tunnel executable, not committed to this repository. Obtain it from https://github.com/cloudflare/cloudflared/releases and verify the publisher's release digest. It supplies transport only; it does not run the robot controller.
 
 Public research archives contain project-generated telemetry, simulator recordings, experiment inputs, source snapshots and baseline/training outputs. Publisher-fetched policy weights are obtained separately using the scripts above. Publishing the research record does not confer ownership of upstream assets or imply hardware validation or publisher endorsement.
+
+Publisher license texts for the pinned mjlab and Unitree reference sources are preserved under `licenses/`. Keep these notices with extracted robot-scene/baseline outputs. The AMP publisher terms remain available at the pinned upstream repository; no AMP weight binary is included in Git.
