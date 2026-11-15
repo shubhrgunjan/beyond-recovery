@@ -1,0 +1,10 @@
+{
+  "name": "beyond-recovery-publication",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build_publication.mjs",
+    "test:publication": "node scripts/verify_publication.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

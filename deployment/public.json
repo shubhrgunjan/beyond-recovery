@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/shubhrgunjan/beyond-recovery",
+  "release": "https://github.com/shubhrgunjan/beyond-recovery/releases/tag/research-2026-11-15",
+  "releaseBase": "https://github.com/shubhrgunjan/beyond-recovery/releases/download/research-2026-11-15",
+  "live": "https://volt-hitting-strategy-reflected.trycloudflare.com",
+  "site": "https://beyond-recovery.vercel.app",
+  "liveHosting": "Cloudflare Quick Tunnel on AGX Thor; address lasts while the tunnel process runs"
+}

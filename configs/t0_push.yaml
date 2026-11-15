@@ -1,0 +1,12 @@
+name: t0_route_loop_push
+duration: 120.0
+speed: 0.45
+arrival_radius: 0.25
+dwell: 2.0
+settle: 2.0
+waypoints: [[3.0, 0.0], [3.0, 3.0], [0.0, 3.0], [0.0, 0.0]]
+walls: []
+# Pilot force levels, not a calibrated evaluation distribution.
+pushes:
+  - {time: 6.0, duration: 0.2, force: [0.0, 60.0, 0.0]}
+  - {time: 18.0, duration: 0.2, force: [-60.0, 0.0, 0.0]}

@@ -1,0 +1,15 @@
+name: t1_compound_pilot
+duration: 150.0
+speed: 0.4
+arrival_radius: 0.25
+dwell: 2.0
+settle: 2.0
+waypoints: [[5.0, 0.0], [7.0, 0.0], [7.0, 3.0], [0.0, 3.0], [0.0, 0.0]]
+# Axis-aligned physical collision walls: center xyz and half-size xyz, metres.
+walls:
+  - {center: [3.0, 0.75, 0.6], half_size: [1.5, 0.1, 0.6]}
+  - {center: [3.0, -0.75, 0.6], half_size: [1.5, 0.1, 0.6]}
+# Exploratory stress case; severity is not a calibrated evaluation distribution.
+pushes:
+  - {time: 7.0, duration: 0.25, force: [0.0, 160.0, 0.0]}
+  - {time: 7.5, duration: 0.25, force: [-160.0, 0.0, 0.0]}

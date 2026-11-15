@@ -1,0 +1,16 @@
+.git
+.aws
+.env
+.env.*
+.venv
+.cache
+.pytest_cache
+.vercel
+third_party
+artifacts
+logs
+node_modules
+web/node_modules
+**/__pycache__
+**/*.log
+public

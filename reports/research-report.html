@@ -1,0 +1,760 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Beyond Recovery · Wake-up report</title><style>
+:root{font-family:system-ui,sans-serif;color:#24332f;background:#f3f5f1}body{margin:0}nav{padding:16px 5%;background:#182a24;display:flex;gap:24px;align-items:center}nav a{color:#b5e4cc;font-size:13px}main{max-width:1150px;margin:35px auto;padding:0 28px 60px}h1{font-size:32px;letter-spacing:-.8px}h2{margin-top:35px;font-size:21px;border-bottom:1px solid #cbd5cc;padding-bottom:9px}p,li{font-size:14px;line-height:1.8}table{border-collapse:collapse;width:100%;font-size:12px;display:block;overflow:auto}th,td{text-align:left;border-bottom:1px solid #d5ddd5;padding:10px 12px}th{background:#dce8df}tr:nth-child(even){background:#eaf0e9}video{width:100%;max-height:540px;background:#15231d}img{max-width:100%;background:white;border:1px solid #d3ddd4;border-radius:6px}code{font-size:11px;background:#e4eae4;padding:2px 4px;overflow-wrap:anywhere}a{color:#226848}blockquote{border-left:3px solid #6b9f80;margin-left:0;padding:5px 20px;background:#e3ede5}@media print{nav{display:none}main{padding:0;margin:0}h2{break-after:avoid}table,img{break-inside:avoid}}
+</style><nav><a href="/">← Live console</a><a href="WAKE_UP_REPORT.md" download>Download Markdown</a><a href="research-bundle.zip" download>Report + figures + videos (16 MB)</a><a href="#" onclick="window.print();return false">Print / save PDF</a></nav><main><h1>Beyond Recovery — wake-up report</h1>
+<p>Saved: 2026-11-14T22:13:21+00:00 UTC. <strong>All planned studies below completed.</strong></p>
+<h2>Start here</h2>
+<p>Open <strong><a href="http://localhost:8080">the live lab</a></strong> and refresh once. Use <strong>AMP walk + get-up</strong>, <strong>Turn + arrival tuning</strong>, and begin with <strong>Flat hazard-course control</strong> or <strong>Long-horizon endurance</strong>. Then try <strong>Trip box — open space</strong>, <strong>Trip box — constrained space</strong>, <strong>Rough pavement</strong> and <strong>Low overhead beam</strong>. Scene descriptions state the question and the physical hazard. The viewer is live; the recordings embedded below are explicitly saved traces.</p>
+<p>The viewport now occupies 72% of browser height and has fullscreen/focus controls. Start, pause, stop/save and push controls are over the scene. Physics and inference stay on Thor; the browser renders locally. A fall no longer freezes physics: the learned controller gets up physically and resumes the route. Every live trial saves video, telemetry, state trace, contact events, plots and written interpretation on Thor. No VLA is used.</p>
+<h2>What we learned</h2>
+<ol>
+<li><strong>The baseline needed fixing before making research claims.</strong> The AMP model barely turned in place at the old yaw command. Some waypoint arrivals also stalled at the edge of the dwell region. Empirical yaw mapping and a centering approach completed the 12-goal, three-round route in <strong>8/8 development seeds</strong>, without falls. This is baseline engineering, not a new recovery algorithm. The legacy protocol remains selectable and all earlier results remain saved.</li>
+<li><strong>Physical get-up works, and task resumption can be observed live.</strong> The tuned live validation fell at <strong>8.98 s</strong>, recovered sustained standing at <strong>11.62 s</strong>, and advanced the original subgoal at <strong>21.18 s</strong>, with no execution-time state reset. Qualification also tested settled back, side and front falls. This does not mean every fall is recoverable.</li>
+<li><strong>The initial “more room is better” story did not replicate reliably.</strong> With the legacy protocol and 13 cm box, matrix seeds gave open <strong>6/8</strong> versus 0.90 m <strong>3/8</strong> completion; additional seeds gave <strong>6/12 versus 7/12</strong>. Do not use the pilot video as a novelty claim. The later calibrated repeat is reported separately below.</li>
+<li><strong>Most of the initial standing-versus-task gap disappeared after a baseline fix.</strong> In the legacy trip study, <strong>26/61</strong> trials that regained standing after every loss still failed completion. With yaw ×4 in the full repeated 144-trial design, that count is <strong>1/37</strong>. The set of trials that fell also changed, so these fractions are not a matched causal decomposition. They nevertheless show that the original gap was strongly protocol-dependent; it cannot establish a new preservation-learning problem by itself.</li>
+<li><strong>Useful contact can outweigh empty space.</strong> In the stronger-impulse grid, open space had <strong>79/96</strong> balance-loss trials; 0.90 m barriers had <strong>0/96</strong>. Every constrained trial in that latter group physically contacted a barrier with the body. This supports a contact-support explanation, not proof of an intelligent bracing strategy. Barrier contacts can be severe; the force table below exposes that cost rather than equating “did not fall” with safe success.</li>
+<li><strong>Task failure is not proof of physical unrecoverability.</strong> All <strong>768</strong> initial 80/140/200 N branches remained above our balance-loss thresholds, yet many did not finish. The first map planner alone changed completion from <strong>59/144 to 58/144</strong>. After correcting yaw response, conventional A* raises 0.75 m entrance completion from <strong>11/48 to 44/48</strong>, and 0.90 m completion from <strong>10/48 to 41/48</strong>, using the same parent states and force cases. The turning/planning interaction explains much of this apparent failure mode. These 48 cases reuse eight parent seeds; they are not 48 independent robots or environments.</li>
+</ol>
+<h2>Research decision</h2>
+<p><strong>Go on the lab; no-go on using these initial failures as a new algorithm claim.</strong> Freeze the corrected baseline, establish a residual problem beyond ordinary planning/control, then develop a task-conditioned continuation metric. Measure task progress, physical stabilization, task resumption and prohibited-contact outcomes separately. Preserve access to useful support as well as stepping space.</p>
+<p><strong>Do not yet claim:</strong> a learned recovery-preservation algorithm, multiple independently selectable recovery strategies, calibrated uncertainty bounds, a new literature gap, physical impossibility from a failed policy, or hardware validation. The system currently has one unified AMP walk/get-up policy and a conventional optional map planner. The experiments are exploratory simulation development on a limited disturbance family.</p>
+<p>The next defensible step is to freeze the corrected task protocol, collect fresh task/controller-state branches, validate a continuation estimator on new seeds and dynamics, and compare actions that preserve that estimate against task-only control and conventional planning. <a href="data/RESEARCH_FORMULATION.md">Research formulation</a>.</p>
+<h2>Experiment inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Study</th>
+<th>Saved trials</th>
+<th>Planned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Legacy trip / clearance</td>
+<td>144</td>
+<td>144</td>
+</tr>
+<tr>
+<td>State-matched initial pushes</td>
+<td>768</td>
+<td>768</td>
+</tr>
+<tr>
+<td>Legacy-map replanning control</td>
+<td>144</td>
+<td>144</td>
+</tr>
+<tr>
+<td>Stronger-impulse physical recovery</td>
+<td>288</td>
+<td>288</td>
+</tr>
+<tr>
+<td>Nominal endurance qualification</td>
+<td>32</td>
+<td>32</td>
+</tr>
+<tr>
+<td>Post-yaw-calibration repeats</td>
+<td>432</td>
+<td>432</td>
+</tr>
+</tbody>
+</table>
+<p><strong>1808 saved research trials</strong> in this inventory, plus twenty command-tracking qualifications and live/integration checks. These are not independent statistical samples: most studies reuse eight parent seeds and paired disturbance cases.</p>
+<h2>Inspect the recordings</h2>
+<p>These videos render saved qpos traces at 25 fps. Support barriers are shown translucent for visibility; collision physics is unchanged. They do not rerun physics or stand in for the live app. Examples were selected for explanation; aggregate results take precedence. The trip examples use the legacy protocol and illustrate both a pilot difference and a held-out counterexample.</p>
+<h3>Trip: seed 0, open space</h3>
+<video controls preload="none" src="clips/trip-seed0-open.mp4"></video>
+
+<h3>Same seed and box, 0.90 m space</h3>
+<video controls preload="none" src="clips/trip-seed0-narrow.mp4"></video>
+
+<h3>Counterexample: seed 17, open space</h3>
+<video controls preload="none" src="clips/trip-seed17-open.mp4"></video>
+
+<h3>Same held-out seed, 0.90 m space</h3>
+<video controls preload="none" src="clips/trip-seed17-narrow.mp4"></video>
+
+<h3>Same initial state and 300 N lateral pulse: open space</h3>
+<video controls preload="none" src="clips/support-open.mp4"></video>
+
+<h3>Same pulse, with physical support barriers</h3>
+<video controls preload="none" src="clips/support-narrow.mp4"></video>
+
+<h2>Practical limits and verification</h2>
+<p>Physics is native MuJoCo at 2 ms, policy control at 20 ms. Browser geometry is simplified for rendering only; physics collision geometry is retained. The robot has idealized actuators, rigid static fixtures and no payload task or real hardware. The AMP and original walking controllers use different published actuator profiles, so the clean research comparisons are within one profile. Apparent impacts are simulator force proxies, not injury estimates.</p>
+<p>The targeted project suite has 16 passing tests. Frontend bundling and JavaScript syntax checks pass. HTTP/WebSocket integration checks exercised real physics, pause/step, manual control, pushes and recording; a 0 s immediate stop still saves its artifacts. The tuned live get-up/resumption check passed. Automated browser interaction was unavailable because no browser surface was connected; interactive layout/camera comfort still needs your feedback.</p>
+<p>Reports were checkpointed before and during long jobs and are stored on both Thor and the workstation at completion. The browser report supports printing to PDF. Trial-level CSV downloads and detailed figures are below; raw state/action logs and source snapshots remain on Thor under <code>/home/saidevdhal/beyond-recovery/artifacts/research/</code>. Source sync excludes generated report assets, preventing stale local copies from overwriting results.</p>
+<h2>Detailed legacy-protocol trip experiment</h2>
+<p>Record audit: <strong>1837/1837</strong> research records passed artifact, finite-state, time and log-count checks. <a href="data/record_audit.json">Audit details</a>. A legacy live/accelerated metadata flag was corrected with an explicit audit trail; physics data were unchanged.</p>
+<p>Record audit: <strong>1837/1837</strong> research records passed artifact, finite-state, time and log-count checks. <a href="data/record_audit.json">Audit details</a>. A legacy live/accelerated metadata flag was corrected with an explicit audit trail; physics data were unchanged.</p>
+<p>Record audit: <strong>1837/1837</strong> research records passed artifact, finite-state, time and log-count checks. <a href="data/record_audit.json">Audit details</a>. A legacy live/accelerated metadata flag was corrected with an explicit audit trail; physics data were unchanged.</p>
+<h2>What is being tested</h2>
+<p>One fixed AMP controller and actuator profile; speed 0.4 m/s; identical target at x=5.5 m; identical 45 s nominal task horizon. A trip box is at x=2.1 m. Only box height, surrounding clear width and seeded initial x/y/yaw offsets change. Initial variation is ±1.5 cm and ±0.015 rad. There are no injected pushes, no retraining, no operator input and no state resets during a trial. Post-fall observation can extend the horizon by up to 20 s so impact and recovery are not cut off.</p>
+<p>The matrix uses 0, 6 and 13 cm obstacles, open/0.75/0.90/1.20/1.50 m widths and seeds 0–7. Box-free corridor controls test nominal feasibility. Additional seeds 8–19 compare open and 0.90 m width at 13 cm height. The latter seeds were not in the pilot. The contrast itself was chosen after the pilot, so the study remains exploratory.</p>
+<h2>Completed legacy matrix results</h2>
+<table>
+<thead>
+<tr>
+<th>Box</th>
+<th>Clear width</th>
+<th>Task success (95% Wilson interval)</th>
+<th>Balance loss</th>
+<th>Upright recovered*</th>
+<th>Task resumed after loss*</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 cm</td>
+<td>Open</td>
+<td>8/8 (68%–100%)</td>
+<td>0/8</td>
+<td>0/0</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>0 cm</td>
+<td>0.75 m</td>
+<td>8/8 (68%–100%)</td>
+<td>0/8</td>
+<td>0/0</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>0 cm</td>
+<td>0.90 m</td>
+<td>8/8 (68%–100%)</td>
+<td>0/8</td>
+<td>0/0</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>0 cm</td>
+<td>1.20 m</td>
+<td>8/8 (68%–100%)</td>
+<td>0/8</td>
+<td>0/0</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>0 cm</td>
+<td>1.50 m</td>
+<td>8/8 (68%–100%)</td>
+<td>0/8</td>
+<td>0/0</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>6 cm</td>
+<td>Open</td>
+<td>7/8 (53%–98%)</td>
+<td>3/8</td>
+<td>3/3</td>
+<td>2/3</td>
+</tr>
+<tr>
+<td>6 cm</td>
+<td>0.75 m</td>
+<td>5/8 (31%–86%)</td>
+<td>2/8</td>
+<td>1/2</td>
+<td>1/2</td>
+</tr>
+<tr>
+<td>6 cm</td>
+<td>0.90 m</td>
+<td>5/8 (31%–86%)</td>
+<td>4/8</td>
+<td>4/4</td>
+<td>2/4</td>
+</tr>
+<tr>
+<td>6 cm</td>
+<td>1.20 m</td>
+<td>6/8 (41%–93%)</td>
+<td>3/8</td>
+<td>3/3</td>
+<td>2/3</td>
+</tr>
+<tr>
+<td>6 cm</td>
+<td>1.50 m</td>
+<td>6/8 (41%–93%)</td>
+<td>3/8</td>
+<td>3/3</td>
+<td>2/3</td>
+</tr>
+<tr>
+<td>13 cm</td>
+<td>Open</td>
+<td>6/8 (41%–93%)</td>
+<td>6/8</td>
+<td>6/6</td>
+<td>4/6</td>
+</tr>
+<tr>
+<td>13 cm</td>
+<td>0.75 m</td>
+<td>6/8 (41%–93%)</td>
+<td>6/8</td>
+<td>6/6</td>
+<td>4/6</td>
+</tr>
+<tr>
+<td>13 cm</td>
+<td>0.90 m</td>
+<td>3/8 (14%–69%)</td>
+<td>6/8</td>
+<td>4/6</td>
+<td>1/6</td>
+</tr>
+<tr>
+<td>13 cm</td>
+<td>1.20 m</td>
+<td>5/8 (31%–86%)</td>
+<td>6/8</td>
+<td>5/6</td>
+<td>3/6</td>
+</tr>
+<tr>
+<td>13 cm</td>
+<td>1.50 m</td>
+<td>5/8 (31%–86%)</td>
+<td>6/8</td>
+<td>5/6</td>
+<td>3/6</td>
+</tr>
+</tbody>
+</table>
+<p>*Recovery columns use balance-loss trials as their denominator. Upright recovery requires height &gt;0.65 m, tilt &lt;25° and bounded angular speed for one continuous second. It is separate from subsequent task advancement.</p>
+<p><img alt="Task completion map" src="figures/task_completion_map.png" /></p>
+<h2>Matched primary contrast: 13 cm box, open vs 0.90 m</h2>
+<ul>
+<li>matrix: 8 paired seeds; open succeeds 6/8, constrained 3/8. Discordant pairs: 3 favor open, 0 favor constrained. Exploratory exact paired p=0.25.</li>
+<li>holdout: 12 paired seeds; open succeeds 6/12, constrained 7/12. Discordant pairs: 1 favor open, 2 favor constrained. Exploratory exact paired p=1.</li>
+</ul>
+<h2>Why this could matter — and what it does not establish</h2>
+<p>The pilot showed that both open and constrained cases could stand up, while only the open case advanced the original task within 35 s. This motivates <strong>task-resuming recoverability</strong>, rather than standing up as the sole recovery metric.</p>
+<p>A width effect is relevant to the proposed problem only after checking that the corresponding box-free corridor is feasible. A failure can also arise from the walking controller's obstacle-passage or local route-following limitations. It does not prove that every possible recovery action was physically unavailable. Multiple strategies, calibrated uncertainty, preservation learning and physical validation remain future work.</p>
+<p>The paired p-values concern these particular simulation initial conditions. Small samples, an exploratory contrast, many inspected cells and the limited disturbance domain prevent broad claims of significance, safety or novelty. Trajectory-mechanism checks and selected recordings appear in this report.</p>
+<h2>Other physically observed tests</h2>
+<ul>
+<li>Uneven paving: 15 measured hazard contacts, one subgoal advanced, no balance loss in a 35 s qualification.</li>
+<li>Overhead beam: a measured head contact-force proxy of about 178.7 N; no task subgoal advanced in 35 s. This primarily exposes clearance/ducking/avoidance competence, not a demonstrated loss of all recovery options. Contact force is not an injury estimate.</li>
+<li>Live control checks: actual state changes, frozen pause time, an exact 20 ms step, physical pushes, manual driving, WebSockets and automatic saves passed. An immediate 0.00 s stop still saves a video, figures and traces. The initial twelve targeted checks passed; the final project suite contains sixteen passing tests.</li>
+</ul>
+<h2>Artifacts and reproduction</h2>
+<ul>
+<li>Experiment root on Thor: <code>/home/saidevdhal/beyond-recovery/artifacts/research/matched-20261115-025833</code>. Every trial saves state/action/force telemetry, contacts/events, figures, analysis, configuration and metrics. Matrix trials use accelerated native physics without live pacing; videos for selected contrasts will be rendered from saved states and labeled accordingly. The interactive live console continues recording videos automatically.</li>
+<li><code>results.jsonl</code> is append-only progress; <code>results.json</code> is the current complete result set; <code>experiment.json</code> records the plan; <code>source_snapshot.zip</code> preserves the code/configuration used at launch.</li>
+<li>The baseline and AMP profiles have different published actuator settings. This study compares widths within AMP, not controller-to-controller robustness.</li>
+<li>The live app exposes current-state visualization, not these accelerated recordings.</li>
+</ul>
+<h2>Completed trip-study interpretation</h2>
+<h2>Three results worth keeping</h2>
+<ol>
+<li><strong>Nominal feasibility was established:</strong> all 40 box-free corridor executions succeeded, using eight initial-condition seeds reused across five widths. These are not 40 independent seeds.</li>
+<li><strong>Standing is an incomplete success metric:</strong> 26/61 trials in which all detected balance-loss episodes regained standing still failed to complete the task segment. This is descriptive across related conditions, not a population-wide failure probability.</li>
+<li><strong>The simple clearance hypothesis did not hold reliably:</strong> the pilot/matrix advantage at 0.90 m did not repeat in the additional seeds. Matrix seeds: open 6/8 versus corridor 3/8, exploratory exact paired p=0.25. Additional seeds: open 6/12 versus corridor 7/12, paired p=1.0. This is not evidence of equivalence, but it is insufficient evidence for a reliable wider-is-better claim.</li>
+</ol>
+<p><img alt="Standing versus resumption" src="figures/standing_vs_resumption.png" /></p>
+<h2>Why it matters</h2>
+<p>The research objective should explicitly require task resumption, not just standing after a fall. However, preserving empty space or counting nominal recovery behaviors is too crude: contacts, landing orientation, obstacle passage and controller quirks can change the outcome in either direction. A support surface may help recovery while a barrier may trap the task controller.</p>
+<p>This strengthens the motivation for measuring <strong>task-conditioned recovery capability</strong>, but it does not establish a new algorithm or demonstrate preservation learning. The present controller has one unified recovery policy, not an independently selectable portfolio of recovery strategies.</p>
+<h2>Mechanism and initial-state check</h2>
+<table>
+<thead>
+<tr>
+<th>Seed</th>
+<th>Max pre-box-contact qpos difference (mixed m/rad)</th>
+<th>First barrier contact</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>9.422 s</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>9.258 s</td>
+</tr>
+<tr>
+<td>2</td>
+<td>0</td>
+<td>9.478 s</td>
+</tr>
+<tr>
+<td>3</td>
+<td>0</td>
+<td>9.348 s</td>
+</tr>
+<tr>
+<td>4</td>
+<td>0</td>
+<td>None s</td>
+</tr>
+<tr>
+<td>5</td>
+<td>0</td>
+<td>None s</td>
+</tr>
+<tr>
+<td>6</td>
+<td>0</td>
+<td>9.448 s</td>
+</tr>
+<tr>
+<td>7</td>
+<td>0</td>
+<td>9.342 s</td>
+</tr>
+</tbody>
+</table>
+<p>The check compares open and 0.90 m trajectories before the earliest measured trip-box contact. Differences can reveal earlier barrier interactions or numerical/contact sensitivity; they must not be ignored when attributing the outcome to post-fall space alone. The next counterfactual study restores an identical physics/controller checkpoint to remove approach-trajectory differences.</p>
+<p><img alt="Illustrative trajectories" src="figures/paired_trajectories.png" /></p>
+<p>The selected seeds are illustrations, not representative success estimates. Seed 17 is deliberately shown as a counterexample to the pilot story. Aggregate counts above take precedence over videos.</p>
+<h2>Further stage: state-matched counterfactual probes</h2>
+<p>Progress: 768/768 branches saved. Each branch restores the same physics integration state and four-frame controller history, then applies a 0.18 s lateral force pulse after 0.20 s. Forces are 80, 140 or 200 N in either lateral direction. Corridor width is changed without changing the robot/controller. There is no trip box in this experiment.</p>
+<p>Checkpoints are before, within and beyond the constrained region. This controls the gait/pose differences that otherwise confound comparing different routes. Restoration is an offline experiment initialization, never an execution-time recovery action. Initial barrier penetrations beyond 1 mm are flagged and excluded from the displayed estimates.</p>
+<table>
+<thead>
+<tr>
+<th>Checkpoint x</th>
+<th>Clear width</th>
+<th>Completion</th>
+<th>Balance-loss trials</th>
+<th>All loss episodes recovered</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.8 m</td>
+<td>Open</td>
+<td>41/48</td>
+<td>0/48</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>0.8 m</td>
+<td>0.75 m</td>
+<td>9/48</td>
+<td>0/48</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>0.8 m</td>
+<td>0.9 m</td>
+<td>9/48</td>
+<td>0/48</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>0.8 m</td>
+<td>1.2 m</td>
+<td>24/48</td>
+<td>0/48</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>1.7 m</td>
+<td>Open</td>
+<td>43/48</td>
+<td>0/48</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>1.7 m</td>
+<td>0.75 m</td>
+<td>37/48</td>
+<td>0/48</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>1.7 m</td>
+<td>0.9 m</td>
+<td>36/48</td>
+<td>0/48</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>1.7 m</td>
+<td>1.2 m</td>
+<td>43/48</td>
+<td>0/48</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>2.8 m</td>
+<td>Open</td>
+<td>36/48</td>
+<td>0/48</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>2.8 m</td>
+<td>0.75 m</td>
+<td>43/48</td>
+<td>0/48</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>2.8 m</td>
+<td>0.9 m</td>
+<td>36/48</td>
+<td>0/48</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>2.8 m</td>
+<td>1.2 m</td>
+<td>41/48</td>
+<td>0/48</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>3.8 m</td>
+<td>Open</td>
+<td>34/48</td>
+<td>0/48</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>3.8 m</td>
+<td>0.75 m</td>
+<td>34/48</td>
+<td>0/48</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>3.8 m</td>
+<td>0.9 m</td>
+<td>34/48</td>
+<td>0/48</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>3.8 m</td>
+<td>1.2 m</td>
+<td>34/48</td>
+<td>0/48</td>
+<td>0/0</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Counterfactual profiles" src="figures/counterfactual_profiles.png" /></p>
+<p>The six force conditions for one seed share a parent state. They are not independent seed replications. These are empirical estimates for one fixed controller over a finite force grid, not a viability guarantee or a calibrated lower bound for unseen dynamics.</p>
+<h2>Deeper probe interpretation</h2>
+<p>Initial push grid: 768/768 branches saved; 0 initial penetrations flagged. The 80/140/200 N pulses last 0.18 s (14.4/25.2/36 Ns). <strong>0 balance losses occurred.</strong> Consequently, failures here do not demonstrate failure to regain upright balance. Eight parent seeds are reused across all six force cases and corridor widths.</p>
+<p>The restore qualification reproduced ten unperturbed policy steps with exactly zero qpos difference. This checks the implemented checkpoint mechanism at one checkpoint, not a proof for arbitrary dynamics or every state. Different checkpoint positions also have different remaining task distances and gait phases, so their raw success fractions do not isolate a causal effect of progress. Within-checkpoint width comparisons are the cleaner contrast.</p>
+<h2>A conventional navigation control</h2>
+<p>The A* baseline has a perfect static map, 0.10 m grid, 0.23 m planar inflation and replans every 0.4 simulated seconds. It activates at 0.4 s, after the 0.20–0.38 s pulse. The low-level AMP controller, target, speed limit, parent state, pulse and 30 s branch horizon remain fixed. It may go around the end of the barrier. It has no learned reserve model, contact planner or guarantees.</p>
+<p>144/144 planned matched planner comparisons saved. Largest pre-intervention qpos difference through t=0.40 s: <strong>0</strong> (mixed metres/radians).</p>
+<table>
+<thead>
+<tr>
+<th>Width</th>
+<th>Direct completion</th>
+<th>A* completion</th>
+<th>Seed-mean difference</th>
+<th>Seed bootstrap 95% interval</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Open</td>
+<td>41/48</td>
+<td>41/48</td>
+<td>+0.0%</td>
+<td>[+0.0%, +0.0%]</td>
+</tr>
+<tr>
+<td>0.75 m</td>
+<td>9/48</td>
+<td>8/48</td>
+<td>-2.1%</td>
+<td>[-6.2%, +0.0%]</td>
+</tr>
+<tr>
+<td>0.9 m</td>
+<td>9/48</td>
+<td>9/48</td>
+<td>+0.0%</td>
+<td>[+0.0%, +0.0%]</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Replanning control" src="figures/replanning_control.png" /></p>
+<p>Intervals resample the eight parent seeds, retaining their six paired force cases together (10,000 deterministic bootstrap draws). They describe sensitivity to the small seeded initial jitter in this simulator; they are not calibrated deployment bounds. With only eight parents and an exploratory control, do not treat branch counts as independent replications.</p>
+<p>Across the matched rows, completion changes from 59/144 to 58/144. This particular basic planner did not improve aggregate completion. That does not eliminate navigation as a mechanism: a planar, forward-only steering controller can still stall near contacts. We cannot classify the remaining failures as physical unrecoverability.</p>
+<h2>Stronger-impulse physical recovery probes</h2>
+<p>288/288 planned branches saved. This follow-up was selected <strong>after</strong> the first grid produced no falls. Pulses are 300/450/600 N for 0.18 s (54/81/108 Ns), at x=1.7 or 2.8 m. These are exploratory simulated impacts; no claim is made about their real-world frequency. Widths are open/0.90/1.20 m, with the same eight parent seeds and fixed direct follower. Initial penetrations are excluded.</p>
+<table>
+<thead>
+<tr>
+<th>Checkpoint</th>
+<th>Width</th>
+<th>Task completion</th>
+<th>Balance loss</th>
+<th>All loss episodes regained standing</th>
+<th>Standing without completing task*</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.7 m</td>
+<td>Open</td>
+<td>3/48</td>
+<td>39/48</td>
+<td>37/39</td>
+<td>35/37</td>
+</tr>
+<tr>
+<td>1.7 m</td>
+<td>0.9 m</td>
+<td>43/48</td>
+<td>0/48</td>
+<td>0/0</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>1.7 m</td>
+<td>1.2 m</td>
+<td>45/48</td>
+<td>1/48</td>
+<td>0/1</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>2.8 m</td>
+<td>Open</td>
+<td>5/48</td>
+<td>40/48</td>
+<td>40/40</td>
+<td>37/40</td>
+</tr>
+<tr>
+<td>2.8 m</td>
+<td>0.9 m</td>
+<td>45/48</td>
+<td>0/48</td>
+<td>0/0</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>2.8 m</td>
+<td>1.2 m</td>
+<td>42/48</td>
+<td>2/48</td>
+<td>1/2</td>
+<td>1/1</td>
+</tr>
+</tbody>
+</table>
+<p>*Denominator is trials in which every detected loss episode regained standing. Physical stabilization, task continuation and simulator contact force are separate observations. A wall can supply support as well as restrict movement; geometric free space need not have a monotonic relationship with controller-specific recovery.</p>
+<p><img alt="Higher-impulse recovery" src="figures/impact_recovery.png" /></p>
+<p>Dashed “upright” means either no balance loss or all detected loss episodes recovered. It does not require task completion. Each force/width/position cell contains 16 branches from eight parents and two directions; those two directions are not independent seeds.</p>
+<h2>Download the trial-level tables</h2>
+<p><a href="data/push_probes.csv">Initial push probes CSV</a> · <a href="data/map_replanning.csv">Map-replanning CSV</a> · <a href="data/higher_impulse_probes.csv">Higher-impulse CSV</a>. Raw run paths are on Thor; each includes inputs, state trace, telemetry, event log, plots and interpretation.</p>
+<h2>Contact-support interpretation</h2>
+<p>This analysis is specific to the stronger-impulse experiment. The 1.10 m-high fixed barriers can physically intercept the robot. They are rigid fixtures, not compliant human-safe supports; lower fall rates can coexist with undesirable impacts. Contact-force peaks depend on the simulator/contact model and are not injury predictions.</p>
+<table>
+<thead>
+<tr>
+<th>Checkpoint</th>
+<th>Width</th>
+<th>Trials</th>
+<th>Barrier body-contact trials</th>
+<th>Barrier head-contact trials</th>
+<th>Median peak non-foot body force (N)</th>
+<th>Maximum peak head force (N)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.7 m</td>
+<td>Open</td>
+<td>48</td>
+<td>0</td>
+<td>0</td>
+<td>2560.3</td>
+<td>6340.1</td>
+</tr>
+<tr>
+<td>1.7 m</td>
+<td>0.9 m</td>
+<td>48</td>
+<td>48</td>
+<td>0</td>
+<td>4482.8</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>1.7 m</td>
+<td>1.2 m</td>
+<td>48</td>
+<td>48</td>
+<td>11</td>
+<td>5548.3</td>
+<td>2574.0</td>
+</tr>
+<tr>
+<td>2.8 m</td>
+<td>Open</td>
+<td>48</td>
+<td>0</td>
+<td>0</td>
+<td>3054.6</td>
+<td>5862.9</td>
+</tr>
+<tr>
+<td>2.8 m</td>
+<td>0.9 m</td>
+<td>48</td>
+<td>48</td>
+<td>0</td>
+<td>4245.7</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>2.8 m</td>
+<td>1.2 m</td>
+<td>48</td>
+<td>48</td>
+<td>15</td>
+<td>5143.2</td>
+<td>3722.6</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Support contact mechanism" src="figures/support_contact_mechanism.png" /></p>
+<p>The orange band is the force pulse; dotted line is the first measured barrier-body contact. This pair was deliberately selected to illustrate an open-space fall and a constrained-space completion at the same parent state and force. It is not an independent replication or representative effect estimate; aggregate results take precedence. The contact check supports a physical-support explanation, without proving an intentional bracing skill.</p>
+<h2>Baseline calibration interpretation</h2>
+<p>The early studies used the <strong>legacy task protocol</strong>: AMP yaw gain 1 and stop immediately on entering the 0.25 m arrival zone. Subsequent checks found two baseline confounds. Do not interpret their task-completion rates as intrinsic physical recoverability.</p>
+<p>In two command-check seeds, commanding a pure 0.5 rad/s yaw for ten seconds changed heading by only about 0.26 rad (rather than the requested 5 rad). A 2.0 network yaw command produced about 6.86 rad without a fall. This motivated an empirical 4× AMP yaw-command mapping, capped at ±2; it is not a policy retraining result or a claim of accurate yaw tracking across all states. Twenty command-qualification trials retain full traces.</p>
+<p>At some waypoint arrivals, stopping at the outer boundary allowed drift to repeatedly break continuous dwell. The optional <strong>centered</strong> arrival mode continues toward an inner radius of 0.10 m while still requiring continuous dwell inside the original 0.25 m acceptance radius. It keeps a 0.20 m/s minimum approach command before heading attenuation. It does not enlarge the acceptance zone, shorten dwell, reset state or skip subgoals.</p>
+<h2>Nominal 12-goal endurance, no disturbances</h2>
+<p>Same 180 s horizon, 0.4 m/s limit, three route rounds and eight seeded initial conditions. These seeds were reused during calibration, so this is development qualification, not independent validation. The original walking controller has a different actuator profile; its result establishes a usable nominal route, not an isolated robustness advantage.</p>
+<table>
+<thead>
+<tr>
+<th>Controller / protocol</th>
+<th>Trials saved</th>
+<th>Complete all 12 goals</th>
+<th>Falls</th>
+<th>Completion time range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>reference, yaw ×1, legacy arrival</td>
+<td>8/8</td>
+<td>8/8</td>
+<td>0/8</td>
+<td>125.14–125.26 s</td>
+</tr>
+<tr>
+<td>amp, yaw ×1, legacy arrival</td>
+<td>8/8</td>
+<td>0/8</td>
+<td>0/8</td>
+<td>—</td>
+</tr>
+<tr>
+<td>amp, yaw ×4, legacy arrival</td>
+<td>8/8</td>
+<td>7/8</td>
+<td>0/8</td>
+<td>175.86–178.70 s</td>
+</tr>
+<tr>
+<td>amp, yaw ×4, centered arrival</td>
+<td>8/8</td>
+<td>8/8</td>
+<td>0/8</td>
+<td>159.54–172.64 s</td>
+</tr>
+</tbody>
+</table>
+<h2>Repeat of the trip design after yaw calibration</h2>
+<p>144/144 trip runs and 288/288 paired pre-entry probe runs saved. These repeats use yaw ×4 and <strong>legacy arrival</strong>, to isolate yaw mapping from the separate arrival fix. Same seeds/geometry/controller weights/actuator profile/horizons as the original design. Calibration was selected using observed data; these repeats are exploratory, not fresh held-out confirmation. All original results remain saved.</p>
+<table>
+<thead>
+<tr>
+<th>13 cm trip contrast</th>
+<th>Legacy yaw ×1</th>
+<th>Yaw ×4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Seeds 0–7, open</td>
+<td>6/8</td>
+<td>8/8</td>
+</tr>
+<tr>
+<td>Seeds 0–7, 0.90 m</td>
+<td>3/8</td>
+<td>6/8</td>
+</tr>
+<tr>
+<td>Additional seeds 8–19, open</td>
+<td>6/12</td>
+<td>10/12</td>
+</tr>
+<tr>
+<td>Additional seeds 8–19, 0.90 m</td>
+<td>7/12</td>
+<td>7/12</td>
+</tr>
+</tbody>
+</table>
+<p>Legacy yaw ×1: 26/61 trials that regained standing after every detected loss still failed task completion. This changes with the task-control protocol; it is not a controller-independent property of the state.</p>
+<p>Yaw ×4: 1/37 trials that regained standing after every detected loss still failed task completion. This changes with the task-control protocol; it is not a controller-independent property of the state.</p>
+<h2>Does map replanning help once yaw response is improved?</h2>
+<table>
+<thead>
+<tr>
+<th>Width, x=0.8 m</th>
+<th>Legacy direct</th>
+<th>Legacy A*</th>
+<th>Yaw ×4 direct</th>
+<th>Yaw ×4 A*</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Open</td>
+<td>41/48</td>
+<td>41/48</td>
+<td>42/48</td>
+<td>42/48</td>
+</tr>
+<tr>
+<td>0.75 m</td>
+<td>9/48</td>
+<td>8/48</td>
+<td>11/48</td>
+<td>44/48</td>
+</tr>
+<tr>
+<td>0.9 m</td>
+<td>9/48</td>
+<td>9/48</td>
+<td>10/48</td>
+<td>41/48</td>
+</tr>
+</tbody>
+</table>
+<p>Within yaw ×4, paired A* minus direct completion (95% parent-seed bootstrap intervals):</p>
+<ul>
+<li>0.75 m: +68.8%, interval [+56.2%, +79.2%]; 8 complete parent-seed clusters.</li>
+<li>0.90 m: +64.6%, interval [+52.1%, +77.1%]; 8 complete parent-seed clusters.</li>
+</ul>
+<p>Largest direct/A* qpos difference through the 0.40 s intervention boundary: <strong>0</strong> across 144 matched pairs. 0/288 calibrated pre-entry branches crossed balance-loss thresholds.</p>
+<p><img alt="Calibrated navigation comparison" src="figures/calibrated_navigation.png" /></p>
+<p>Each complete cell has 48 branches, but only eight parent seeds, each tested under six force cases. Treat the counts as descriptive. A* uses a known map and can detour around the finite barriers. The yaw mapping is active from branch initialization; A* activates after the force pulse at 0.4 s. State-matched direct/A* comparisons within the new mapping should be interpreted separately from cross-mapping comparisons.</p>
+<p><a href="data/calibrated_trip.csv">Calibrated trip CSV</a> · <a href="data/calibrated_probes.csv">Calibrated probes CSV</a> · <a href="data/nominal_endurance.csv">Nominal endurance CSV</a>.</p></main></html>

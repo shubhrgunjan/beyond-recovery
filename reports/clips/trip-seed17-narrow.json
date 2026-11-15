@@ -1,0 +1,167 @@
+{
+  "source_run": "/home/saidevdhal/beyond-recovery/artifacts/research/matched-20261115-025833/trials/20261115-030020-e37837",
+  "source_manifest": {
+    "python": "3.12.3",
+    "machine": "aarch64",
+    "project_source_sha256": "8ef7acf0c9561e0915e35ba5b1b91cc54df6c3dae4938ffc3966f1594a9fd0ab",
+    "packages": {
+      "torch": "2.14.0+cu130",
+      "mujoco-core": "4.0.1",
+      "mujoco-warp": "4.0.1",
+      "warp-lang": "1.19.0",
+      "mjlab": "1.6.0",
+      "rsl-rl-lib": "5.5.2"
+    },
+    "upstream_revision": {
+      "repository": "https://github.com/mujocolab/mjlab",
+      "revision": "f548b666eb49cf726afae8c5e0daf68af89291c9"
+    },
+    "task": {
+      "duration": 45.0,
+      "speed": 0.4,
+      "arrival_radius": 0.25,
+      "dwell": 1.5,
+      "settle": 2.0,
+      "walls": [],
+      "fixtures": [
+        {
+          "center": [
+            2.1,
+            0,
+            0.065
+          ],
+          "half_size": [
+            0.22,
+            0.28,
+            0.065
+          ],
+          "color": [
+            0.65,
+            0.39,
+            0.19,
+            1
+          ],
+          "label": "Matched trip box"
+        },
+        {
+          "center": [
+            2.3,
+            -0.6,
+            0.55
+          ],
+          "half_size": [
+            1.0,
+            0.15,
+            0.55
+          ],
+          "color": [
+            0.38,
+            0.44,
+            0.48,
+            1
+          ],
+          "label": "Recovery-space barrier"
+        },
+        {
+          "center": [
+            2.3,
+            0.6,
+            0.55
+          ],
+          "half_size": [
+            1.0,
+            0.15,
+            0.55
+          ],
+          "color": [
+            0.38,
+            0.44,
+            0.48,
+            1
+          ],
+          "label": "Recovery-space barrier"
+        }
+      ],
+      "pushes": [],
+      "reset_jitter": {
+        "position": 0.015,
+        "yaw": 0.015
+      },
+      "id": "hazard_control",
+      "name": "matched_trip_study",
+      "title": "Matched trip and clearance study",
+      "question": "Does clearance change task resumption while the controller and trip hazard are fixed?",
+      "description": "The exact route used by the rough-floor and trip tests, on a clear flat surface.",
+      "waypoints": [
+        [
+          5.5,
+          0
+        ]
+      ],
+      "labels": [
+        "Reach the far side of the hazard"
+      ]
+    },
+    "settings": {
+      "seed": 17,
+      "force_scale": 1.0,
+      "speed": 0.4,
+      "controller": "amp"
+    },
+    "label": "holdout-h0.13-w0.9-seed17",
+    "policy": "experimental-g1-amp-walk-recovery",
+    "recovery_reference": {
+      "repository": "https://github.com/ccrpRepo/wbc_fsm",
+      "revision": "4b9afa27ad4eeab8e95584c67c91275b9831fc4d",
+      "files": {
+        "policy.onnx": "36cfc5d2a4ad8e07621a02f925d47f6a7cca4aa4e8da36d8116d07217b55f0d6",
+        "controller.cpp": "4d7df209c03d64f3a20aaa729eb11ae6256e351b130661c8cb34acf8df4bd59f",
+        "controller.h": "0fdc19b8c386816f776eb01264bf34f5b38ad1134490783d50cd5d1a614c2f63",
+        "constants.h": "4311e171242a6f1ea87754446d50896260868d0b8d5de9c9b279931a06d50007"
+      },
+      "status": "experimental simulation adapter; no hardware validation"
+    },
+    "video_recorded": false,
+    "execution_mode": "accelerated physics, state traces saved",
+    "reference": {
+      "repository": "https://github.com/unitreerobotics/unitree_rl_mjlab",
+      "revision": "1425b15f73bd4095f0df53709d7c389c3eb9e790",
+      "files": {
+        "policy.onnx": {
+          "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_mjlab/1425b15f73bd4095f0df53709d7c389c3eb9e790/deploy/robots/g1/config/policy/velocity/v0/exported/policy.onnx",
+          "sha256": "2a66ca6336eadb3c0b34b557763f3e06d01ff8fcf6260dd4cedbd69d6093fc28"
+        },
+        "deploy.yaml": {
+          "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_mjlab/1425b15f73bd4095f0df53709d7c389c3eb9e790/deploy/robots/g1/config/policy/velocity/v0/params/deploy.yaml",
+          "sha256": "01e1cf3f6ec44e9942494fbb4a9904df07201e14e5551a277f38d7c7d1bda28d"
+        },
+        "g1.xml": {
+          "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_mjlab/1425b15f73bd4095f0df53709d7c389c3eb9e790/src/assets/robots/unitree_g1/xmls/g1.xml",
+          "sha256": "56539bc76eadb05dd439c47de94df52130ea8fa243d08bdddd9cbc32dd4c78a0"
+        },
+        "LICENCE": {
+          "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_mjlab/1425b15f73bd4095f0df53709d7c389c3eb9e790/LICENCE",
+          "sha256": "ff28cacaef7b9919a0fb905136cf4ccffba5191522bf5d024c4339932c0edc28"
+        },
+        "observations.h": {
+          "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_mjlab/1425b15f73bd4095f0df53709d7c389c3eb9e790/deploy/include/isaaclab/envs/mdp/observations/observations.h",
+          "sha256": "6b3fb08a75ef44600aa222ef131b66d4404968c0f2b0f9879bd091920a4ee5e5"
+        }
+      }
+    },
+    "backend": "native-mujoco",
+    "live": true,
+    "physics_dt": 0.002,
+    "control_dt": 0.02,
+    "note": "Pilot baseline; geometric diagnostics are not recoverability estimates",
+    "research_condition": {
+      "key": "holdout-h0.13-w0.9-seed17",
+      "width": 0.9,
+      "height": 0.13,
+      "seed": 17,
+      "split": "holdout",
+      "root": "/home/saidevdhal/beyond-recovery/artifacts/research/matched-20261115-025833"
+    }
+  },
+  "selection": "Illustrative pair; aggregate results take precedence"
+}

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "beyond-recovery"
+version = "0.1.0"
+description = "Humanoid long-horizon baseline laboratory on MuJoCo"
+requires-python = ">=3.12"
+dependencies = ["numpy", "PyYAML", "imageio[ffmpeg]", "matplotlib", "pytest", "onnxruntime==1.24.4", "aiohttp==3.13.3", "fast-simplification==0.1.13"]
+
+[project.scripts]
+br = "beyond_recovery.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

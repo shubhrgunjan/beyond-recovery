@@ -1,0 +1,1 @@
+{"name":"beyond-recovery-live-console","private":true,"type":"module","scripts":{"build":"esbuild src/app.js --bundle --minify --outfile=dist/app.js --loader:.css=css"},"dependencies":{"three":"0.180.0"},"devDependencies":{"esbuild":"0.25.11"}}

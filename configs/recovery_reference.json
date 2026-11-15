@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/ccrpRepo/wbc_fsm",
+  "revision": "4b9afa27ad4eeab8e95584c67c91275b9831fc4d",
+  "files": {
+    "policy.onnx": "36cfc5d2a4ad8e07621a02f925d47f6a7cca4aa4e8da36d8116d07217b55f0d6",
+    "controller.cpp": "4d7df209c03d64f3a20aaa729eb11ae6256e351b130661c8cb34acf8df4bd59f",
+    "controller.h": "0fdc19b8c386816f776eb01264bf34f5b38ad1134490783d50cd5d1a614c2f63",
+    "constants.h": "4311e171242a6f1ea87754446d50896260868d0b8d5de9c9b279931a06d50007"
+  },
+  "status": "experimental simulation adapter; no hardware validation"
+}

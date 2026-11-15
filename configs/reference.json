@@ -1,0 +1,26 @@
+{
+  "repository": "https://github.com/unitreerobotics/unitree_rl_mjlab",
+  "revision": "1425b15f73bd4095f0df53709d7c389c3eb9e790",
+  "files": {
+    "policy.onnx": {
+      "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_mjlab/1425b15f73bd4095f0df53709d7c389c3eb9e790/deploy/robots/g1/config/policy/velocity/v0/exported/policy.onnx",
+      "sha256": "2a66ca6336eadb3c0b34b557763f3e06d01ff8fcf6260dd4cedbd69d6093fc28"
+    },
+    "deploy.yaml": {
+      "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_mjlab/1425b15f73bd4095f0df53709d7c389c3eb9e790/deploy/robots/g1/config/policy/velocity/v0/params/deploy.yaml",
+      "sha256": "01e1cf3f6ec44e9942494fbb4a9904df07201e14e5551a277f38d7c7d1bda28d"
+    },
+    "g1.xml": {
+      "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_mjlab/1425b15f73bd4095f0df53709d7c389c3eb9e790/src/assets/robots/unitree_g1/xmls/g1.xml",
+      "sha256": "56539bc76eadb05dd439c47de94df52130ea8fa243d08bdddd9cbc32dd4c78a0"
+    },
+    "LICENCE": {
+      "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_mjlab/1425b15f73bd4095f0df53709d7c389c3eb9e790/LICENCE",
+      "sha256": "ff28cacaef7b9919a0fb905136cf4ccffba5191522bf5d024c4339932c0edc28"
+    },
+    "observations.h": {
+      "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_mjlab/1425b15f73bd4095f0df53709d7c389c3eb9e790/deploy/include/isaaclab/envs/mdp/observations/observations.h",
+      "sha256": "6b3fb08a75ef44600aa222ef131b66d4404968c0f2b0f9879bd091920a4ee5e5"
+    }
+  }
+}

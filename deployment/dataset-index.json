@@ -1,0 +1,105 @@
+{
+  "created_utc": "2026-11-15T06:40:23Z",
+  "archives": [
+    {
+      "file": "calibrated-20261115-033031.tar.zst",
+      "bytes": 920359273,
+      "sha256": "dbd1886d054b867816704b16c6e0b72602dbdf6cac1cfbe83b39aaac8744b9a1",
+      "sources": [
+        "artifacts/research/calibrated-20261115-033031"
+      ]
+    },
+    {
+      "file": "command-qualification.tar.zst",
+      "bytes": 11467700,
+      "sha256": "7ffb49f3ea283ea2b52fdbb0c4816101cca9d417fa7ae48625cf50a8cabc76f7",
+      "sources": [
+        "artifacts/research/command-qualification"
+      ]
+    },
+    {
+      "file": "command-qualification-extended.tar.zst",
+      "bytes": 11888539,
+      "sha256": "0d9c8c98ff4e21085d750f7fef1aba8dc04a7f686d9671834bbb68362b7764b2",
+      "sources": [
+        "artifacts/research/command-qualification-extended"
+      ]
+    },
+    {
+      "file": "endurance-20261115-032805.tar.zst",
+      "bytes": 321260441,
+      "sha256": "5ff54e1e891aa34e9cf71e1bc03e94c30d6a570532d0adeaa588c5695628d9ed",
+      "sources": [
+        "artifacts/research/endurance-20261115-032805"
+      ]
+    },
+    {
+      "file": "endurance-20261115-033219.tar.zst",
+      "bytes": 112361104,
+      "sha256": "f91975931c810f2ed64fdefd80488a15549d76e856144238c3526e26d719f9af",
+      "sources": [
+        "artifacts/research/endurance-20261115-033219"
+      ]
+    },
+    {
+      "file": "impact-20261115-032222.tar.zst",
+      "bytes": 550142721,
+      "sha256": "3810a880ad71baed50a907e414eca1257add8802b976d6636e10ade288f961d4",
+      "sources": [
+        "artifacts/research/impact-20261115-032222"
+      ]
+    },
+    {
+      "file": "matched-20261115-025833.tar.zst",
+      "bytes": 356953939,
+      "sha256": "bd4e5af14702521fae82e5fe45b16efc0d0dad822f6141088ac3846c0b39ae7b",
+      "sources": [
+        "artifacts/research/matched-20261115-025833"
+      ]
+    },
+    {
+      "file": "probes-20261115-030642.tar.zst",
+      "bytes": 1325291350,
+      "sha256": "3d75f8562555b70a0d3e08fc9bd3b142c132260a1b2b9081e73c9e5f54d3736c",
+      "sources": [
+        "artifacts/research/probes-20261115-030642"
+      ]
+    },
+    {
+      "file": "replanning-20261115-032004.tar.zst",
+      "bytes": 324767152,
+      "sha256": "b67c8489bc5dd149c4d3c6b7ee7b27a9de3269f9bfae9a064c37ccb946866681",
+      "sources": [
+        "artifacts/research/replanning-20261115-032004"
+      ]
+    },
+    {
+      "file": "baseline-live-and-training.tar.zst",
+      "bytes": 663687036,
+      "sha256": "7b0d20a533c3f2b9a3b47ad09ec7b0dc655490c5d62f48bba9e0c362916714ee",
+      "sources": [
+        "artifacts/benchmark.json",
+        "artifacts/doctor-ppo",
+        "artifacts/doctor.json",
+        "artifacts/doctor.png",
+        "artifacts/hazard-qualification.json",
+        "artifacts/live",
+        "artifacts/live-immediate-stop.json",
+        "artifacts/live-recovery-tuned-validation.json",
+        "artifacts/live-recovery-validation.json",
+        "artifacts/live-validation.json",
+        "artifacts/pilot-100",
+        "artifacts/recovery-qualification.json",
+        "artifacts/reference-final",
+        "artifacts/reference-replay",
+        "artifacts/reference-smoke",
+        "artifacts/reference-suite",
+        "artifacts/smoke-route",
+        "artifacts/train_nominal_seed0.json",
+        "artifacts/trained-pilot",
+        "artifacts/wheel-repack.json",
+        "logs/g1_nominal"
+      ]
+    }
+  ]
+}

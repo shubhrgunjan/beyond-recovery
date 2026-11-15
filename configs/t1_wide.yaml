@@ -1,0 +1,12 @@
+name: t1_wide
+duration: 150.0
+speed: 0.4
+arrival_radius: 0.25
+dwell: 2.0
+settle: 2.0
+# Same geometry and destination as narrow; detour below both corridor walls.
+waypoints: [[0.0, -2.0], [5.0, -2.0], [5.0, 0.0], [7.0, 0.0], [7.0, 3.0], [0.0, 3.0], [0.0, 0.0]]
+walls:
+  - {center: [3.0, 0.75, 0.6], half_size: [1.5, 0.1, 0.6]}
+  - {center: [3.0, -0.75, 0.6], half_size: [1.5, 0.1, 0.6]}
+pushes: []
