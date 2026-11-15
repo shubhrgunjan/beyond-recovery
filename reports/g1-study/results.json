@@ -1,0 +1,3765 @@
+{
+  "generated_utc": "2026-11-15T20:16:14+00:00",
+  "input_sha256": {
+    "integration": "697250eb638a871b002c2dc292940272b91acd1bd8b909fb41900c73d283907a",
+    "initial_study": "030c010503c62580f2ece06851205c5c0e3d16a9a35c436ad8e1333608fd1344",
+    "deadline_control": "4ac227e07ff26c10d58eae87b6aba8b8f3dffcdc1ba0ccfb0ca65426f868ddd9",
+    "disturbance_study": "a750226416ba24fa29abae2ca10ade6e9c32da6a18d5c8894ac144544cb61005",
+    "platform": "e073822afd79b04020415be7867bc658f820b08c0b8404b68ab1197ef0d752a3",
+    "vla": "0b173837f7a4ca6ebd759c96c2c08610315c64f19af3a93a5a22bd73cb3e62c0",
+    "push_probe": "54264a1253c2f69c65ca107cefbf20c720b00eba6182fb85fd6acefa54c4b2bb",
+    "push_probe_controls": "ea06f9d606c63a57ba973968c069aabf0c826df2349bb959c29fc5e36c84a411",
+    "jobs": "f185f8ff889d32103c2f420d5bb3643bda9c9432f774fe27bd836a9169106100",
+    "narrative_report": "f2867f78d19c5f1faad957ba4ff22e1abfebac25863a38c26bf899e73eef3b4f"
+  },
+  "cohorts": {
+    "initial_study": {
+      "label": "Initial fixed-deadline study",
+      "design": "900 s; 6 courses × 3 seeds per policy",
+      "policies": {
+        "g1_reference": {
+          "trials": 18,
+          "completed": 18,
+          "timeouts": 0,
+          "falls": 0,
+          "technical_errors": 0,
+          "median_elapsed_s": 646.63,
+          "elapsed_range_s": [
+            630.87,
+            652.03
+          ],
+          "median_distance_m": 224.73,
+          "distance_range_m": [
+            224.72,
+            225.74
+          ]
+        },
+        "g1_amp": {
+          "trials": 18,
+          "completed": 0,
+          "timeouts": 18,
+          "falls": 0,
+          "technical_errors": 0,
+          "median_elapsed_s": 900.1,
+          "elapsed_range_s": [
+            900.1,
+            900.1
+          ],
+          "median_distance_m": 207.435,
+          "distance_range_m": [
+            202.16,
+            218.51
+          ]
+        }
+      },
+      "rows": [
+        {
+          "id": "227ce82a400b48d1",
+          "policy": "g1_reference",
+          "course": "warehouse",
+          "seed": 0,
+          "status": "completed",
+          "elapsed_s": 646.63,
+          "distance_m": 224.72,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "4e96a935cc8ee57cccd4c656f0319e66fc61ac7e0e39dae9a11df42e2702af8e",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../227ce82a400b48d1/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../227ce82a400b48d1/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../227ce82a400b48d1/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../227ce82a400b48d1/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "d12d6631672f4b8d",
+          "policy": "g1_reference",
+          "course": "warehouse",
+          "seed": 1,
+          "status": "completed",
+          "elapsed_s": 646.63,
+          "distance_m": 224.72,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "4e96a935cc8ee57cccd4c656f0319e66fc61ac7e0e39dae9a11df42e2702af8e",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../d12d6631672f4b8d/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../d12d6631672f4b8d/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../d12d6631672f4b8d/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../d12d6631672f4b8d/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "0d85f0bd4206449d",
+          "policy": "g1_reference",
+          "course": "warehouse",
+          "seed": 2,
+          "status": "completed",
+          "elapsed_s": 646.63,
+          "distance_m": 224.73,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "4e96a935cc8ee57cccd4c656f0319e66fc61ac7e0e39dae9a11df42e2702af8e",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../0d85f0bd4206449d/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../0d85f0bd4206449d/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../0d85f0bd4206449d/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../0d85f0bd4206449d/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "3c454aacaa9b4c3c",
+          "policy": "g1_reference",
+          "course": "office",
+          "seed": 0,
+          "status": "completed",
+          "elapsed_s": 646.63,
+          "distance_m": 224.72,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "6ffb9c5f1b14e8c90a1524c8452b59ffb4246aff126b15efb8950f4771789e3e",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../3c454aacaa9b4c3c/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../3c454aacaa9b4c3c/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../3c454aacaa9b4c3c/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../3c454aacaa9b4c3c/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "352fba494b7448e6",
+          "policy": "g1_reference",
+          "course": "office",
+          "seed": 2,
+          "status": "completed",
+          "elapsed_s": 646.63,
+          "distance_m": 224.73,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "6ffb9c5f1b14e8c90a1524c8452b59ffb4246aff126b15efb8950f4771789e3e",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../352fba494b7448e6/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../352fba494b7448e6/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../352fba494b7448e6/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../352fba494b7448e6/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "227afc5a4e5b4592",
+          "policy": "g1_reference",
+          "course": "office",
+          "seed": 1,
+          "status": "completed",
+          "elapsed_s": 646.63,
+          "distance_m": 224.72,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "6ffb9c5f1b14e8c90a1524c8452b59ffb4246aff126b15efb8950f4771789e3e",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../227afc5a4e5b4592/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../227afc5a4e5b4592/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../227afc5a4e5b4592/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../227afc5a4e5b4592/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "ca0438fcc2114960",
+          "policy": "g1_reference",
+          "course": "courtyard",
+          "seed": 1,
+          "status": "completed",
+          "elapsed_s": 630.87,
+          "distance_m": 225.74,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "00fa28ccfc122528f3fb2328b6a5736ebbc92edf4c6a721599ec9b7bfdcd8b1a",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../ca0438fcc2114960/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../ca0438fcc2114960/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../ca0438fcc2114960/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../ca0438fcc2114960/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "68f6dc775ba44f1d",
+          "policy": "g1_reference",
+          "course": "courtyard",
+          "seed": 0,
+          "status": "completed",
+          "elapsed_s": 643.22,
+          "distance_m": 225.48,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "cba329caa132e9be3a967a18917722cac76d36ef6b0a616c717b6ca7beaa4644",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../68f6dc775ba44f1d/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../68f6dc775ba44f1d/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../68f6dc775ba44f1d/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../68f6dc775ba44f1d/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "100ed1fe8d594602",
+          "policy": "g1_reference",
+          "course": "courtyard",
+          "seed": 2,
+          "status": "completed",
+          "elapsed_s": 641.83,
+          "distance_m": 225.38,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "5f168a110a45e9ed637bf62879fa60ad5c9c9f8e0bee333124673f1405322bdc",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../100ed1fe8d594602/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../100ed1fe8d594602/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../100ed1fe8d594602/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../100ed1fe8d594602/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "556cdc3e309e4f9e",
+          "policy": "g1_reference",
+          "course": "renovation",
+          "seed": 1,
+          "status": "completed",
+          "elapsed_s": 641.83,
+          "distance_m": 225.61,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "040f77584340e585f25899a7eee4683ebae7eac55bf9cdc90eab729630be0f08",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../556cdc3e309e4f9e/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../556cdc3e309e4f9e/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../556cdc3e309e4f9e/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../556cdc3e309e4f9e/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "c7f44240adb74cb4",
+          "policy": "g1_reference",
+          "course": "renovation",
+          "seed": 0,
+          "status": "completed",
+          "elapsed_s": 641.23,
+          "distance_m": 225.44,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "040f77584340e585f25899a7eee4683ebae7eac55bf9cdc90eab729630be0f08",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../c7f44240adb74cb4/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../c7f44240adb74cb4/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../c7f44240adb74cb4/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../c7f44240adb74cb4/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "9e784878213f4d25",
+          "policy": "g1_reference",
+          "course": "renovation",
+          "seed": 2,
+          "status": "completed",
+          "elapsed_s": 639.42,
+          "distance_m": 225.53,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "040f77584340e585f25899a7eee4683ebae7eac55bf9cdc90eab729630be0f08",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../9e784878213f4d25/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../9e784878213f4d25/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../9e784878213f4d25/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../9e784878213f4d25/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "6696146b317540b1",
+          "policy": "g1_reference",
+          "course": "service",
+          "seed": 1,
+          "status": "completed",
+          "elapsed_s": 646.63,
+          "distance_m": 224.72,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "7b639b458fe5f0c133849a6a0bb84fae54af1e3d2227238d6c47e7343a84fff1",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../6696146b317540b1/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../6696146b317540b1/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../6696146b317540b1/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../6696146b317540b1/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "ee8a1b7c930e45b6",
+          "policy": "g1_reference",
+          "course": "service",
+          "seed": 0,
+          "status": "completed",
+          "elapsed_s": 646.63,
+          "distance_m": 224.72,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "7b639b458fe5f0c133849a6a0bb84fae54af1e3d2227238d6c47e7343a84fff1",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../ee8a1b7c930e45b6/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../ee8a1b7c930e45b6/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../ee8a1b7c930e45b6/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../ee8a1b7c930e45b6/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "6e32a870d42446a7",
+          "policy": "g1_reference",
+          "course": "service",
+          "seed": 2,
+          "status": "completed",
+          "elapsed_s": 646.63,
+          "distance_m": 224.73,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "7b639b458fe5f0c133849a6a0bb84fae54af1e3d2227238d6c47e7343a84fff1",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../6e32a870d42446a7/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../6e32a870d42446a7/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../6e32a870d42446a7/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../6e32a870d42446a7/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "ab31de91fd69427d",
+          "policy": "g1_reference",
+          "course": "crossings",
+          "seed": 0,
+          "status": "completed",
+          "elapsed_s": 652.03,
+          "distance_m": 224.8,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "4f42ef27ed3710b3ba32c1aa6e692ed008a7d3711c14b4188446dbfd6cfe2992",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../ab31de91fd69427d/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../ab31de91fd69427d/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../ab31de91fd69427d/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../ab31de91fd69427d/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "249ce8ac9c044dd8",
+          "policy": "g1_reference",
+          "course": "crossings",
+          "seed": 1,
+          "status": "completed",
+          "elapsed_s": 652.03,
+          "distance_m": 224.91,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "5ea71670f67291d239134a9fa1163cb6194ae58bd9811747111aa3273e4e98b1",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../249ce8ac9c044dd8/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../249ce8ac9c044dd8/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../249ce8ac9c044dd8/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../249ce8ac9c044dd8/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "b3b928cb51514f32",
+          "policy": "g1_reference",
+          "course": "crossings",
+          "seed": 2,
+          "status": "completed",
+          "elapsed_s": 652.03,
+          "distance_m": 224.73,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "ccf4e85fee6878edb66489a241699648ff12bc8bb6f5642225b502621de7cfce",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../b3b928cb51514f32/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../b3b928cb51514f32/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../b3b928cb51514f32/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../b3b928cb51514f32/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "22e906a3a36a402c",
+          "policy": "g1_amp",
+          "course": "warehouse",
+          "seed": 0,
+          "status": "timeout",
+          "elapsed_s": 900.1,
+          "distance_m": 209.11,
+          "completed_segments": 24,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "c16a03c3070f8b184596e09f72bfa48044e6abdd866a797e5748db201e8d7f6d",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../22e906a3a36a402c/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../22e906a3a36a402c/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../22e906a3a36a402c/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../22e906a3a36a402c/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": false,
+            "timeout": true,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "daff334ff9434989",
+          "policy": "g1_amp",
+          "course": "warehouse",
+          "seed": 1,
+          "status": "timeout",
+          "elapsed_s": 900.1,
+          "distance_m": 203.79,
+          "completed_segments": 22,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "c16a03c3070f8b184596e09f72bfa48044e6abdd866a797e5748db201e8d7f6d",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../daff334ff9434989/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../daff334ff9434989/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../daff334ff9434989/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../daff334ff9434989/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": false,
+            "timeout": true,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "736ab0f756764aae",
+          "policy": "g1_amp",
+          "course": "warehouse",
+          "seed": 2,
+          "status": "timeout",
+          "elapsed_s": 900.1,
+          "distance_m": 202.16,
+          "completed_segments": 22,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "c16a03c3070f8b184596e09f72bfa48044e6abdd866a797e5748db201e8d7f6d",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../736ab0f756764aae/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../736ab0f756764aae/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../736ab0f756764aae/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../736ab0f756764aae/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": false,
+            "timeout": true,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "577cdd6bd2f3432d",
+          "policy": "g1_amp",
+          "course": "office",
+          "seed": 0,
+          "status": "timeout",
+          "elapsed_s": 900.1,
+          "distance_m": 203.03,
+          "completed_segments": 22,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "386345746bd1cd4827a78830b9dd8dacee55b7deab97472c674b135758b2b4aa",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../577cdd6bd2f3432d/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../577cdd6bd2f3432d/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../577cdd6bd2f3432d/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../577cdd6bd2f3432d/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": false,
+            "timeout": true,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "a177f6474cd846d9",
+          "policy": "g1_amp",
+          "course": "office",
+          "seed": 1,
+          "status": "timeout",
+          "elapsed_s": 900.1,
+          "distance_m": 207.4,
+          "completed_segments": 24,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "386345746bd1cd4827a78830b9dd8dacee55b7deab97472c674b135758b2b4aa",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../a177f6474cd846d9/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../a177f6474cd846d9/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../a177f6474cd846d9/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../a177f6474cd846d9/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": false,
+            "timeout": true,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "ed36ff5577a74f44",
+          "policy": "g1_amp",
+          "course": "office",
+          "seed": 2,
+          "status": "timeout",
+          "elapsed_s": 900.1,
+          "distance_m": 205.8,
+          "completed_segments": 24,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "386345746bd1cd4827a78830b9dd8dacee55b7deab97472c674b135758b2b4aa",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../ed36ff5577a74f44/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../ed36ff5577a74f44/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../ed36ff5577a74f44/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../ed36ff5577a74f44/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": false,
+            "timeout": true,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "28fee8d94f02476f",
+          "policy": "g1_amp",
+          "course": "courtyard",
+          "seed": 0,
+          "status": "timeout",
+          "elapsed_s": 900.1,
+          "distance_m": 207.68,
+          "completed_segments": 23,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "0dd19e06721618949301e6a3da11c2f0bcf54fa549d4eeb6056b063a790172a8",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../28fee8d94f02476f/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../28fee8d94f02476f/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../28fee8d94f02476f/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../28fee8d94f02476f/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": false,
+            "timeout": true,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "edb391b17fa645d6",
+          "policy": "g1_amp",
+          "course": "courtyard",
+          "seed": 1,
+          "status": "timeout",
+          "elapsed_s": 900.1,
+          "distance_m": 218.51,
+          "completed_segments": 26,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "304bc00ab23dd69686136c7891b29e1b494f67817d1cc355d48c9a59b7cf307d",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../edb391b17fa645d6/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../edb391b17fa645d6/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../edb391b17fa645d6/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../edb391b17fa645d6/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": false,
+            "timeout": true,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "aa3794059cb74141",
+          "policy": "g1_amp",
+          "course": "courtyard",
+          "seed": 2,
+          "status": "timeout",
+          "elapsed_s": 900.1,
+          "distance_m": 217.72,
+          "completed_segments": 26,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "aa82414036f1976139847bace42284ae0a1977768e1d27f7cac50c7ebb43db6b",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../aa3794059cb74141/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../aa3794059cb74141/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../aa3794059cb74141/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../aa3794059cb74141/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": false,
+            "timeout": true,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "c0cdb55560e8410c",
+          "policy": "g1_amp",
+          "course": "renovation",
+          "seed": 0,
+          "status": "timeout",
+          "elapsed_s": 900.1,
+          "distance_m": 204.19,
+          "completed_segments": 22,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "9e540b41a6126c53fb390b185fe5f04401ad1d2dc8be7af65b45956bb97b9175",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../c0cdb55560e8410c/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../c0cdb55560e8410c/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../c0cdb55560e8410c/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../c0cdb55560e8410c/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": false,
+            "timeout": true,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "2166fa116bbc46d9",
+          "policy": "g1_amp",
+          "course": "renovation",
+          "seed": 1,
+          "status": "timeout",
+          "elapsed_s": 900.1,
+          "distance_m": 212.77,
+          "completed_segments": 24,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "9e540b41a6126c53fb390b185fe5f04401ad1d2dc8be7af65b45956bb97b9175",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../2166fa116bbc46d9/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../2166fa116bbc46d9/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../2166fa116bbc46d9/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../2166fa116bbc46d9/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": false,
+            "timeout": true,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "ea9283685bc14964",
+          "policy": "g1_amp",
+          "course": "renovation",
+          "seed": 2,
+          "status": "timeout",
+          "elapsed_s": 900.1,
+          "distance_m": 212.89,
+          "completed_segments": 24,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "9e540b41a6126c53fb390b185fe5f04401ad1d2dc8be7af65b45956bb97b9175",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../ea9283685bc14964/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../ea9283685bc14964/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../ea9283685bc14964/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../ea9283685bc14964/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": false,
+            "timeout": true,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "6738980af5504b69",
+          "policy": "g1_amp",
+          "course": "service",
+          "seed": 0,
+          "status": "timeout",
+          "elapsed_s": 900.1,
+          "distance_m": 203.31,
+          "completed_segments": 22,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "af59ed135b82cf68fb6decc10b942e729a28f30990a8860987b3be82e98316b9",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../6738980af5504b69/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../6738980af5504b69/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../6738980af5504b69/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../6738980af5504b69/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": false,
+            "timeout": true,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "6514ab9c097242ff",
+          "policy": "g1_amp",
+          "course": "service",
+          "seed": 1,
+          "status": "timeout",
+          "elapsed_s": 900.1,
+          "distance_m": 207.47,
+          "completed_segments": 24,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "af59ed135b82cf68fb6decc10b942e729a28f30990a8860987b3be82e98316b9",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../6514ab9c097242ff/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../6514ab9c097242ff/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../6514ab9c097242ff/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../6514ab9c097242ff/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": false,
+            "timeout": true,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "d751448d7df04f17",
+          "policy": "g1_amp",
+          "course": "service",
+          "seed": 2,
+          "status": "timeout",
+          "elapsed_s": 900.1,
+          "distance_m": 206.32,
+          "completed_segments": 24,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "af59ed135b82cf68fb6decc10b942e729a28f30990a8860987b3be82e98316b9",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../d751448d7df04f17/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../d751448d7df04f17/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../d751448d7df04f17/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../d751448d7df04f17/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": false,
+            "timeout": true,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "043b91134fd44304",
+          "policy": "g1_amp",
+          "course": "crossings",
+          "seed": 0,
+          "status": "timeout",
+          "elapsed_s": 900.1,
+          "distance_m": 206.37,
+          "completed_segments": 23,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "e7ac5069ceeafba8dbdc4d15a93d48f0eceb7badf046b7fb562f9ca7c9ef7da9",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../043b91134fd44304/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../043b91134fd44304/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../043b91134fd44304/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../043b91134fd44304/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": false,
+            "timeout": true,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "7d76182eec6543d3",
+          "policy": "g1_amp",
+          "course": "crossings",
+          "seed": 1,
+          "status": "timeout",
+          "elapsed_s": 900.1,
+          "distance_m": 208.54,
+          "completed_segments": 24,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "746a92f89f20e53b15dcf78d13b21a1856a3b083be8292e2a9ce1f1f41c009c4",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../7d76182eec6543d3/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../7d76182eec6543d3/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../7d76182eec6543d3/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../7d76182eec6543d3/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": false,
+            "timeout": true,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "55aab1056bf9489c",
+          "policy": "g1_amp",
+          "course": "crossings",
+          "seed": 2,
+          "status": "timeout",
+          "elapsed_s": 900.1,
+          "distance_m": 211.45,
+          "completed_segments": 24,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "229915ed70e032b8c48ebf7f5dd6016fb249d0f9a8324fbf1f3beece19622570",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../55aab1056bf9489c/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../55aab1056bf9489c/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../55aab1056bf9489c/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../55aab1056bf9489c/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "initial_study",
+          "outcomes": {
+            "completed": false,
+            "timeout": true,
+            "fall": false,
+            "technical_error": false
+          }
+        }
+      ]
+    },
+    "deadline_control": {
+      "label": "Longer-deadline controls",
+      "design": "1500 s; 3 courses × 2 seeds for AMP",
+      "policies": {
+        "g1_reference": {
+          "trials": 0,
+          "completed": 0,
+          "timeouts": 0,
+          "falls": 0,
+          "technical_errors": 0,
+          "median_elapsed_s": null,
+          "elapsed_range_s": null,
+          "median_distance_m": null,
+          "distance_range_m": null
+        },
+        "g1_amp": {
+          "trials": 6,
+          "completed": 6,
+          "timeouts": 0,
+          "falls": 0,
+          "technical_errors": 0,
+          "median_elapsed_s": 1165.35,
+          "elapsed_range_s": [
+            1072.88,
+            1213.84
+          ],
+          "median_distance_m": 268.66999999999996,
+          "distance_range_m": [
+            258.05,
+            273.89
+          ]
+        }
+      },
+      "rows": [
+        {
+          "id": "c040ea4e6d42431d",
+          "policy": "g1_amp",
+          "course": "courtyard",
+          "seed": 0,
+          "status": "completed",
+          "elapsed_s": 1165.94,
+          "distance_m": 269.96,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "0dd19e06721618949301e6a3da11c2f0bcf54fa549d4eeb6056b063a790172a8",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../c040ea4e6d42431d/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../c040ea4e6d42431d/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../c040ea4e6d42431d/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../c040ea4e6d42431d/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "deadline_control",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "3e2982d2695d48ac",
+          "policy": "g1_amp",
+          "course": "warehouse",
+          "seed": 0,
+          "status": "completed",
+          "elapsed_s": 1145.3,
+          "distance_m": 263.68,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "c16a03c3070f8b184596e09f72bfa48044e6abdd866a797e5748db201e8d7f6d",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../3e2982d2695d48ac/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../3e2982d2695d48ac/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../3e2982d2695d48ac/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../3e2982d2695d48ac/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "deadline_control",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "3a7c1bec6fcb4ec1",
+          "policy": "g1_amp",
+          "course": "warehouse",
+          "seed": 1,
+          "status": "completed",
+          "elapsed_s": 1213.84,
+          "distance_m": 273.89,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "c16a03c3070f8b184596e09f72bfa48044e6abdd866a797e5748db201e8d7f6d",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../3a7c1bec6fcb4ec1/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../3a7c1bec6fcb4ec1/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../3a7c1bec6fcb4ec1/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../3a7c1bec6fcb4ec1/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "deadline_control",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "5513d8a40e8c4c77",
+          "policy": "g1_amp",
+          "course": "courtyard",
+          "seed": 1,
+          "status": "completed",
+          "elapsed_s": 1072.88,
+          "distance_m": 258.05,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "304bc00ab23dd69686136c7891b29e1b494f67817d1cc355d48c9a59b7cf307d",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../5513d8a40e8c4c77/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../5513d8a40e8c4c77/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../5513d8a40e8c4c77/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../5513d8a40e8c4c77/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "deadline_control",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "a9a78cace96b40a3",
+          "policy": "g1_amp",
+          "course": "crossings",
+          "seed": 1,
+          "status": "completed",
+          "elapsed_s": 1164.76,
+          "distance_m": 267.38,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "746a92f89f20e53b15dcf78d13b21a1856a3b083be8292e2a9ce1f1f41c009c4",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../a9a78cace96b40a3/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../a9a78cace96b40a3/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../a9a78cace96b40a3/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../a9a78cace96b40a3/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "deadline_control",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "6709282492d44a40",
+          "policy": "g1_amp",
+          "course": "crossings",
+          "seed": 0,
+          "status": "completed",
+          "elapsed_s": 1196.17,
+          "distance_m": 272.48,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "e7ac5069ceeafba8dbdc4d15a93d48f0eceb7badf046b7fb562f9ca7c9ef7da9",
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../6709282492d44a40/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../6709282492d44a40/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../6709282492d44a40/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../6709282492d44a40/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "deadline_control",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        }
+      ]
+    },
+    "disturbance_study": {
+      "label": "Lateral-pulse study",
+      "design": "1500 s; 3 courses × 2 seeds per policy",
+      "policies": {
+        "g1_reference": {
+          "trials": 6,
+          "completed": 6,
+          "timeouts": 0,
+          "falls": 0,
+          "technical_errors": 0,
+          "median_elapsed_s": 653.59,
+          "elapsed_range_s": [
+            644.57,
+            658.44
+          ],
+          "median_distance_m": 228.93,
+          "distance_range_m": [
+            228.9,
+            229.66
+          ]
+        },
+        "g1_amp": {
+          "trials": 6,
+          "completed": 6,
+          "timeouts": 0,
+          "falls": 0,
+          "technical_errors": 0,
+          "median_elapsed_s": 1118.29,
+          "elapsed_range_s": [
+            1059.43,
+            1208.76
+          ],
+          "median_distance_m": 262.91499999999996,
+          "distance_range_m": [
+            255.39,
+            275.4
+          ]
+        }
+      },
+      "rows": [
+        {
+          "id": "f2287fbac0334851",
+          "policy": "g1_reference",
+          "course": "courtyard",
+          "seed": 0,
+          "status": "completed",
+          "elapsed_s": 651.15,
+          "distance_m": 229.66,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "cba329caa132e9be3a967a18917722cac76d36ef6b0a616c717b6ca7beaa4644",
+          "fall_episodes": 0,
+          "recovered_episodes": 0,
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../f2287fbac0334851/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../f2287fbac0334851/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../f2287fbac0334851/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../f2287fbac0334851/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "disturbance_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "a8d02131aa1447d8",
+          "policy": "g1_reference",
+          "course": "warehouse",
+          "seed": 1,
+          "status": "completed",
+          "elapsed_s": 653.59,
+          "distance_m": 228.92,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "4e96a935cc8ee57cccd4c656f0319e66fc61ac7e0e39dae9a11df42e2702af8e",
+          "fall_episodes": 0,
+          "recovered_episodes": 0,
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../a8d02131aa1447d8/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../a8d02131aa1447d8/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../a8d02131aa1447d8/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../a8d02131aa1447d8/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "disturbance_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "7a0b08773e5a469b",
+          "policy": "g1_reference",
+          "course": "warehouse",
+          "seed": 0,
+          "status": "completed",
+          "elapsed_s": 653.59,
+          "distance_m": 228.91,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "4e96a935cc8ee57cccd4c656f0319e66fc61ac7e0e39dae9a11df42e2702af8e",
+          "fall_episodes": 0,
+          "recovered_episodes": 0,
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../7a0b08773e5a469b/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../7a0b08773e5a469b/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../7a0b08773e5a469b/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../7a0b08773e5a469b/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "disturbance_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "78d0aaf76f174356",
+          "policy": "g1_reference",
+          "course": "courtyard",
+          "seed": 1,
+          "status": "completed",
+          "elapsed_s": 644.57,
+          "distance_m": 229.56,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "00fa28ccfc122528f3fb2328b6a5736ebbc92edf4c6a721599ec9b7bfdcd8b1a",
+          "fall_episodes": 0,
+          "recovered_episodes": 0,
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../78d0aaf76f174356/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../78d0aaf76f174356/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../78d0aaf76f174356/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../78d0aaf76f174356/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "disturbance_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "25ed807ca0394a00",
+          "policy": "g1_reference",
+          "course": "crossings",
+          "seed": 0,
+          "status": "completed",
+          "elapsed_s": 658.44,
+          "distance_m": 228.9,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "4f42ef27ed3710b3ba32c1aa6e692ed008a7d3711c14b4188446dbfd6cfe2992",
+          "fall_episodes": 0,
+          "recovered_episodes": 0,
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../25ed807ca0394a00/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../25ed807ca0394a00/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../25ed807ca0394a00/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../25ed807ca0394a00/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "disturbance_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "19035a1b3ee64540",
+          "policy": "g1_reference",
+          "course": "crossings",
+          "seed": 1,
+          "status": "completed",
+          "elapsed_s": 658.43,
+          "distance_m": 228.94,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "5ea71670f67291d239134a9fa1163cb6194ae58bd9811747111aa3273e4e98b1",
+          "fall_episodes": 0,
+          "recovered_episodes": 0,
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../19035a1b3ee64540/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../19035a1b3ee64540/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../19035a1b3ee64540/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../19035a1b3ee64540/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "disturbance_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "d4c2bd0891e2402f",
+          "policy": "g1_amp",
+          "course": "courtyard",
+          "seed": 0,
+          "status": "completed",
+          "elapsed_s": 1102.05,
+          "distance_m": 262.46,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "0dd19e06721618949301e6a3da11c2f0bcf54fa549d4eeb6056b063a790172a8",
+          "fall_episodes": 0,
+          "recovered_episodes": 0,
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../d4c2bd0891e2402f/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../d4c2bd0891e2402f/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../d4c2bd0891e2402f/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../d4c2bd0891e2402f/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "disturbance_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "447346cd8f494fa0",
+          "policy": "g1_amp",
+          "course": "warehouse",
+          "seed": 0,
+          "status": "completed",
+          "elapsed_s": 1134.53,
+          "distance_m": 263.37,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "c16a03c3070f8b184596e09f72bfa48044e6abdd866a797e5748db201e8d7f6d",
+          "fall_episodes": 0,
+          "recovered_episodes": 0,
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../447346cd8f494fa0/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../447346cd8f494fa0/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../447346cd8f494fa0/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../447346cd8f494fa0/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "disturbance_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "fec87bee1e2e469a",
+          "policy": "g1_amp",
+          "course": "warehouse",
+          "seed": 1,
+          "status": "completed",
+          "elapsed_s": 1208.76,
+          "distance_m": 275.4,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "c16a03c3070f8b184596e09f72bfa48044e6abdd866a797e5748db201e8d7f6d",
+          "fall_episodes": 0,
+          "recovered_episodes": 0,
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../fec87bee1e2e469a/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../fec87bee1e2e469a/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../fec87bee1e2e469a/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../fec87bee1e2e469a/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "disturbance_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "7e47c67490dd4e99",
+          "policy": "g1_amp",
+          "course": "courtyard",
+          "seed": 1,
+          "status": "completed",
+          "elapsed_s": 1091.16,
+          "distance_m": 260.94,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "304bc00ab23dd69686136c7891b29e1b494f67817d1cc355d48c9a59b7cf307d",
+          "fall_episodes": 0,
+          "recovered_episodes": 0,
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../7e47c67490dd4e99/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../7e47c67490dd4e99/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../7e47c67490dd4e99/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../7e47c67490dd4e99/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "disturbance_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "538f64bb72ab42c3",
+          "policy": "g1_amp",
+          "course": "crossings",
+          "seed": 0,
+          "status": "completed",
+          "elapsed_s": 1195.52,
+          "distance_m": 274.49,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "e7ac5069ceeafba8dbdc4d15a93d48f0eceb7badf046b7fb562f9ca7c9ef7da9",
+          "fall_episodes": 0,
+          "recovered_episodes": 0,
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../538f64bb72ab42c3/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../538f64bb72ab42c3/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../538f64bb72ab42c3/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../538f64bb72ab42c3/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "disturbance_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        },
+        {
+          "id": "861bc643bfa64e38",
+          "policy": "g1_amp",
+          "course": "crossings",
+          "seed": 1,
+          "status": "completed",
+          "elapsed_s": 1059.43,
+          "distance_m": 255.39,
+          "completed_segments": 30,
+          "total_segments": 30,
+          "first_fall_s": null,
+          "model_sha256": "746a92f89f20e53b15dcf78d13b21a1856a3b083be8292e2a9ce1f1f41c009c4",
+          "fall_episodes": 0,
+          "recovered_episodes": 0,
+          "media": {
+            "renderer_version": 2,
+            "renderer_v2_ready": true,
+            "artifacts": {
+              "review.mp4": {
+                "url": "../861bc643bfa64e38/review.mp4",
+                "ready": true
+              },
+              "event.mp4": {
+                "url": "../861bc643bfa64e38/event.mp4",
+                "ready": true
+              },
+              "figures.png": {
+                "url": "../861bc643bfa64e38/figures.png",
+                "ready": true
+              },
+              "poster.jpg": {
+                "url": "../861bc643bfa64e38/poster.jpg",
+                "ready": true
+              }
+            }
+          },
+          "cohort": "disturbance_study",
+          "outcomes": {
+            "completed": true,
+            "timeout": false,
+            "fall": false,
+            "technical_error": false
+          }
+        }
+      ]
+    }
+  },
+  "total_trials": 54,
+  "qualified_locomotion_profiles": [
+    "g1_amp",
+    "g1_reference"
+  ],
+  "platform": {
+    "reported_trial_count": 54,
+    "robot": "unitree_g1_29",
+    "mujoco_version": "4.0.1",
+    "actuators": 29,
+    "sensor_definitions": 91,
+    "cameras": 4,
+    "outcome_groups": [
+      {
+        "policy": "g1_amp",
+        "course": "crossings",
+        "horizon_s": 1500.0,
+        "disturbance": "lateral_pulses",
+        "trials": 2,
+        "completed": 2,
+        "falls": 0,
+        "timeouts": 0,
+        "technical_errors": 0,
+        "completion_rate": 1.0,
+        "completion_interval_95": [
+          0.34237195288961925,
+          1
+        ],
+        "median_duration_s": 1127.475,
+        "median_distance_m": 264.94
+      },
+      {
+        "policy": "g1_amp",
+        "course": "courtyard",
+        "horizon_s": 1500.0,
+        "disturbance": "lateral_pulses",
+        "trials": 2,
+        "completed": 2,
+        "falls": 0,
+        "timeouts": 0,
+        "technical_errors": 0,
+        "completion_rate": 1.0,
+        "completion_interval_95": [
+          0.34237195288961925,
+          1
+        ],
+        "median_duration_s": 1096.605,
+        "median_distance_m": 261.7
+      },
+      {
+        "policy": "g1_amp",
+        "course": "warehouse",
+        "horizon_s": 1500.0,
+        "disturbance": "lateral_pulses",
+        "trials": 2,
+        "completed": 2,
+        "falls": 0,
+        "timeouts": 0,
+        "technical_errors": 0,
+        "completion_rate": 1.0,
+        "completion_interval_95": [
+          0.34237195288961925,
+          1
+        ],
+        "median_duration_s": 1171.645,
+        "median_distance_m": 269.385
+      },
+      {
+        "policy": "g1_reference",
+        "course": "crossings",
+        "horizon_s": 1500.0,
+        "disturbance": "lateral_pulses",
+        "trials": 2,
+        "completed": 2,
+        "falls": 0,
+        "timeouts": 0,
+        "technical_errors": 0,
+        "completion_rate": 1.0,
+        "completion_interval_95": [
+          0.34237195288961925,
+          1
+        ],
+        "median_duration_s": 658.435,
+        "median_distance_m": 228.92000000000002
+      },
+      {
+        "policy": "g1_reference",
+        "course": "courtyard",
+        "horizon_s": 1500.0,
+        "disturbance": "lateral_pulses",
+        "trials": 2,
+        "completed": 2,
+        "falls": 0,
+        "timeouts": 0,
+        "technical_errors": 0,
+        "completion_rate": 1.0,
+        "completion_interval_95": [
+          0.34237195288961925,
+          1
+        ],
+        "median_duration_s": 647.86,
+        "median_distance_m": 229.61
+      },
+      {
+        "policy": "g1_reference",
+        "course": "warehouse",
+        "horizon_s": 1500.0,
+        "disturbance": "lateral_pulses",
+        "trials": 2,
+        "completed": 2,
+        "falls": 0,
+        "timeouts": 0,
+        "technical_errors": 0,
+        "completion_rate": 1.0,
+        "completion_interval_95": [
+          0.34237195288961925,
+          1
+        ],
+        "median_duration_s": 653.59,
+        "median_distance_m": 228.915
+      },
+      {
+        "policy": "g1_amp",
+        "course": "crossings",
+        "horizon_s": 1500.0,
+        "disturbance": "none",
+        "trials": 2,
+        "completed": 2,
+        "falls": 0,
+        "timeouts": 0,
+        "technical_errors": 0,
+        "completion_rate": 1.0,
+        "completion_interval_95": [
+          0.34237195288961925,
+          1
+        ],
+        "median_duration_s": 1180.4650000000001,
+        "median_distance_m": 269.93
+      },
+      {
+        "policy": "g1_amp",
+        "course": "courtyard",
+        "horizon_s": 1500.0,
+        "disturbance": "none",
+        "trials": 2,
+        "completed": 2,
+        "falls": 0,
+        "timeouts": 0,
+        "technical_errors": 0,
+        "completion_rate": 1.0,
+        "completion_interval_95": [
+          0.34237195288961925,
+          1
+        ],
+        "median_duration_s": 1119.41,
+        "median_distance_m": 264.005
+      },
+      {
+        "policy": "g1_amp",
+        "course": "warehouse",
+        "horizon_s": 1500.0,
+        "disturbance": "none",
+        "trials": 2,
+        "completed": 2,
+        "falls": 0,
+        "timeouts": 0,
+        "technical_errors": 0,
+        "completion_rate": 1.0,
+        "completion_interval_95": [
+          0.34237195288961925,
+          1
+        ],
+        "median_duration_s": 1179.57,
+        "median_distance_m": 268.78499999999997
+      },
+      {
+        "policy": "g1_amp",
+        "course": "crossings",
+        "horizon_s": 900.0,
+        "disturbance": "none",
+        "trials": 3,
+        "completed": 0,
+        "falls": 0,
+        "timeouts": 3,
+        "technical_errors": 0,
+        "completion_rate": 0.0,
+        "completion_interval_95": [
+          0,
+          0.5615060804490177
+        ],
+        "median_duration_s": 900.1,
+        "median_distance_m": 208.54
+      },
+      {
+        "policy": "g1_amp",
+        "course": "service",
+        "horizon_s": 900.0,
+        "disturbance": "none",
+        "trials": 3,
+        "completed": 0,
+        "falls": 0,
+        "timeouts": 3,
+        "technical_errors": 0,
+        "completion_rate": 0.0,
+        "completion_interval_95": [
+          0,
+          0.5615060804490177
+        ],
+        "median_duration_s": 900.1,
+        "median_distance_m": 206.32
+      },
+      {
+        "policy": "g1_amp",
+        "course": "renovation",
+        "horizon_s": 900.0,
+        "disturbance": "none",
+        "trials": 3,
+        "completed": 0,
+        "falls": 0,
+        "timeouts": 3,
+        "technical_errors": 0,
+        "completion_rate": 0.0,
+        "completion_interval_95": [
+          0,
+          0.5615060804490177
+        ],
+        "median_duration_s": 900.1,
+        "median_distance_m": 212.77
+      },
+      {
+        "policy": "g1_amp",
+        "course": "courtyard",
+        "horizon_s": 900.0,
+        "disturbance": "none",
+        "trials": 3,
+        "completed": 0,
+        "falls": 0,
+        "timeouts": 3,
+        "technical_errors": 0,
+        "completion_rate": 0.0,
+        "completion_interval_95": [
+          0,
+          0.5615060804490177
+        ],
+        "median_duration_s": 900.1,
+        "median_distance_m": 217.72
+      },
+      {
+        "policy": "g1_amp",
+        "course": "office",
+        "horizon_s": 900.0,
+        "disturbance": "none",
+        "trials": 3,
+        "completed": 0,
+        "falls": 0,
+        "timeouts": 3,
+        "technical_errors": 0,
+        "completion_rate": 0.0,
+        "completion_interval_95": [
+          0,
+          0.5615060804490177
+        ],
+        "median_duration_s": 900.1,
+        "median_distance_m": 205.8
+      },
+      {
+        "policy": "g1_amp",
+        "course": "warehouse",
+        "horizon_s": 900.0,
+        "disturbance": "none",
+        "trials": 3,
+        "completed": 0,
+        "falls": 0,
+        "timeouts": 3,
+        "technical_errors": 0,
+        "completion_rate": 0.0,
+        "completion_interval_95": [
+          0,
+          0.5615060804490177
+        ],
+        "median_duration_s": 900.1,
+        "median_distance_m": 203.79
+      },
+      {
+        "policy": "g1_reference",
+        "course": "crossings",
+        "horizon_s": 900.0,
+        "disturbance": "none",
+        "trials": 3,
+        "completed": 3,
+        "falls": 0,
+        "timeouts": 0,
+        "technical_errors": 0,
+        "completion_rate": 1.0,
+        "completion_interval_95": [
+          0.43849391955098227,
+          1
+        ],
+        "median_duration_s": 652.03,
+        "median_distance_m": 224.8
+      },
+      {
+        "policy": "g1_reference",
+        "course": "service",
+        "horizon_s": 900.0,
+        "disturbance": "none",
+        "trials": 3,
+        "completed": 3,
+        "falls": 0,
+        "timeouts": 0,
+        "technical_errors": 0,
+        "completion_rate": 1.0,
+        "completion_interval_95": [
+          0.43849391955098227,
+          1
+        ],
+        "median_duration_s": 646.63,
+        "median_distance_m": 224.72
+      },
+      {
+        "policy": "g1_reference",
+        "course": "renovation",
+        "horizon_s": 900.0,
+        "disturbance": "none",
+        "trials": 3,
+        "completed": 3,
+        "falls": 0,
+        "timeouts": 0,
+        "technical_errors": 0,
+        "completion_rate": 1.0,
+        "completion_interval_95": [
+          0.43849391955098227,
+          1
+        ],
+        "median_duration_s": 641.23,
+        "median_distance_m": 225.53
+      },
+      {
+        "policy": "g1_reference",
+        "course": "courtyard",
+        "horizon_s": 900.0,
+        "disturbance": "none",
+        "trials": 3,
+        "completed": 3,
+        "falls": 0,
+        "timeouts": 0,
+        "technical_errors": 0,
+        "completion_rate": 1.0,
+        "completion_interval_95": [
+          0.43849391955098227,
+          1
+        ],
+        "median_duration_s": 641.83,
+        "median_distance_m": 225.48
+      },
+      {
+        "policy": "g1_reference",
+        "course": "office",
+        "horizon_s": 900.0,
+        "disturbance": "none",
+        "trials": 3,
+        "completed": 3,
+        "falls": 0,
+        "timeouts": 0,
+        "technical_errors": 0,
+        "completion_rate": 1.0,
+        "completion_interval_95": [
+          0.43849391955098227,
+          1
+        ],
+        "median_duration_s": 646.63,
+        "median_distance_m": 224.72
+      },
+      {
+        "policy": "g1_reference",
+        "course": "warehouse",
+        "horizon_s": 900.0,
+        "disturbance": "none",
+        "trials": 3,
+        "completed": 3,
+        "falls": 0,
+        "timeouts": 0,
+        "technical_errors": 0,
+        "completion_rate": 1.0,
+        "completion_interval_95": [
+          0.43849391955098227,
+          1
+        ],
+        "median_duration_s": 646.63,
+        "median_distance_m": 224.72
+      }
+    ]
+  },
+  "vla": {
+    "model": "nvidia/GR00T-N1.6-G1-PnPAppleToPlate",
+    "revision": "897d0313a190f46a2cccaeb34077752a0db4b0de",
+    "runtime_status": "pass",
+    "control_status": "blocked_embodiment_mismatch",
+    "reason": "This published checkpoint expects 29 body joints, 14 articulated hand joints and WBC base-height/navigation control. The current locomotion model has 29 body actuators and fixed hands. No VLA actions are sent to it.",
+    "device": "NVIDIA Thor",
+    "finite_outputs": true,
+    "same_seed_max_repeat_difference": 0.0,
+    "observed_frames": 1,
+    "executed_robot_actions": 0,
+    "input_note": "Camera image and 29 body states are from a real native simulation snapshot; absent hand channels are zero-filled ONLY to smoke-test the neural runtime. This is not a compatible robot rollout or a task-success evaluation.",
+    "inference_s": [
+      0.48743319790810347,
+      0.12227572686970234,
+      0.11962704500183463
+    ]
+  },
+  "disturbance_protocol": {
+    "kind": "lateral_pulses",
+    "force_world_n": [
+      0,
+      180,
+      0
+    ],
+    "duration_s": 0.2,
+    "times_s": [
+      120,
+      240,
+      360,
+      480,
+      600
+    ],
+    "recovery_window_s": 20,
+    "resume_criterion": "height > 0.65 m and tilt < 30 deg continuously for 2 s",
+    "axis_note": "The force is along the fixed world Y axis; depending on robot heading, it is not always lateral in body coordinates."
+  },
+  "definitions": {
+    "completed": "The saved trial status is completed and the full route finished.",
+    "timeout": "The saved trial reached its simulation-time horizon before full route completion; timeout is not a fall.",
+    "fall": "A fall is counted when the saved status is fallen/fall/fell, first_fall_s is present, or fall_episodes is positive. A trial can also have another ending status.",
+    "technical_error": "A technical error is an explicit technical_error/error/exception trial status, not a locomotion failure."
+  },
+  "source_urls": [
+    {
+      "label": "NVIDIA GR00T N1.6 G1 pick-and-place model, pinned revision",
+      "url": "https://huggingface.co/nvidia/GR00T-N1.6-G1-PnPAppleToPlate/tree/897d0313a190f46a2cccaeb34077752a0db4b0de"
+    },
+    {
+      "label": "NVlabs GR00T WholeBodyControl (Decoupled WBC for N1.5/N1.6)",
+      "url": "https://github.com/NVlabs/GR00T-WholeBodyControl"
+    },
+    {
+      "label": "Unitree locomotion source and pinned revision",
+      "url": "https://github.com/unitreerobotics/unitree_rl_mjlab/tree/1425b15f73bd4095f0df53709d7c389c3eb9e790"
+    }
+  ],
+  "optional_report_markdown_present": true,
+  "push_probe": {
+    "label": "Phase-triggered push probes",
+    "protocol": {},
+    "trials": [
+      {
+        "id": "8974c3c215e04e08",
+        "policy": "g1_reference",
+        "seed": 1,
+        "status": "timeout",
+        "elapsed_s": 180.09,
+        "distance_m": 63.16,
+        "first_fall_s": null,
+        "fall_episodes": 0,
+        "recovered_episodes": 0,
+        "force_n": 120,
+        "applied": true,
+        "min_height_m": 0.7546874452411279,
+        "max_tilt_deg": 4.2,
+        "course": "warehouse",
+        "media": {
+          "renderer_version": 2,
+          "renderer_v2_ready": true,
+          "artifacts": {
+            "review.mp4": {
+              "url": "../8974c3c215e04e08/review.mp4",
+              "ready": true
+            },
+            "event.mp4": {
+              "url": "../8974c3c215e04e08/event.mp4",
+              "ready": true
+            },
+            "figures.png": {
+              "url": "../8974c3c215e04e08/figures.png",
+              "ready": true
+            },
+            "poster.jpg": {
+              "url": "../8974c3c215e04e08/poster.jpg",
+              "ready": true
+            }
+          }
+        },
+        "cohort": "push_probe",
+        "outcomes": {
+          "completed": false,
+          "timeout": true,
+          "fall": false,
+          "technical_error": false
+        }
+      },
+      {
+        "id": "09f5c405ca634f14",
+        "policy": "g1_reference",
+        "seed": 0,
+        "status": "timeout",
+        "elapsed_s": 180.09,
+        "distance_m": 63.15,
+        "first_fall_s": null,
+        "fall_episodes": 0,
+        "recovered_episodes": 0,
+        "force_n": 120,
+        "applied": true,
+        "min_height_m": 0.7576654840979753,
+        "max_tilt_deg": 4.1,
+        "course": "warehouse",
+        "media": {
+          "renderer_version": 2,
+          "renderer_v2_ready": true,
+          "artifacts": {
+            "review.mp4": {
+              "url": "../09f5c405ca634f14/review.mp4",
+              "ready": true
+            },
+            "event.mp4": {
+              "url": "../09f5c405ca634f14/event.mp4",
+              "ready": true
+            },
+            "figures.png": {
+              "url": "../09f5c405ca634f14/figures.png",
+              "ready": true
+            },
+            "poster.jpg": {
+              "url": "../09f5c405ca634f14/poster.jpg",
+              "ready": true
+            }
+          }
+        },
+        "cohort": "push_probe",
+        "outcomes": {
+          "completed": false,
+          "timeout": true,
+          "fall": false,
+          "technical_error": false
+        }
+      },
+      {
+        "id": "6f3a89fe36a64e30",
+        "policy": "g1_reference",
+        "seed": 0,
+        "status": "timeout",
+        "elapsed_s": 180.09,
+        "distance_m": 62.04,
+        "first_fall_s": null,
+        "fall_episodes": 0,
+        "recovered_episodes": 0,
+        "force_n": 240,
+        "applied": true,
+        "min_height_m": 0.6688749763813574,
+        "max_tilt_deg": 13.4,
+        "course": "warehouse",
+        "media": {
+          "renderer_version": 2,
+          "renderer_v2_ready": true,
+          "artifacts": {
+            "review.mp4": {
+              "url": "../6f3a89fe36a64e30/review.mp4",
+              "ready": true
+            },
+            "event.mp4": {
+              "url": "../6f3a89fe36a64e30/event.mp4",
+              "ready": true
+            },
+            "figures.png": {
+              "url": "../6f3a89fe36a64e30/figures.png",
+              "ready": true
+            },
+            "poster.jpg": {
+              "url": "../6f3a89fe36a64e30/poster.jpg",
+              "ready": true
+            }
+          }
+        },
+        "cohort": "push_probe",
+        "outcomes": {
+          "completed": false,
+          "timeout": true,
+          "fall": false,
+          "technical_error": false
+        }
+      },
+      {
+        "id": "b7ce0abbce6b467e",
+        "policy": "g1_reference",
+        "seed": 1,
+        "status": "timeout",
+        "elapsed_s": 180.09,
+        "distance_m": 23.11,
+        "first_fall_s": null,
+        "fall_episodes": 0,
+        "recovered_episodes": 0,
+        "force_n": 240,
+        "applied": true,
+        "min_height_m": 0.655968451947815,
+        "max_tilt_deg": 13.7,
+        "course": "warehouse",
+        "media": {
+          "renderer_version": 2,
+          "renderer_v2_ready": true,
+          "artifacts": {
+            "review.mp4": {
+              "url": "../b7ce0abbce6b467e/review.mp4",
+              "ready": true
+            },
+            "event.mp4": {
+              "url": "../b7ce0abbce6b467e/event.mp4",
+              "ready": true
+            },
+            "figures.png": {
+              "url": "../b7ce0abbce6b467e/figures.png",
+              "ready": true
+            },
+            "poster.jpg": {
+              "url": "../b7ce0abbce6b467e/poster.jpg",
+              "ready": true
+            }
+          }
+        },
+        "cohort": "push_probe",
+        "outcomes": {
+          "completed": false,
+          "timeout": true,
+          "fall": false,
+          "technical_error": false
+        }
+      },
+      {
+        "id": "d1d36c4416f34f2e",
+        "policy": "g1_reference",
+        "seed": 0,
+        "status": "fallen",
+        "elapsed_s": 38.94,
+        "distance_m": 15.7,
+        "first_fall_s": 18.880000000000415,
+        "fall_episodes": 1,
+        "recovered_episodes": 0,
+        "force_n": 360,
+        "applied": true,
+        "min_height_m": 0.0703639316502163,
+        "max_tilt_deg": 154.0,
+        "course": "warehouse",
+        "media": {
+          "renderer_version": 2,
+          "renderer_v2_ready": true,
+          "artifacts": {
+            "review.mp4": {
+              "url": "../d1d36c4416f34f2e/review.mp4",
+              "ready": true
+            },
+            "event.mp4": {
+              "url": "../d1d36c4416f34f2e/event.mp4",
+              "ready": true
+            },
+            "figures.png": {
+              "url": "../d1d36c4416f34f2e/figures.png",
+              "ready": true
+            },
+            "poster.jpg": {
+              "url": "../d1d36c4416f34f2e/poster.jpg",
+              "ready": true
+            }
+          }
+        },
+        "cohort": "push_probe",
+        "outcomes": {
+          "completed": false,
+          "timeout": false,
+          "fall": true,
+          "technical_error": false
+        }
+      },
+      {
+        "id": "eb15f06f580f46e7",
+        "policy": "g1_reference",
+        "seed": 1,
+        "status": "fallen",
+        "elapsed_s": 38.44,
+        "distance_m": 16.94,
+        "first_fall_s": 18.370000000000697,
+        "fall_episodes": 1,
+        "recovered_episodes": 0,
+        "force_n": 360,
+        "applied": true,
+        "min_height_m": 0.06818834865091222,
+        "max_tilt_deg": 157.2,
+        "course": "warehouse",
+        "media": {
+          "renderer_version": 2,
+          "renderer_v2_ready": true,
+          "artifacts": {
+            "review.mp4": {
+              "url": "../eb15f06f580f46e7/review.mp4",
+              "ready": true
+            },
+            "event.mp4": {
+              "url": "../eb15f06f580f46e7/event.mp4",
+              "ready": true
+            },
+            "figures.png": {
+              "url": "../eb15f06f580f46e7/figures.png",
+              "ready": true
+            },
+            "poster.jpg": {
+              "url": "../eb15f06f580f46e7/poster.jpg",
+              "ready": true
+            }
+          }
+        },
+        "cohort": "push_probe",
+        "outcomes": {
+          "completed": false,
+          "timeout": false,
+          "fall": true,
+          "technical_error": false
+        }
+      },
+      {
+        "id": "4bb8b731bdcb4c46",
+        "policy": "g1_amp",
+        "seed": 0,
+        "status": "timeout",
+        "elapsed_s": 180.09,
+        "distance_m": 41.18,
+        "first_fall_s": null,
+        "fall_episodes": 0,
+        "recovered_episodes": 0,
+        "force_n": 120,
+        "applied": true,
+        "min_height_m": 0.7328706138433708,
+        "max_tilt_deg": 12.2,
+        "course": "warehouse",
+        "media": {
+          "renderer_version": 2,
+          "renderer_v2_ready": true,
+          "artifacts": {
+            "review.mp4": {
+              "url": "../4bb8b731bdcb4c46/review.mp4",
+              "ready": true
+            },
+            "event.mp4": {
+              "url": "../4bb8b731bdcb4c46/event.mp4",
+              "ready": true
+            },
+            "figures.png": {
+              "url": "../4bb8b731bdcb4c46/figures.png",
+              "ready": true
+            },
+            "poster.jpg": {
+              "url": "../4bb8b731bdcb4c46/poster.jpg",
+              "ready": true
+            }
+          }
+        },
+        "cohort": "push_probe",
+        "outcomes": {
+          "completed": false,
+          "timeout": true,
+          "fall": false,
+          "technical_error": false
+        }
+      },
+      {
+        "id": "b9d39bbcf1234388",
+        "policy": "g1_amp",
+        "seed": 1,
+        "status": "timeout",
+        "elapsed_s": 180.09,
+        "distance_m": 43.52,
+        "first_fall_s": null,
+        "fall_episodes": 0,
+        "recovered_episodes": 0,
+        "force_n": 120,
+        "applied": true,
+        "min_height_m": 0.7350694244043827,
+        "max_tilt_deg": 12.3,
+        "course": "warehouse",
+        "media": {
+          "renderer_version": 2,
+          "renderer_v2_ready": true,
+          "artifacts": {
+            "review.mp4": {
+              "url": "../b9d39bbcf1234388/review.mp4",
+              "ready": true
+            },
+            "event.mp4": {
+              "url": "../b9d39bbcf1234388/event.mp4",
+              "ready": true
+            },
+            "figures.png": {
+              "url": "../b9d39bbcf1234388/figures.png",
+              "ready": true
+            },
+            "poster.jpg": {
+              "url": "../b9d39bbcf1234388/poster.jpg",
+              "ready": true
+            }
+          }
+        },
+        "cohort": "push_probe",
+        "outcomes": {
+          "completed": false,
+          "timeout": true,
+          "fall": false,
+          "technical_error": false
+        }
+      },
+      {
+        "id": "a2d325afbfcd472d",
+        "policy": "g1_amp",
+        "seed": 0,
+        "status": "timeout",
+        "elapsed_s": 180.09,
+        "distance_m": 41.87,
+        "first_fall_s": null,
+        "fall_episodes": 0,
+        "recovered_episodes": 0,
+        "force_n": 240,
+        "applied": true,
+        "min_height_m": 0.7082448965648306,
+        "max_tilt_deg": 12.3,
+        "course": "warehouse",
+        "media": {
+          "renderer_version": 2,
+          "renderer_v2_ready": true,
+          "artifacts": {
+            "review.mp4": {
+              "url": "../a2d325afbfcd472d/review.mp4",
+              "ready": true
+            },
+            "event.mp4": {
+              "url": "../a2d325afbfcd472d/event.mp4",
+              "ready": true
+            },
+            "figures.png": {
+              "url": "../a2d325afbfcd472d/figures.png",
+              "ready": true
+            },
+            "poster.jpg": {
+              "url": "../a2d325afbfcd472d/poster.jpg",
+              "ready": true
+            }
+          }
+        },
+        "cohort": "push_probe",
+        "outcomes": {
+          "completed": false,
+          "timeout": true,
+          "fall": false,
+          "technical_error": false
+        }
+      },
+      {
+        "id": "624326e555d149f7",
+        "policy": "g1_amp",
+        "seed": 1,
+        "status": "timeout",
+        "elapsed_s": 180.09,
+        "distance_m": 42.29,
+        "first_fall_s": null,
+        "fall_episodes": 0,
+        "recovered_episodes": 0,
+        "force_n": 240,
+        "applied": true,
+        "min_height_m": 0.716460745290967,
+        "max_tilt_deg": 13.9,
+        "course": "warehouse",
+        "media": {
+          "renderer_version": 2,
+          "renderer_v2_ready": true,
+          "artifacts": {
+            "review.mp4": {
+              "url": "../624326e555d149f7/review.mp4",
+              "ready": true
+            },
+            "event.mp4": {
+              "url": "../624326e555d149f7/event.mp4",
+              "ready": true
+            },
+            "figures.png": {
+              "url": "../624326e555d149f7/figures.png",
+              "ready": true
+            },
+            "poster.jpg": {
+              "url": "../624326e555d149f7/poster.jpg",
+              "ready": true
+            }
+          }
+        },
+        "cohort": "push_probe",
+        "outcomes": {
+          "completed": false,
+          "timeout": true,
+          "fall": false,
+          "technical_error": false
+        }
+      },
+      {
+        "id": "e4d32a03440f490b",
+        "policy": "g1_amp",
+        "seed": 0,
+        "status": "timeout",
+        "elapsed_s": 180.09,
+        "distance_m": 33.07,
+        "first_fall_s": null,
+        "fall_episodes": 0,
+        "recovered_episodes": 0,
+        "force_n": 360,
+        "applied": true,
+        "min_height_m": 0.6939077843663164,
+        "max_tilt_deg": 13.7,
+        "course": "warehouse",
+        "media": {
+          "renderer_version": 2,
+          "renderer_v2_ready": true,
+          "artifacts": {
+            "review.mp4": {
+              "url": "../e4d32a03440f490b/review.mp4",
+              "ready": true
+            },
+            "event.mp4": {
+              "url": "../e4d32a03440f490b/event.mp4",
+              "ready": true
+            },
+            "figures.png": {
+              "url": "../e4d32a03440f490b/figures.png",
+              "ready": true
+            },
+            "poster.jpg": {
+              "url": "../e4d32a03440f490b/poster.jpg",
+              "ready": true
+            }
+          }
+        },
+        "cohort": "push_probe",
+        "outcomes": {
+          "completed": false,
+          "timeout": true,
+          "fall": false,
+          "technical_error": false
+        }
+      },
+      {
+        "id": "6730a68b0f1a4ab2",
+        "policy": "g1_amp",
+        "seed": 1,
+        "status": "timeout",
+        "elapsed_s": 180.09,
+        "distance_m": 20.04,
+        "first_fall_s": null,
+        "fall_episodes": 0,
+        "recovered_episodes": 0,
+        "force_n": 360,
+        "applied": true,
+        "min_height_m": 0.6815638540466296,
+        "max_tilt_deg": 11.8,
+        "course": "warehouse",
+        "media": {
+          "renderer_version": 2,
+          "renderer_v2_ready": true,
+          "artifacts": {
+            "review.mp4": {
+              "url": "../6730a68b0f1a4ab2/review.mp4",
+              "ready": true
+            },
+            "event.mp4": {
+              "url": "../6730a68b0f1a4ab2/event.mp4",
+              "ready": true
+            },
+            "figures.png": {
+              "url": "../6730a68b0f1a4ab2/figures.png",
+              "ready": true
+            },
+            "poster.jpg": {
+              "url": "../6730a68b0f1a4ab2/poster.jpg",
+              "ready": true
+            }
+          }
+        },
+        "cohort": "push_probe",
+        "outcomes": {
+          "completed": false,
+          "timeout": true,
+          "fall": false,
+          "technical_error": false
+        }
+      }
+    ],
+    "zero_force_controls": [
+      {
+        "id": "c139e96c3c104fd1",
+        "policy": "g1_reference",
+        "seed": 0,
+        "status": "timeout",
+        "elapsed_s": 180.09,
+        "distance_m": 62.98,
+        "first_fall_s": null,
+        "fall_episodes": 0,
+        "recovered_episodes": 0,
+        "force_n": 0,
+        "applied": true,
+        "min_height_m": 0.7754328836062184,
+        "max_tilt_deg": 2.6,
+        "course": "warehouse",
+        "media": {
+          "renderer_version": 2,
+          "renderer_v2_ready": true,
+          "artifacts": {
+            "review.mp4": {
+              "url": "../c139e96c3c104fd1/review.mp4",
+              "ready": true
+            },
+            "event.mp4": {
+              "url": "../c139e96c3c104fd1/event.mp4",
+              "ready": true
+            },
+            "figures.png": {
+              "url": "../c139e96c3c104fd1/figures.png",
+              "ready": true
+            },
+            "poster.jpg": {
+              "url": "../c139e96c3c104fd1/poster.jpg",
+              "ready": true
+            }
+          }
+        },
+        "cohort": "push_probe_control",
+        "outcomes": {
+          "completed": false,
+          "timeout": true,
+          "fall": false,
+          "technical_error": false
+        }
+      },
+      {
+        "id": "48b1fd2655c14ef2",
+        "policy": "g1_reference",
+        "seed": 1,
+        "status": "timeout",
+        "elapsed_s": 180.09,
+        "distance_m": 62.99,
+        "first_fall_s": null,
+        "fall_episodes": 0,
+        "recovered_episodes": 0,
+        "force_n": 0,
+        "applied": true,
+        "min_height_m": 0.7755468407261283,
+        "max_tilt_deg": 2.6,
+        "course": "warehouse",
+        "media": {
+          "renderer_version": 2,
+          "renderer_v2_ready": true,
+          "artifacts": {
+            "review.mp4": {
+              "url": "../48b1fd2655c14ef2/review.mp4",
+              "ready": true
+            },
+            "event.mp4": {
+              "url": "../48b1fd2655c14ef2/event.mp4",
+              "ready": true
+            },
+            "figures.png": {
+              "url": "../48b1fd2655c14ef2/figures.png",
+              "ready": true
+            },
+            "poster.jpg": {
+              "url": "../48b1fd2655c14ef2/poster.jpg",
+              "ready": true
+            }
+          }
+        },
+        "cohort": "push_probe_control",
+        "outcomes": {
+          "completed": false,
+          "timeout": true,
+          "fall": false,
+          "technical_error": false
+        }
+      },
+      {
+        "id": "881fee1b4a274b6c",
+        "policy": "g1_amp",
+        "seed": 1,
+        "status": "timeout",
+        "elapsed_s": 180.09,
+        "distance_m": 41.35,
+        "first_fall_s": null,
+        "fall_episodes": 0,
+        "recovered_episodes": 0,
+        "force_n": 0,
+        "applied": true,
+        "min_height_m": 0.7339036887973823,
+        "max_tilt_deg": 12.2,
+        "course": "warehouse",
+        "media": {
+          "renderer_version": 2,
+          "renderer_v2_ready": true,
+          "artifacts": {
+            "review.mp4": {
+              "url": "../881fee1b4a274b6c/review.mp4",
+              "ready": true
+            },
+            "event.mp4": {
+              "url": "../881fee1b4a274b6c/event.mp4",
+              "ready": true
+            },
+            "figures.png": {
+              "url": "../881fee1b4a274b6c/figures.png",
+              "ready": true
+            },
+            "poster.jpg": {
+              "url": "../881fee1b4a274b6c/poster.jpg",
+              "ready": true
+            }
+          }
+        },
+        "cohort": "push_probe_control",
+        "outcomes": {
+          "completed": false,
+          "timeout": true,
+          "fall": false,
+          "technical_error": false
+        }
+      },
+      {
+        "id": "b387e17d4dd04fd5",
+        "policy": "g1_amp",
+        "seed": 0,
+        "status": "timeout",
+        "elapsed_s": 180.09,
+        "distance_m": 45.18,
+        "first_fall_s": null,
+        "fall_episodes": 0,
+        "recovered_episodes": 0,
+        "force_n": 0,
+        "applied": true,
+        "min_height_m": 0.7565290603346639,
+        "max_tilt_deg": 9.3,
+        "course": "warehouse",
+        "media": {
+          "renderer_version": 2,
+          "renderer_v2_ready": true,
+          "artifacts": {
+            "review.mp4": {
+              "url": "../b387e17d4dd04fd5/review.mp4",
+              "ready": true
+            },
+            "event.mp4": {
+              "url": "../b387e17d4dd04fd5/event.mp4",
+              "ready": true
+            },
+            "figures.png": {
+              "url": "../b387e17d4dd04fd5/figures.png",
+              "ready": true
+            },
+            "poster.jpg": {
+              "url": "../b387e17d4dd04fd5/poster.jpg",
+              "ready": true
+            }
+          }
+        },
+        "cohort": "push_probe_control",
+        "outcomes": {
+          "completed": false,
+          "timeout": true,
+          "fall": false,
+          "technical_error": false
+        }
+      }
+    ],
+    "observations": {
+      "reference_360_trials": 2,
+      "reference_360_fall_trials": 2,
+      "reference_360_first_fall_range_s": [
+        18.370000000000697,
+        18.880000000000415
+      ],
+      "reference_360_post_fall_observation_s": [
+        20.059999999999583,
+        20.0699999999993
+      ],
+      "amp_360_trials": 2,
+      "amp_360_fall_trials": 0,
+      "amp_360_seed1_distance_m": 20.04,
+      "amp_120_240_distance_median": 42.08
+    },
+    "totals": {
+      "trials": 12,
+      "falls": 2,
+      "recovered_episodes": 0,
+      "technical_errors": 0,
+      "timeouts": 10
+    }
+  },
+  "real_g1_jobs": {
+    "g1_reference": {
+      "saved_log": {
+        "name": "g1_g1_reference_1794773338",
+        "source": "synthetic",
+        "description": "Recorded from a live session in the TwinBench simulator (Drive the robot), not from a robot.",
+        "duration_s": 0.48,
+        "samples": 25
+      },
+      "orientation_source": "simulated_imu_site_pose",
+      "replay": {
+        "status": "done",
+        "synthetic": true,
+        "metrics": {
+          "joints": 29,
+          "compared": [
+            "q",
+            "dq",
+            "imu_quat",
+            "imu_gyro",
+            "imu_acc",
+            "base_pos"
+          ],
+          "sim_fell_s": null,
+          "log_fell_s": null,
+          "q_rmse_rad": 0.0,
+          "dq_rmse_radps": 0.0,
+          "tilt_error_rms_deg": 0.0,
+          "tilt_error_max_deg": 0.0,
+          "base_drift_rms_m": 0.0,
+          "base_height_rmse_m": 0.0
+        }
+      },
+      "regression": {
+        "status": "done",
+        "results": [
+          {
+            "name": "stand_still",
+            "status": "fail",
+            "description": "PD hold at the default pose, no policy and no push. A baseline that needs no downloaded weights.",
+            "metrics": {
+              "survived": false,
+              "fall_time_s": 1.38,
+              "max_tilt_deg": 73.8,
+              "min_pelvis_height_m": 0.308,
+              "mean_speed_mps": 0.0,
+              "forward_distance_m": 0.797,
+              "peak_torque_ratio": 0.407
+            }
+          },
+          {
+            "name": "walk_flat",
+            "status": "pass",
+            "description": "Walk forward at 0.5 m/s on the default floor for 10 s.",
+            "metrics": {
+              "survived": true,
+              "fall_time_s": null,
+              "max_tilt_deg": 3.0,
+              "min_pelvis_height_m": 0.773,
+              "mean_speed_mps": 0.51,
+              "forward_distance_m": 4.893,
+              "peak_torque_ratio": 0.678
+            }
+          }
+        ]
+      }
+    },
+    "g1_amp": {
+      "saved_log": {
+        "name": "g1_g1_amp_1794773340",
+        "source": "synthetic",
+        "description": "Recorded from a live session in the TwinBench simulator (Drive the robot), not from a robot.",
+        "duration_s": 0.48,
+        "samples": 25
+      },
+      "orientation_source": "simulated_imu_site_pose",
+      "replay": {
+        "status": "done",
+        "synthetic": true,
+        "metrics": {
+          "joints": 29,
+          "compared": [
+            "q",
+            "dq",
+            "imu_quat",
+            "imu_gyro",
+            "imu_acc",
+            "base_pos"
+          ],
+          "sim_fell_s": null,
+          "log_fell_s": null,
+          "q_rmse_rad": 0.0,
+          "dq_rmse_radps": 0.0,
+          "tilt_error_rms_deg": 0.0,
+          "tilt_error_max_deg": 0.0,
+          "base_drift_rms_m": 0.0,
+          "base_height_rmse_m": 0.0
+        }
+      },
+      "regression": {
+        "status": "done",
+        "results": [
+          {
+            "name": "stand_still",
+            "status": "fail",
+            "description": "PD hold at the default pose, no policy and no push. A baseline that needs no downloaded weights.",
+            "metrics": {
+              "survived": false,
+              "fall_time_s": 1.38,
+              "max_tilt_deg": 73.8,
+              "min_pelvis_height_m": 0.308,
+              "mean_speed_mps": 0.0,
+              "forward_distance_m": 0.797,
+              "peak_torque_ratio": 0.407
+            }
+          },
+          {
+            "name": "walk_flat",
+            "status": "pass",
+            "description": "Walk forward at 0.5 m/s on the default floor for 10 s.",
+            "metrics": {
+              "survived": true,
+              "fall_time_s": null,
+              "max_tilt_deg": 8.0,
+              "min_pelvis_height_m": 0.759,
+              "mean_speed_mps": 0.41,
+              "forward_distance_m": 2.704,
+              "peak_torque_ratio": 0.405
+            }
+          }
+        ]
+      }
+    }
+  }
+}

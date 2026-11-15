@@ -1,0 +1,1385 @@
+{
+  "robot": "unitree_g1_29",
+  "policy": "g1_amp",
+  "integration_audit": {
+    "robot": "unitree_g1_29",
+    "policy": "g1_amp",
+    "mujoco": "4.0.1",
+    "status": "pass",
+    "checks": [
+      {
+        "name": "robot_identity",
+        "status": "pass",
+        "details": "unitree_g1_29"
+      },
+      {
+        "name": "motor_count",
+        "status": "pass",
+        "details": {
+          "expected": 29,
+          "actual": 29
+        }
+      },
+      {
+        "name": "joint_order",
+        "status": "pass",
+        "details": [
+          "left_hip_pitch_joint",
+          "left_hip_roll_joint",
+          "left_hip_yaw_joint",
+          "left_knee_joint",
+          "left_ankle_pitch_joint",
+          "left_ankle_roll_joint",
+          "right_hip_pitch_joint",
+          "right_hip_roll_joint",
+          "right_hip_yaw_joint",
+          "right_knee_joint",
+          "right_ankle_pitch_joint",
+          "right_ankle_roll_joint",
+          "waist_yaw_joint",
+          "waist_roll_joint",
+          "waist_pitch_joint",
+          "left_shoulder_pitch_joint",
+          "left_shoulder_roll_joint",
+          "left_shoulder_yaw_joint",
+          "left_elbow_joint",
+          "left_wrist_roll_joint",
+          "left_wrist_pitch_joint",
+          "left_wrist_yaw_joint",
+          "right_shoulder_pitch_joint",
+          "right_shoulder_roll_joint",
+          "right_shoulder_yaw_joint",
+          "right_elbow_joint",
+          "right_wrist_roll_joint",
+          "right_wrist_pitch_joint",
+          "right_wrist_yaw_joint"
+        ]
+      },
+      {
+        "name": "control_timing",
+        "status": "pass",
+        "details": {
+          "physics_dt_s": 0.002,
+          "control_hz": 50
+        }
+      },
+      {
+        "name": "all_29_motor_signs_and_gains",
+        "status": "pass",
+        "details": {
+          "torque_for_positive_0_01rad": [
+            0.9909842778232623,
+            0.99098427782326,
+            0.4017923847366999,
+            0.9909842778232587,
+            0.28501246197378016,
+            0.2850124619737783,
+            0.9909842778232623,
+            0.99098427782326,
+            0.4017923847366999,
+            0.9909842778232587,
+            0.28501246197378016,
+            0.2850124619737783,
+            0.4017923847366999,
+            0.2850124619737783,
+            0.2850124619737783,
+            0.1425062309868892,
+            0.1425062309868892,
+            0.14250623098688914,
+            0.1425062309868892,
+            0.14250623098688914,
+            0.08611032447862442,
+            0.08611032447862442,
+            0.1425062309868892,
+            0.1425062309868892,
+            0.14250623098688914,
+            0.1425062309868892,
+            0.14250623098688914,
+            0.08611032447862442,
+            0.08611032447862442
+          ]
+        }
+      },
+      {
+        "name": "all_29_effort_caps",
+        "status": "pass",
+        "details": [
+          139.0,
+          139.0,
+          88.0,
+          139.0,
+          50.0,
+          50.0,
+          139.0,
+          139.0,
+          88.0,
+          139.0,
+          50.0,
+          50.0,
+          88.0,
+          50.0,
+          50.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          10.0,
+          10.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          10.0,
+          10.0
+        ]
+      },
+      {
+        "name": "all_29_encoders",
+        "status": "pass",
+        "details": "Each named encoder matches its joint qpos index"
+      },
+      {
+        "name": "all_29_velocity_sensors",
+        "status": "pass",
+        "details": "Each named velocity sensor matches its joint qvel index"
+      },
+      {
+        "name": "all_29_effort_sensors",
+        "status": "pass",
+        "details": "Each named effort sensor matches native actuator force"
+      },
+      {
+        "name": "imu_channels_finite",
+        "status": "pass",
+        "details": {
+          "gyro": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "acceleration": [
+            1.483506838366427e-15,
+            5.154476436212804e-16,
+            5.798234386488214e-15
+          ]
+        }
+      },
+      {
+        "name": "robot_camera_attachment",
+        "status": "pass",
+        "details": [
+          {
+            "name": "tracking",
+            "fovy_deg": 45.0,
+            "pos": [
+              1.734,
+              -1.135,
+              0.35
+            ],
+            "body": "pelvis"
+          },
+          {
+            "name": "front_rgb",
+            "fovy_deg": 60.0,
+            "pos": [
+              0.16,
+              0.0,
+              0.34
+            ],
+            "body": "torso_link"
+          },
+          {
+            "name": "left_rgb",
+            "fovy_deg": 60.0,
+            "pos": [
+              0.16,
+              0.032,
+              0.34
+            ],
+            "body": "torso_link"
+          },
+          {
+            "name": "right_rgb",
+            "fovy_deg": 60.0,
+            "pos": [
+              0.16,
+              -0.032,
+              0.34
+            ],
+            "body": "torso_link"
+          }
+        ]
+      },
+      {
+        "name": "policy_io_contract",
+        "status": "pass",
+        "details": {
+          "input": [
+            "batch",
+            384
+          ],
+          "output": [
+            "batch",
+            29
+          ]
+        }
+      },
+      {
+        "name": "native_servo_profile",
+        "status": "pass",
+        "details": {
+          "kp": [
+            99.098427782326,
+            99.098427782326,
+            40.17923847366999,
+            99.098427782326,
+            28.501246197377824,
+            28.501246197377824,
+            99.098427782326,
+            99.098427782326,
+            40.17923847366999,
+            99.098427782326,
+            28.501246197377824,
+            28.501246197377824,
+            40.17923847366999,
+            28.501246197377824,
+            28.501246197377824,
+            14.250623098688912,
+            14.250623098688912,
+            14.250623098688912,
+            14.250623098688912,
+            14.250623098688912,
+            8.611032447862442,
+            8.611032447862442,
+            14.250623098688912,
+            14.250623098688912,
+            14.250623098688912,
+            14.250623098688912,
+            14.250623098688912,
+            8.611032447862442,
+            8.611032447862442
+          ],
+          "kd": [
+            6.308801853676958,
+            6.308801853676958,
+            2.5578897651010557,
+            6.308801853676958,
+            1.8144456866367065,
+            1.8144456866367065,
+            6.308801853676958,
+            6.308801853676958,
+            2.5578897651010557,
+            6.308801853676958,
+            1.8144456866367065,
+            1.8144456866367065,
+            2.5578897651010557,
+            1.8144456866367065,
+            1.8144456866367065,
+            0.9072228433183532,
+            0.9072228433183532,
+            0.9072228433183532,
+            0.9072228433183532,
+            0.9072228433183532,
+            0.5481953516808045,
+            0.5481953516808045,
+            0.9072228433183532,
+            0.9072228433183532,
+            0.9072228433183532,
+            0.9072228433183532,
+            0.9072228433183532,
+            0.5481953516808045,
+            0.5481953516808045
+          ],
+          "armature": [
+            0.025101925,
+            0.025101925,
+            0.01017752,
+            0.025101925,
+            0.00721945,
+            0.00721945,
+            0.025101925,
+            0.025101925,
+            0.01017752,
+            0.025101925,
+            0.00721945,
+            0.00721945,
+            0.01017752,
+            0.00721945,
+            0.00721945,
+            0.003609725,
+            0.003609725,
+            0.003609725,
+            0.003609725,
+            0.003609725,
+            0.0021812,
+            0.0021812,
+            0.003609725,
+            0.003609725,
+            0.003609725,
+            0.003609725,
+            0.003609725,
+            0.0021812,
+            0.0021812
+          ]
+        }
+      }
+    ],
+    "not_modeled": [
+      "Articulated hands/grippers",
+      "Microphones/audio",
+      "Motor electrical/thermal dynamics",
+      "Battery depletion"
+    ],
+    "note": "Bench integration checks only. These do not certify locomotion quality, manipulation skill or hardware safety."
+  },
+  "id": "22e906a3a36a402c",
+  "course": "warehouse",
+  "title": "Warehouse aisle circuit",
+  "started_utc": "2026-11-15T19:23:54.103004+00:00",
+  "seed": 0,
+  "speed_mps": 0.35,
+  "laps": 3,
+  "horizon_s": 900.0,
+  "scene": {
+    "id": "warehouse",
+    "title": "Warehouse aisle circuit",
+    "description": "Repeated aisle turns between shelving, with loading fixtures outside the route.",
+    "question": "Do repeated turns and constrained aisles degrade a standard walking policy?",
+    "version": 3,
+    "seed": 0,
+    "route": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        6.0,
+        0.0
+      ],
+      [
+        6.0,
+        3.0
+      ],
+      [
+        -6.0,
+        3.0
+      ],
+      [
+        -6.0,
+        6.0
+      ],
+      [
+        6.0,
+        6.0
+      ],
+      [
+        6.0,
+        9.0
+      ],
+      [
+        -8.0,
+        9.0
+      ],
+      [
+        -8.0,
+        -3.0
+      ],
+      [
+        0.0,
+        -3.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "lap_distance_m": 76.0,
+    "laps": 3,
+    "horizon_s": 900,
+    "objects": [
+      {
+        "name": "rack_0_shelf_0",
+        "shape": "box",
+        "pos": [
+          0,
+          1.5,
+          0.08
+        ],
+        "size": [
+          4.5,
+          0.38,
+          0.035
+        ],
+        "rgba": [
+          0.34,
+          0.4,
+          0.47,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_0_shelf_1",
+        "shape": "box",
+        "pos": [
+          0,
+          1.5,
+          0.58
+        ],
+        "size": [
+          4.5,
+          0.38,
+          0.035
+        ],
+        "rgba": [
+          0.34,
+          0.4,
+          0.47,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_0_shelf_2",
+        "shape": "box",
+        "pos": [
+          0,
+          1.5,
+          1.08
+        ],
+        "size": [
+          4.5,
+          0.38,
+          0.035
+        ],
+        "rgba": [
+          0.34,
+          0.4,
+          0.47,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_0_shelf_3",
+        "shape": "box",
+        "pos": [
+          0,
+          1.5,
+          1.58
+        ],
+        "size": [
+          4.5,
+          0.38,
+          0.035
+        ],
+        "rgba": [
+          0.34,
+          0.4,
+          0.47,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_0_post_0",
+        "shape": "box",
+        "pos": [
+          -4.4,
+          1.5,
+          0.83
+        ],
+        "size": [
+          0.04,
+          0.38,
+          0.83
+        ],
+        "rgba": [
+          0.22,
+          0.27,
+          0.32,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_0_post_1",
+        "shape": "box",
+        "pos": [
+          0,
+          1.5,
+          0.83
+        ],
+        "size": [
+          0.04,
+          0.38,
+          0.83
+        ],
+        "rgba": [
+          0.22,
+          0.27,
+          0.32,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_0_post_2",
+        "shape": "box",
+        "pos": [
+          4.4,
+          1.5,
+          0.83
+        ],
+        "size": [
+          0.04,
+          0.38,
+          0.83
+        ],
+        "rgba": [
+          0.22,
+          0.27,
+          0.32,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_0_carton_0",
+        "shape": "box",
+        "pos": [
+          -3.0,
+          1.5,
+          0.8
+        ],
+        "size": [
+          0.32,
+          0.3,
+          0.18
+        ],
+        "rgba": [
+          0.65,
+          0.47,
+          0.28,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_0_carton_1",
+        "shape": "box",
+        "pos": [
+          1.0,
+          1.5,
+          0.8
+        ],
+        "size": [
+          0.32,
+          0.3,
+          0.18
+        ],
+        "rgba": [
+          0.65,
+          0.47,
+          0.28,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_0_carton_2",
+        "shape": "box",
+        "pos": [
+          3.0,
+          1.5,
+          0.8
+        ],
+        "size": [
+          0.32,
+          0.3,
+          0.18
+        ],
+        "rgba": [
+          0.65,
+          0.47,
+          0.28,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_1_shelf_0",
+        "shape": "box",
+        "pos": [
+          0,
+          4.5,
+          0.08
+        ],
+        "size": [
+          4.5,
+          0.38,
+          0.035
+        ],
+        "rgba": [
+          0.34,
+          0.4,
+          0.47,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_1_shelf_1",
+        "shape": "box",
+        "pos": [
+          0,
+          4.5,
+          0.58
+        ],
+        "size": [
+          4.5,
+          0.38,
+          0.035
+        ],
+        "rgba": [
+          0.34,
+          0.4,
+          0.47,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_1_shelf_2",
+        "shape": "box",
+        "pos": [
+          0,
+          4.5,
+          1.08
+        ],
+        "size": [
+          4.5,
+          0.38,
+          0.035
+        ],
+        "rgba": [
+          0.34,
+          0.4,
+          0.47,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_1_shelf_3",
+        "shape": "box",
+        "pos": [
+          0,
+          4.5,
+          1.58
+        ],
+        "size": [
+          4.5,
+          0.38,
+          0.035
+        ],
+        "rgba": [
+          0.34,
+          0.4,
+          0.47,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_1_post_0",
+        "shape": "box",
+        "pos": [
+          -4.4,
+          4.5,
+          0.83
+        ],
+        "size": [
+          0.04,
+          0.38,
+          0.83
+        ],
+        "rgba": [
+          0.22,
+          0.27,
+          0.32,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_1_post_1",
+        "shape": "box",
+        "pos": [
+          0,
+          4.5,
+          0.83
+        ],
+        "size": [
+          0.04,
+          0.38,
+          0.83
+        ],
+        "rgba": [
+          0.22,
+          0.27,
+          0.32,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_1_post_2",
+        "shape": "box",
+        "pos": [
+          4.4,
+          4.5,
+          0.83
+        ],
+        "size": [
+          0.04,
+          0.38,
+          0.83
+        ],
+        "rgba": [
+          0.22,
+          0.27,
+          0.32,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_1_carton_0",
+        "shape": "box",
+        "pos": [
+          -3.0,
+          4.5,
+          0.8
+        ],
+        "size": [
+          0.32,
+          0.3,
+          0.18
+        ],
+        "rgba": [
+          0.65,
+          0.47,
+          0.28,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_1_carton_1",
+        "shape": "box",
+        "pos": [
+          1.0,
+          4.5,
+          0.8
+        ],
+        "size": [
+          0.32,
+          0.3,
+          0.18
+        ],
+        "rgba": [
+          0.65,
+          0.47,
+          0.28,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_1_carton_2",
+        "shape": "box",
+        "pos": [
+          3.0,
+          4.5,
+          0.8
+        ],
+        "size": [
+          0.32,
+          0.3,
+          0.18
+        ],
+        "rgba": [
+          0.65,
+          0.47,
+          0.28,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_2_shelf_0",
+        "shape": "box",
+        "pos": [
+          0,
+          7.5,
+          0.08
+        ],
+        "size": [
+          4.5,
+          0.38,
+          0.035
+        ],
+        "rgba": [
+          0.34,
+          0.4,
+          0.47,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_2_shelf_1",
+        "shape": "box",
+        "pos": [
+          0,
+          7.5,
+          0.58
+        ],
+        "size": [
+          4.5,
+          0.38,
+          0.035
+        ],
+        "rgba": [
+          0.34,
+          0.4,
+          0.47,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_2_shelf_2",
+        "shape": "box",
+        "pos": [
+          0,
+          7.5,
+          1.08
+        ],
+        "size": [
+          4.5,
+          0.38,
+          0.035
+        ],
+        "rgba": [
+          0.34,
+          0.4,
+          0.47,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_2_shelf_3",
+        "shape": "box",
+        "pos": [
+          0,
+          7.5,
+          1.58
+        ],
+        "size": [
+          4.5,
+          0.38,
+          0.035
+        ],
+        "rgba": [
+          0.34,
+          0.4,
+          0.47,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_2_post_0",
+        "shape": "box",
+        "pos": [
+          -4.4,
+          7.5,
+          0.83
+        ],
+        "size": [
+          0.04,
+          0.38,
+          0.83
+        ],
+        "rgba": [
+          0.22,
+          0.27,
+          0.32,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_2_post_1",
+        "shape": "box",
+        "pos": [
+          0,
+          7.5,
+          0.83
+        ],
+        "size": [
+          0.04,
+          0.38,
+          0.83
+        ],
+        "rgba": [
+          0.22,
+          0.27,
+          0.32,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_2_post_2",
+        "shape": "box",
+        "pos": [
+          4.4,
+          7.5,
+          0.83
+        ],
+        "size": [
+          0.04,
+          0.38,
+          0.83
+        ],
+        "rgba": [
+          0.22,
+          0.27,
+          0.32,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_2_carton_0",
+        "shape": "box",
+        "pos": [
+          -3.0,
+          7.5,
+          0.8
+        ],
+        "size": [
+          0.32,
+          0.3,
+          0.18
+        ],
+        "rgba": [
+          0.65,
+          0.47,
+          0.28,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_2_carton_1",
+        "shape": "box",
+        "pos": [
+          1.0,
+          7.5,
+          0.8
+        ],
+        "size": [
+          0.32,
+          0.3,
+          0.18
+        ],
+        "rgba": [
+          0.65,
+          0.47,
+          0.28,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "rack_2_carton_2",
+        "shape": "box",
+        "pos": [
+          3.0,
+          7.5,
+          0.8
+        ],
+        "size": [
+          0.32,
+          0.3,
+          0.18
+        ],
+        "rgba": [
+          0.65,
+          0.47,
+          0.28,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "loading_table",
+        "shape": "box",
+        "pos": [
+          -3,
+          -6,
+          0.72
+        ],
+        "size": [
+          1,
+          0.55,
+          0.04
+        ],
+        "rgba": [
+          0.3,
+          0.4,
+          0.5,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "table_leg_0",
+        "shape": "box",
+        "pos": [
+          -3.8,
+          -6.4,
+          0.34
+        ],
+        "size": [
+          0.04,
+          0.04,
+          0.34
+        ],
+        "rgba": [
+          0.3,
+          0.4,
+          0.5,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "table_leg_1",
+        "shape": "box",
+        "pos": [
+          -2.2,
+          -6.4,
+          0.34
+        ],
+        "size": [
+          0.04,
+          0.04,
+          0.34
+        ],
+        "rgba": [
+          0.3,
+          0.4,
+          0.5,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "table_leg_2",
+        "shape": "box",
+        "pos": [
+          -3.8,
+          -5.6,
+          0.34
+        ],
+        "size": [
+          0.04,
+          0.04,
+          0.34
+        ],
+        "rgba": [
+          0.3,
+          0.4,
+          0.5,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "table_leg_3",
+        "shape": "box",
+        "pos": [
+          -2.2,
+          -5.6,
+          0.34
+        ],
+        "size": [
+          0.04,
+          0.04,
+          0.34
+        ],
+        "rgba": [
+          0.3,
+          0.4,
+          0.5,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "cargo_fixture",
+        "shape": "box",
+        "pos": [
+          -3,
+          -6,
+          0.94
+        ],
+        "size": [
+          0.3,
+          0.3,
+          0.18
+        ],
+        "rgba": [
+          0.68,
+          0.45,
+          0.2,
+          1
+        ],
+        "fixed": false,
+        "friction": 0.9,
+        "mass": 8
+      }
+    ],
+    "capability": "Standard locomotion only; no pick/carry/place, automatic get-up, VLA or recovery-preservation controller."
+  },
+  "status": "timeout",
+  "execution_mode": "batch_native_full_model",
+  "provenance": {
+    "mujoco": "4.0.1",
+    "robot": "unitree_g1_29",
+    "policy": "g1_amp",
+    "joint_order": [
+      "left_hip_pitch_joint",
+      "left_hip_roll_joint",
+      "left_hip_yaw_joint",
+      "left_knee_joint",
+      "left_ankle_pitch_joint",
+      "left_ankle_roll_joint",
+      "right_hip_pitch_joint",
+      "right_hip_roll_joint",
+      "right_hip_yaw_joint",
+      "right_knee_joint",
+      "right_ankle_pitch_joint",
+      "right_ankle_roll_joint",
+      "waist_yaw_joint",
+      "waist_roll_joint",
+      "waist_pitch_joint",
+      "left_shoulder_pitch_joint",
+      "left_shoulder_roll_joint",
+      "left_shoulder_yaw_joint",
+      "left_elbow_joint",
+      "left_wrist_roll_joint",
+      "left_wrist_pitch_joint",
+      "left_wrist_yaw_joint",
+      "right_shoulder_pitch_joint",
+      "right_shoulder_roll_joint",
+      "right_shoulder_yaw_joint",
+      "right_elbow_joint",
+      "right_wrist_roll_joint",
+      "right_wrist_pitch_joint",
+      "right_wrist_yaw_joint"
+    ],
+    "effort_limits_nm": [
+      139.0,
+      139.0,
+      88.0,
+      139.0,
+      50.0,
+      50.0,
+      139.0,
+      139.0,
+      88.0,
+      139.0,
+      50.0,
+      50.0,
+      88.0,
+      50.0,
+      50.0,
+      25.0,
+      25.0,
+      25.0,
+      25.0,
+      25.0,
+      10.0,
+      10.0,
+      25.0,
+      25.0,
+      25.0,
+      25.0,
+      25.0,
+      10.0,
+      10.0
+    ],
+    "policy_sha256": "36cfc5d2a4ad8e07621a02f925d47f6a7cca4aa4e8da36d8116d07217b55f0d6",
+    "spec_sha256": "5406900015ce169bbb28cd87473ea647cf101920ec4e8ac212f18ff4f9683bbe",
+    "robot_sha256": "4b8214ba445c1807086d3bea45cdba75a38a9e7571313f21b96a3638f7750549",
+    "scene_sha256": "dae157a574d18c338225a3eb037cfbe9c81450907ccc82e720dbb591095722ed",
+    "dt_s": 0.002
+  },
+  "report": "/research/22e906a3a36a402c/report.html",
+  "trace": "/research/22e906a3a36a402c/trace.jsonl",
+  "manifest": "/research/22e906a3a36a402c/manifest.json",
+  "model_sha256": "c16a03c3070f8b184596e09f72bfa48044e6abdd866a797e5748db201e8d7f6d",
+  "video_status": "pending",
+  "videos": {
+    "review": "/research/22e906a3a36a402c/review.mp4",
+    "event": "/research/22e906a3a36a402c/event.mp4",
+    "poster": "/research/22e906a3a36a402c/poster.jpg"
+  },
+  "initial_qpos": [
+    0.002739233746429086,
+    -0.004604265724722594,
+    0.78,
+    0.9999762957467548,
+    0.0,
+    0.0,
+    -0.00688534273647193,
+    -0.312,
+    0.0,
+    0.0,
+    0.669,
+    -0.363,
+    0.0,
+    -0.312,
+    0.0,
+    0.0,
+    0.669,
+    -0.363,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.2,
+    0.2,
+    0.0,
+    0.6,
+    0.0,
+    0.0,
+    0.0,
+    0.2,
+    -0.2,
+    0.0,
+    0.6,
+    0.0,
+    0.0,
+    0.0,
+    -3.0,
+    -6.0,
+    0.94,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "navigation": {
+    "heading_gain": 1.5,
+    "yaw_limit": 0.6,
+    "amp_yaw_gain": 5,
+    "goal_radius_m": 0.4
+  },
+  "elapsed_s": 900.1,
+  "waypoint": 5,
+  "waypoints": 10,
+  "lap": 2,
+  "distance_m": 209.11,
+  "max_tilt_deg": 14.1,
+  "finished_utc": "2026-11-15T19:25:28.806647+00:00",
+  "reason": "",
+  "completed_segments": 24,
+  "total_segments": 30,
+  "samples": 8909,
+  "min_height_m": 0.7169323628563269,
+  "max_actuator_use": 0.7513340832889857,
+  "manual_pushes": 0,
+  "contacted_fixtures": [],
+  "first_fall_s": null,
+  "interpretation": "The baseline completed 24/30 waypoint segments and traveled 209.1 m in 900.1 simulated seconds. The trial ended as timeout.  No fall threshold was crossed. Peak tilt was 14.1 degrees; peak applied PD torque was 75.1% of the configured effort limit. No robot contact with course fixtures was sampled. This measures task execution, not recovery-option availability. A failure motivates matched open-floor, steering and terrain ablations. One seed cannot establish causality, generalization, a new recovery algorithm or a hardware result."
+}

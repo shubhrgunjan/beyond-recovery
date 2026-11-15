@@ -1,0 +1,552 @@
+{
+  "note": "Original recorded artifacts copied unchanged. Seven raw traces are losslessly gzip-compressed. Videos are recorded-state replays, not original camera capture.",
+  "files": [
+    {
+      "file": "runs/043b91134fd44304/manifest.json",
+      "bytes": 17846,
+      "sha256": "10ddbdf1dd3967ee04b12432cab57ff343717cee4a174d9cab33f7fc148b7816"
+    },
+    {
+      "file": "runs/09f5c405ca634f14/manifest.json",
+      "bytes": 26231,
+      "sha256": "ddf3d0d11b8964ea87bd6dde0d69082569ccf96e3b1d942f61db5850fd1c53c8"
+    },
+    {
+      "file": "runs/0d85f0bd4206449d/manifest.json",
+      "bytes": 25590,
+      "sha256": "c64950ca5c831020a6ea5238da62cebdbdf47feca2506aa8fa2e1825cc8a7121"
+    },
+    {
+      "file": "runs/100ed1fe8d594602/manifest.json",
+      "bytes": 17333,
+      "sha256": "58d8d02a1a5fdcf271c1e5667eb2837797ab79dbd7fbf84cb2e64298c6fb8efc"
+    },
+    {
+      "file": "runs/19035a1b3ee64540/manifest.json",
+      "bytes": 17656,
+      "sha256": "fe1f94ba017b8bf8e7b173a5d5ec103b860954bd049579da03b333e97d7e8030"
+    },
+    {
+      "file": "runs/2166fa116bbc46d9/manifest.json",
+      "bytes": 17759,
+      "sha256": "dab8f40400efba357d58b17170f156e174ee6cc909b88d3b1909cb09a7b7f1b7"
+    },
+    {
+      "file": "runs/227afc5a4e5b4592/manifest.json",
+      "bytes": 29064,
+      "sha256": "9b5b30440259202c2c11fc97af36841cc787255eaea558447898e44ea2e3f5f0"
+    },
+    {
+      "file": "runs/227ce82a400b48d1/event.mp4",
+      "bytes": 1049089,
+      "sha256": "fdd6aaad2f897871238290f83dbfafa44b9ae46dc7ed527834dc8d1733527f3a"
+    },
+    {
+      "file": "runs/227ce82a400b48d1/figures.png",
+      "bytes": 119910,
+      "sha256": "764caed475ce2b909649554a8c4df5d9221e3adcb46e5b5c95cc7d02b43bfaa7"
+    },
+    {
+      "file": "runs/227ce82a400b48d1/manifest.json",
+      "bytes": 25589,
+      "sha256": "73bf33b6a16787718cca877b16792d9ec6abbd419c2a45231708164a08854545"
+    },
+    {
+      "file": "runs/227ce82a400b48d1/poster.jpg",
+      "bytes": 91865,
+      "sha256": "4a42b724a7456d91b2161e716d1f8e3e24e4484adf888d77425bd212df6e5df6"
+    },
+    {
+      "file": "runs/227ce82a400b48d1/review.mp4",
+      "bytes": 4147190,
+      "sha256": "0df6c348ec23b368ded1bd3ec75ee7a338b4875a61a8145360fabf0e96a15ad1"
+    },
+    {
+      "file": "runs/227ce82a400b48d1/summary.json",
+      "bytes": 26581,
+      "sha256": "7f6d74199246fab83db03e11fc549b81ed2a5401c3b8f9bf5d51296a742336c4"
+    },
+    {
+      "file": "runs/227ce82a400b48d1/trace.jsonl.gz",
+      "bytes": 20360060,
+      "sha256": "005882b93971a91dbe0b1f99064aa5f4668b76405861d80b8272df4976e3ac96",
+      "url": "https://github.com/shubhrgunjan/beyond-recovery/releases/download/g1-twinbench-2026-11-16/227ce82a400b48d1-trace.jsonl.gz"
+    },
+    {
+      "file": "runs/22e906a3a36a402c/event.mp4",
+      "bytes": 1008997,
+      "sha256": "318959f867b385b5137e77ddd84ba773da7737972a214bfbb5fd1a4a88381b56"
+    },
+    {
+      "file": "runs/22e906a3a36a402c/figures.png",
+      "bytes": 154095,
+      "sha256": "4406b7f811948e8cc18e94ca57fc6d1a0c44cba45d61a563242894ad16e7ac05"
+    },
+    {
+      "file": "runs/22e906a3a36a402c/manifest.json",
+      "bytes": 26236,
+      "sha256": "93a603f764218a40fad53e53f0ff9da5c6eb3dcb4dfd69157def27163af45f14"
+    },
+    {
+      "file": "runs/22e906a3a36a402c/poster.jpg",
+      "bytes": 91899,
+      "sha256": "c848a13bc549708991d8816ab9342054e7c58a9567538c9398270ef288eb15cd"
+    },
+    {
+      "file": "runs/22e906a3a36a402c/review.mp4",
+      "bytes": 5770422,
+      "sha256": "62081cf802a52ed228a6a0cfd001773bd401e767dcffde4c378379553aa74470"
+    },
+    {
+      "file": "runs/22e906a3a36a402c/summary.json",
+      "bytes": 27208,
+      "sha256": "10db379b0cd1c16e4ab892e24dfd2b1936cbf644052ed8da0104e1eb3423b7c9"
+    },
+    {
+      "file": "runs/22e906a3a36a402c/trace.jsonl.gz",
+      "bytes": 29765087,
+      "sha256": "4528ca9e1877de973ed8efbc0c1e4c6ceb50f6be42fed06fb11d0ba4e9578b0a",
+      "url": "https://github.com/shubhrgunjan/beyond-recovery/releases/download/g1-twinbench-2026-11-16/22e906a3a36a402c-trace.jsonl.gz"
+    },
+    {
+      "file": "runs/249ce8ac9c044dd8/manifest.json",
+      "bytes": 17201,
+      "sha256": "f28c4b94e439b7db50b64433521cb52d19c0f9e15fda18bae543269d7c347e4b"
+    },
+    {
+      "file": "runs/25ed807ca0394a00/manifest.json",
+      "bytes": 17654,
+      "sha256": "40bf3d7ab587c4c9eda9b9b2e49ee2896ca6d1b714b575f749af73ee561f7dac"
+    },
+    {
+      "file": "runs/28fee8d94f02476f/manifest.json",
+      "bytes": 17979,
+      "sha256": "0eab206c8fd08b539365acb8aa4be1f2782ee28486897eb6a0d2e6857d1c13a3"
+    },
+    {
+      "file": "runs/352fba494b7448e6/manifest.json",
+      "bytes": 29064,
+      "sha256": "3b648c4fc632833e42acf1d55b48a6a49561229af7ab666d2c9fbe7e3d1d71df"
+    },
+    {
+      "file": "runs/3a7c1bec6fcb4ec1/manifest.json",
+      "bytes": 26242,
+      "sha256": "ee9bb46607a6fc4fc39f0a75f1dcba80e262192aacb25d891b892fa1c23ee60f"
+    },
+    {
+      "file": "runs/3c454aacaa9b4c3c/manifest.json",
+      "bytes": 29063,
+      "sha256": "1ff1db6eb8f4cb2c6231d0f6be3ae8b4fbd325e432483496131492c0a0c04c99"
+    },
+    {
+      "file": "runs/3e2982d2695d48ac/manifest.json",
+      "bytes": 26237,
+      "sha256": "8a306c8ffe9e41e5515ecc68fd508fd6be9e98c8e4248ae546ac054ea3e46b7d"
+    },
+    {
+      "file": "runs/447346cd8f494fa0/manifest.json",
+      "bytes": 26691,
+      "sha256": "4e25760f8138624b4bcbb7b3f5282ddbde945e43a1037a02bc6a6f1dc80391d9"
+    },
+    {
+      "file": "runs/4bb8b731bdcb4c46/manifest.json",
+      "bytes": 26878,
+      "sha256": "754f44a1200a8eebbe8f16d3f3cd9d098ac125fa50d5fcca445864df8f3171d7"
+    },
+    {
+      "file": "runs/538f64bb72ab42c3/manifest.json",
+      "bytes": 18301,
+      "sha256": "188dcd544ac9af8a9323d3d5d4f2918b91351e39ee9ce22e07e87bf15a2461f8"
+    },
+    {
+      "file": "runs/5513d8a40e8c4c77/manifest.json",
+      "bytes": 17985,
+      "sha256": "2fef52757cf2ddc3681b0fc5f89475f63c4ebdccf5ecbf3764a42bd4297bc336"
+    },
+    {
+      "file": "runs/556cdc3e309e4f9e/manifest.json",
+      "bytes": 17108,
+      "sha256": "ba47b3685558eccfa28056eca47ef52ec197edce9650071bcfdacdff9617537f"
+    },
+    {
+      "file": "runs/55aab1056bf9489c/manifest.json",
+      "bytes": 17851,
+      "sha256": "446d5c9ec80d4361797f4bc5df35fa010bb307b6c735a773d7200e5a53ff11df"
+    },
+    {
+      "file": "runs/577cdd6bd2f3432d/manifest.json",
+      "bytes": 29710,
+      "sha256": "1e06a47d74a2352775ac15238ab01944fca7034cbde76394f4ee57463909e728"
+    },
+    {
+      "file": "runs/624326e555d149f7/manifest.json",
+      "bytes": 26883,
+      "sha256": "5ce40743df86f0cb7cceec8e4cb4071a70cf5166261e012dace35478533f5ea1"
+    },
+    {
+      "file": "runs/6514ab9c097242ff/manifest.json",
+      "bytes": 25395,
+      "sha256": "2e7564a429534f972a492f6063498115db6ad6ce06fd1ce1b07485b109963c75"
+    },
+    {
+      "file": "runs/6696146b317540b1/manifest.json",
+      "bytes": 24744,
+      "sha256": "1772d293cb871176f1366f4703f1ab0367a44e868e975694c780e4490bc1f99c"
+    },
+    {
+      "file": "runs/6709282492d44a40/manifest.json",
+      "bytes": 17847,
+      "sha256": "1666035ccac032b7307df4ac410556dda6b92c8eeb347dcc6af043a243edd07d"
+    },
+    {
+      "file": "runs/6730a68b0f1a4ab2/event.mp4",
+      "bytes": 1021301,
+      "sha256": "352fa8d8f53269d97409b4624e8d782949a16f9f0de68ca765c63c585b6e150e"
+    },
+    {
+      "file": "runs/6730a68b0f1a4ab2/figures.png",
+      "bytes": 142383,
+      "sha256": "5ccdd423fd827067636be497d1196f82fdec3cd1798d9f4c6fa6ef6dd080d0aa"
+    },
+    {
+      "file": "runs/6730a68b0f1a4ab2/manifest.json",
+      "bytes": 26883,
+      "sha256": "d15cee3a282710964df8834c4f6fd6e076469bef73f040b59ef057e22db3bea7"
+    },
+    {
+      "file": "runs/6730a68b0f1a4ab2/poster.jpg",
+      "bytes": 92177,
+      "sha256": "0a5d2faa2bcda922b5cfc1bb6e393dc46436b116e8d00fa3d63e97e5d5ce0ac8"
+    },
+    {
+      "file": "runs/6730a68b0f1a4ab2/review.mp4",
+      "bytes": 822018,
+      "sha256": "539304739049f535967abaeeacebbba95eb7be7eb7e340b2d474747286a9548a"
+    },
+    {
+      "file": "runs/6730a68b0f1a4ab2/summary.json",
+      "bytes": 28054,
+      "sha256": "887f6341189e1dd35b21068c9e795778ca8d9cd26e21bce5fdf0ea63040df9c1"
+    },
+    {
+      "file": "runs/6730a68b0f1a4ab2/trace.jsonl.gz",
+      "bytes": 6511912,
+      "sha256": "5a0eced71016e64826fc3733a099de7c94ba9043a17212decb28b0271d999eff",
+      "url": "https://github.com/shubhrgunjan/beyond-recovery/releases/download/g1-twinbench-2026-11-16/6730a68b0f1a4ab2-trace.jsonl.gz"
+    },
+    {
+      "file": "runs/6738980af5504b69/manifest.json",
+      "bytes": 25390,
+      "sha256": "d506eee9b10321217895925ddad1601557c48f90a12b0e21d3f5edc3509cbe0d"
+    },
+    {
+      "file": "runs/68f6dc775ba44f1d/manifest.json",
+      "bytes": 17332,
+      "sha256": "9f8791a647a7632803e106bb703d1e8e5c5e51345edc682d0afa11fa729050f2"
+    },
+    {
+      "file": "runs/6e32a870d42446a7/manifest.json",
+      "bytes": 24744,
+      "sha256": "23f64a986b5ba4a2698719010343b82a8f9608ae178157f26be1eeca2ef34a68"
+    },
+    {
+      "file": "runs/6f3a89fe36a64e30/manifest.json",
+      "bytes": 26231,
+      "sha256": "45239af5bc301757916932190934c7f90a220e633b567ead3111f0c11ae16524"
+    },
+    {
+      "file": "runs/736ab0f756764aae/manifest.json",
+      "bytes": 26240,
+      "sha256": "5f884ecbe6fb7d128552d7e3d224b9a7729a9c52a2244e82cd50fe64301f1552"
+    },
+    {
+      "file": "runs/78d0aaf76f174356/manifest.json",
+      "bytes": 17788,
+      "sha256": "054354b6efcfad0e973c0067cbc5286adfba15fb682d87c33af2dfba6541dc24"
+    },
+    {
+      "file": "runs/7a0b08773e5a469b/manifest.json",
+      "bytes": 26044,
+      "sha256": "5fad7162b62db151eac7641829818cffb2e24c3efbd82c621e62904eb6793e6d"
+    },
+    {
+      "file": "runs/7d76182eec6543d3/manifest.json",
+      "bytes": 17852,
+      "sha256": "566d17a112f239147b9eac262c0291a68ad1131a83887b66a092793b8c135b45"
+    },
+    {
+      "file": "runs/7e47c67490dd4e99/manifest.json",
+      "bytes": 18439,
+      "sha256": "401ba1a841644ed25fd7c9ea09aaa28307444d3a773f0be936fbae38269e186c"
+    },
+    {
+      "file": "runs/861bc643bfa64e38/manifest.json",
+      "bytes": 18307,
+      "sha256": "98773b8402a2e867da9e017bfdf09a978592f47ff08af3a55520f4ad34e958fc"
+    },
+    {
+      "file": "runs/8974c3c215e04e08/manifest.json",
+      "bytes": 26232,
+      "sha256": "2af696ef122c1ea2cd7e03924d9c91bb0664079ebcb5130f9207c415cb9b3f2b"
+    },
+    {
+      "file": "runs/9e784878213f4d25/manifest.json",
+      "bytes": 17108,
+      "sha256": "4cb2b074647757f4729a9a144b5c1c71baebf19a4f448003488211059f85ea15"
+    },
+    {
+      "file": "runs/a177f6474cd846d9/manifest.json",
+      "bytes": 29715,
+      "sha256": "bb2fe3d0d501f9aa5be6fa6e71d0a3497698236ebfa97a0cf2bd26da3d8d5d62"
+    },
+    {
+      "file": "runs/a2d325afbfcd472d/manifest.json",
+      "bytes": 26878,
+      "sha256": "c007587a32a910aa9a871c50692472ad95f8ab6852433456bf93f07678bb165e"
+    },
+    {
+      "file": "runs/a8d02131aa1447d8/manifest.json",
+      "bytes": 26045,
+      "sha256": "bd2e12d730beb70fc03d12076e4a5fad8d25492d5d94ca872f912f45e5996fc1"
+    },
+    {
+      "file": "runs/a9a78cace96b40a3/manifest.json",
+      "bytes": 17853,
+      "sha256": "9032e83dfc2ec4d50e463c03ebe444f4f40d0e120d3baef6e2ab6d0b8be0c13c"
+    },
+    {
+      "file": "runs/aa3794059cb74141/manifest.json",
+      "bytes": 17983,
+      "sha256": "7632ae555271e5c4b48b76d8ae323f49ec369a200ac0af64bc897cdb20a4a376"
+    },
+    {
+      "file": "runs/ab31de91fd69427d/manifest.json",
+      "bytes": 17199,
+      "sha256": "4b458bfadd490089e84b65377a0a5f2d00366ff6f8f9ecf5a3a4bd1627384b6f"
+    },
+    {
+      "file": "runs/b3b928cb51514f32/manifest.json",
+      "bytes": 17201,
+      "sha256": "096b6cfe8570849377b4fe022073241b461fcfd14725c1c81e43c56c55d4fd4d"
+    },
+    {
+      "file": "runs/b7ce0abbce6b467e/manifest.json",
+      "bytes": 26232,
+      "sha256": "6b6fd88a78cc10cdac59b3e13d050f601f843f6416972e269e2d2f9328f31c84"
+    },
+    {
+      "file": "runs/b9d39bbcf1234388/manifest.json",
+      "bytes": 26883,
+      "sha256": "348423b4ce8e563ea01f7ef81859c674dd36b7027b67909f4d10e430cc279102"
+    },
+    {
+      "file": "runs/c040ea4e6d42431d/event.mp4",
+      "bytes": 1104149,
+      "sha256": "9151d64f5495fef43460780d6954a695ed42f568aa63f1f7fbe91a02962ecb52"
+    },
+    {
+      "file": "runs/c040ea4e6d42431d/figures.png",
+      "bytes": 169787,
+      "sha256": "cb9f4749f326954fe9467ee7bdb46d8e5e6049133cedd2c08e736a7eabbaec36"
+    },
+    {
+      "file": "runs/c040ea4e6d42431d/manifest.json",
+      "bytes": 17980,
+      "sha256": "3c5cf7b366c5a17a402c7750f0cdc32f59e3e906f2e884469e215e76b7d13ce5"
+    },
+    {
+      "file": "runs/c040ea4e6d42431d/poster.jpg",
+      "bytes": 72567,
+      "sha256": "5e079ecd7f7f360947396e32d2d3f703e1f1abfae2949a7b9a36ec04c33e1454"
+    },
+    {
+      "file": "runs/c040ea4e6d42431d/review.mp4",
+      "bytes": 7233274,
+      "sha256": "12b4f3e53986a063d2a60ab1da3f8fe16701887fb760a1e715fbce17e63b24ff"
+    },
+    {
+      "file": "runs/c040ea4e6d42431d/summary.json",
+      "bytes": 19343,
+      "sha256": "d1347700466b4b6e562ada464ada74618b4975b6aafcc7af22d3088775f9735c"
+    },
+    {
+      "file": "runs/c040ea4e6d42431d/trace.jsonl.gz",
+      "bytes": 32590113,
+      "sha256": "047ba16c4d7767dff6e981de0ceeb68a7adb7c018494320a574afa3bb3ede035",
+      "url": "https://github.com/shubhrgunjan/beyond-recovery/releases/download/g1-twinbench-2026-11-16/c040ea4e6d42431d-trace.jsonl.gz"
+    },
+    {
+      "file": "runs/c0cdb55560e8410c/manifest.json",
+      "bytes": 17754,
+      "sha256": "c19c0eb72b346494ae91975cb805c197b637c34ad07a16124c5f586c569873d8"
+    },
+    {
+      "file": "runs/c7f44240adb74cb4/manifest.json",
+      "bytes": 17107,
+      "sha256": "e1496ef2d33d936a6737c28c674c6380025f96ed293e4cbfe0759578d33c3c47"
+    },
+    {
+      "file": "runs/ca0438fcc2114960/manifest.json",
+      "bytes": 17333,
+      "sha256": "3a0bbadf409fd5892fdb21800ceb031bfe4620aaf51ecb54a127962fac10df51"
+    },
+    {
+      "file": "runs/d12d6631672f4b8d/manifest.json",
+      "bytes": 25590,
+      "sha256": "ce8de93e32669cb07bc2f4ebe1ea9ed69cd991c18db2c6deb74cc207bf9b783a"
+    },
+    {
+      "file": "runs/d1d36c4416f34f2e/event.mp4",
+      "bytes": 1798235,
+      "sha256": "7689dd8e0dc3f5271e7620cd3f789427b9dfd0ed473ee263a7201c5955f18afc"
+    },
+    {
+      "file": "runs/d1d36c4416f34f2e/figures.png",
+      "bytes": 208792,
+      "sha256": "9f3ff73b3d61537abc4ea06e5594626405ae8ec1b404e90dd19ecc94c71825bf"
+    },
+    {
+      "file": "runs/d1d36c4416f34f2e/manifest.json",
+      "bytes": 26231,
+      "sha256": "c515851b1773ebb8d87d8450cd716ef2a1ad599b43b5b0922423f9dc20d95839"
+    },
+    {
+      "file": "runs/d1d36c4416f34f2e/poster.jpg",
+      "bytes": 91852,
+      "sha256": "52d79238e5e855fce3a94826edb766e20a51eee0e6cd272dd9990ab5ae9dbebf"
+    },
+    {
+      "file": "runs/d1d36c4416f34f2e/review.mp4",
+      "bytes": 447464,
+      "sha256": "453874156b157b731264a0aa202061cc95ec002cd0f68a600b26a4ad67375fab"
+    },
+    {
+      "file": "runs/d1d36c4416f34f2e/summary.json",
+      "bytes": 27659,
+      "sha256": "7a26e944276f5f78ad3ad917777d4bf2dab32d4886ea5551c74fb6a71d09af2b"
+    },
+    {
+      "file": "runs/d1d36c4416f34f2e/trace.jsonl.gz",
+      "bytes": 1126974,
+      "sha256": "b0cb3b4f09d5f49295d7bcedf390cb1c9948050d0fc601c15b257a034d408732",
+      "url": "https://github.com/shubhrgunjan/beyond-recovery/releases/download/g1-twinbench-2026-11-16/d1d36c4416f34f2e-trace.jsonl.gz"
+    },
+    {
+      "file": "runs/d4c2bd0891e2402f/event.mp4",
+      "bytes": 1082538,
+      "sha256": "31754d9893ed3e5e87a506f535dc779848b3177c45fe4f87d533aea3ade434aa"
+    },
+    {
+      "file": "runs/d4c2bd0891e2402f/figures.png",
+      "bytes": 170327,
+      "sha256": "028b155127271c13258508090f61577995fcef86e48550c8557f2ad138bb5258"
+    },
+    {
+      "file": "runs/d4c2bd0891e2402f/manifest.json",
+      "bytes": 18434,
+      "sha256": "25373eca6f0886d36e683e1102e9ec4e4f4f769f464cfaac6a5fe4224240db40"
+    },
+    {
+      "file": "runs/d4c2bd0891e2402f/poster.jpg",
+      "bytes": 72567,
+      "sha256": "5e079ecd7f7f360947396e32d2d3f703e1f1abfae2949a7b9a36ec04c33e1454"
+    },
+    {
+      "file": "runs/d4c2bd0891e2402f/review.mp4",
+      "bytes": 6693528,
+      "sha256": "591e4d7e801493d33911ef86c1221dcd99e1ca575b8011551e3d112b6a5cb86b"
+    },
+    {
+      "file": "runs/d4c2bd0891e2402f/summary.json",
+      "bytes": 19871,
+      "sha256": "1156fbcf5647c2274f0f78a1cd115bcd9673b564babe4955e14bee601cfef3d3"
+    },
+    {
+      "file": "runs/d4c2bd0891e2402f/trace.jsonl.gz",
+      "bytes": 31529752,
+      "sha256": "ae0505fd5bfd42740b12b62c5aec1dd9d334cb51cb5986a455665aa9924e3c8d",
+      "url": "https://github.com/shubhrgunjan/beyond-recovery/releases/download/g1-twinbench-2026-11-16/d4c2bd0891e2402f-trace.jsonl.gz"
+    },
+    {
+      "file": "runs/d751448d7df04f17/manifest.json",
+      "bytes": 25394,
+      "sha256": "b559708fe74ee7f39f193256c4837bbefa53dc555ad086683c48fb239ada8ad9"
+    },
+    {
+      "file": "runs/daff334ff9434989/manifest.json",
+      "bytes": 26241,
+      "sha256": "8df691dc0fa400fdc9082c17096cbd7c1fbc04910490b0b37298767483d3dac1"
+    },
+    {
+      "file": "runs/e4d32a03440f490b/manifest.json",
+      "bytes": 26878,
+      "sha256": "41b06bd8bf8c7fa59a164b255c5084ba8c8e5a2bfd5803aa2881d8733ec1ebae"
+    },
+    {
+      "file": "runs/ea9283685bc14964/manifest.json",
+      "bytes": 17758,
+      "sha256": "1b4224b8661379a1b513a2c889368e691ef6be40f903edf2a69341f11ea60347"
+    },
+    {
+      "file": "runs/eb15f06f580f46e7/manifest.json",
+      "bytes": 26232,
+      "sha256": "54d5c604519176c1a6045fae28477e0bbd6062b2e6da3e8999491b5578b47189"
+    },
+    {
+      "file": "runs/ed36ff5577a74f44/manifest.json",
+      "bytes": 29714,
+      "sha256": "753430a9a6b8f3a0e8b78db79ddd6326ef886c6ca13063fd3f3669452ef787de"
+    },
+    {
+      "file": "runs/edb391b17fa645d6/manifest.json",
+      "bytes": 17984,
+      "sha256": "6b30f59cbd203e12c78a00fe8eb907fa610f70808bdbcb2c871c07b8a12f8f6e"
+    },
+    {
+      "file": "runs/ee8a1b7c930e45b6/manifest.json",
+      "bytes": 24743,
+      "sha256": "91cc4b7cae8c5471d0c70e398080fcb3e9ba59b9e64632244ef613a0d02bc55d"
+    },
+    {
+      "file": "runs/f2287fbac0334851/event.mp4",
+      "bytes": 918725,
+      "sha256": "45ecf5b37042ebc92e5a4e098031948fdeec6e249623451cd09bdab13d3ef1ee"
+    },
+    {
+      "file": "runs/f2287fbac0334851/figures.png",
+      "bytes": 147688,
+      "sha256": "33f1be0d958635671f611fbd257f20271931cefb4bc4fad0d1d35fafeef17fa0"
+    },
+    {
+      "file": "runs/f2287fbac0334851/manifest.json",
+      "bytes": 17787,
+      "sha256": "02d73707c736d741422f67589706f65eea06207248710cbe60e5179fb88ae43b"
+    },
+    {
+      "file": "runs/f2287fbac0334851/poster.jpg",
+      "bytes": 72020,
+      "sha256": "b13806e194dc97cab3d537c14ac82a5dda824d78add79f642f9261347b70cbdf"
+    },
+    {
+      "file": "runs/f2287fbac0334851/review.mp4",
+      "bytes": 3900459,
+      "sha256": "af7a2c62eba596bb6670ce4402a75f9c119a907969a275e4c78bc11f9d2dc4b8"
+    },
+    {
+      "file": "runs/f2287fbac0334851/summary.json",
+      "bytes": 19221,
+      "sha256": "e37656cf5c5f149c421287d28e70c4ab71c2880a0e5771be5ee7f385da413ba0"
+    },
+    {
+      "file": "runs/f2287fbac0334851/trace.jsonl.gz",
+      "bytes": 17644791,
+      "sha256": "aa316220af17293e2a22c601810b3fa54ab07ec96d0b40699b3a665b7cb4e4a4",
+      "url": "https://github.com/shubhrgunjan/beyond-recovery/releases/download/g1-twinbench-2026-11-16/f2287fbac0334851-trace.jsonl.gz"
+    },
+    {
+      "file": "runs/fec87bee1e2e469a/manifest.json",
+      "bytes": 26696,
+      "sha256": "eff85575203312520557152c713a4d73c19e116d20108f09e1a4c867107460ef"
+    }
+  ]
+}

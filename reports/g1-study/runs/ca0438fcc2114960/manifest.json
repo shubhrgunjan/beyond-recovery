@@ -1,0 +1,855 @@
+{
+  "robot": "unitree_g1_29",
+  "policy": "g1_reference",
+  "integration_audit": {
+    "robot": "unitree_g1_29",
+    "policy": "g1_reference",
+    "mujoco": "4.0.1",
+    "status": "pass",
+    "checks": [
+      {
+        "name": "robot_identity",
+        "status": "pass",
+        "details": "unitree_g1_29"
+      },
+      {
+        "name": "motor_count",
+        "status": "pass",
+        "details": {
+          "expected": 29,
+          "actual": 29
+        }
+      },
+      {
+        "name": "joint_order",
+        "status": "pass",
+        "details": [
+          "left_hip_pitch_joint",
+          "left_hip_roll_joint",
+          "left_hip_yaw_joint",
+          "left_knee_joint",
+          "left_ankle_pitch_joint",
+          "left_ankle_roll_joint",
+          "right_hip_pitch_joint",
+          "right_hip_roll_joint",
+          "right_hip_yaw_joint",
+          "right_knee_joint",
+          "right_ankle_pitch_joint",
+          "right_ankle_roll_joint",
+          "waist_yaw_joint",
+          "waist_roll_joint",
+          "waist_pitch_joint",
+          "left_shoulder_pitch_joint",
+          "left_shoulder_roll_joint",
+          "left_shoulder_yaw_joint",
+          "left_elbow_joint",
+          "left_wrist_roll_joint",
+          "left_wrist_pitch_joint",
+          "left_wrist_yaw_joint",
+          "right_shoulder_pitch_joint",
+          "right_shoulder_roll_joint",
+          "right_shoulder_yaw_joint",
+          "right_elbow_joint",
+          "right_wrist_roll_joint",
+          "right_wrist_pitch_joint",
+          "right_wrist_yaw_joint"
+        ]
+      },
+      {
+        "name": "control_timing",
+        "status": "pass",
+        "details": {
+          "physics_dt_s": 0.002,
+          "control_hz": 50
+        }
+      },
+      {
+        "name": "all_29_motor_signs_and_gains",
+        "status": "pass",
+        "details": {
+          "torque_for_positive_0_01rad": [
+            0.4019999999999997,
+            0.991,
+            0.402,
+            0.9909999999999997,
+            0.28500000000000014,
+            0.28500000000000003,
+            0.4019999999999997,
+            0.991,
+            0.402,
+            0.9909999999999997,
+            0.28500000000000014,
+            0.28500000000000003,
+            0.402,
+            0.28500000000000003,
+            0.28500000000000003,
+            0.1429999999999998,
+            0.14300000000000024,
+            0.14300000000000002,
+            0.14300000000000068,
+            0.14300000000000002,
+            0.168,
+            0.168,
+            0.1429999999999998,
+            0.1429999999999998,
+            0.14300000000000002,
+            0.14300000000000068,
+            0.14300000000000002,
+            0.168,
+            0.168
+          ]
+        }
+      },
+      {
+        "name": "all_29_effort_caps",
+        "status": "pass",
+        "details": [
+          88.0,
+          139.0,
+          88.0,
+          139.0,
+          50.0,
+          50.0,
+          88.0,
+          139.0,
+          88.0,
+          139.0,
+          50.0,
+          50.0,
+          88.0,
+          50.0,
+          50.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          5.0,
+          5.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          5.0,
+          5.0
+        ]
+      },
+      {
+        "name": "all_29_encoders",
+        "status": "pass",
+        "details": "Each named encoder matches its joint qpos index"
+      },
+      {
+        "name": "all_29_velocity_sensors",
+        "status": "pass",
+        "details": "Each named velocity sensor matches its joint qvel index"
+      },
+      {
+        "name": "all_29_effort_sensors",
+        "status": "pass",
+        "details": "Each named effort sensor matches native actuator force"
+      },
+      {
+        "name": "imu_channels_finite",
+        "status": "pass",
+        "details": {
+          "gyro": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "acceleration": [
+            1.3762321266861684e-16,
+            2.192848092498583e-16,
+            2.7559363446038023e-16
+          ]
+        }
+      },
+      {
+        "name": "robot_camera_attachment",
+        "status": "pass",
+        "details": [
+          {
+            "name": "tracking",
+            "fovy_deg": 45.0,
+            "pos": [
+              1.734,
+              -1.135,
+              0.35
+            ],
+            "body": "pelvis"
+          },
+          {
+            "name": "front_rgb",
+            "fovy_deg": 60.0,
+            "pos": [
+              0.16,
+              0.0,
+              0.34
+            ],
+            "body": "torso_link"
+          },
+          {
+            "name": "left_rgb",
+            "fovy_deg": 60.0,
+            "pos": [
+              0.16,
+              0.032,
+              0.34
+            ],
+            "body": "torso_link"
+          },
+          {
+            "name": "right_rgb",
+            "fovy_deg": 60.0,
+            "pos": [
+              0.16,
+              -0.032,
+              0.34
+            ],
+            "body": "torso_link"
+          }
+        ]
+      },
+      {
+        "name": "policy_io_contract",
+        "status": "pass",
+        "details": {
+          "input": [
+            1,
+            98
+          ],
+          "output": [
+            1,
+            29
+          ]
+        }
+      },
+      {
+        "name": "native_servo_profile",
+        "status": "pass",
+        "details": {
+          "kp": [
+            40.2,
+            99.1,
+            40.2,
+            99.1,
+            28.5,
+            28.5,
+            40.2,
+            99.1,
+            40.2,
+            99.1,
+            28.5,
+            28.5,
+            40.2,
+            28.5,
+            28.5,
+            14.3,
+            14.3,
+            14.3,
+            14.3,
+            14.3,
+            16.8,
+            16.8,
+            14.3,
+            14.3,
+            14.3,
+            14.3,
+            14.3,
+            16.8,
+            16.8
+          ],
+          "kd": [
+            2.6,
+            6.3,
+            2.6,
+            6.3,
+            1.8,
+            1.8,
+            2.6,
+            6.3,
+            2.6,
+            6.3,
+            1.8,
+            1.8,
+            2.6,
+            1.8,
+            1.8,
+            0.9,
+            0.9,
+            0.9,
+            0.9,
+            0.9,
+            1.1,
+            1.1,
+            0.9,
+            0.9,
+            0.9,
+            0.9,
+            0.9,
+            1.1,
+            1.1
+          ],
+          "armature": [
+            0.010182778956054947,
+            0.02510232324738918,
+            0.010182778956054947,
+            0.02510232324738918,
+            0.007219134334516567,
+            0.007219134334516567,
+            0.010182778956054947,
+            0.02510232324738918,
+            0.010182778956054947,
+            0.02510232324738918,
+            0.007219134334516567,
+            0.007219134334516567,
+            0.010182778956054947,
+            0.007219134334516567,
+            0.007219134334516567,
+            0.0036222323152135757,
+            0.0036222323152135757,
+            0.0036222323152135757,
+            0.0036222323152135757,
+            0.0036222323152135757,
+            0.004255489712978186,
+            0.004255489712978186,
+            0.0036222323152135757,
+            0.0036222323152135757,
+            0.0036222323152135757,
+            0.0036222323152135757,
+            0.0036222323152135757,
+            0.004255489712978186,
+            0.004255489712978186
+          ]
+        }
+      }
+    ],
+    "not_modeled": [
+      "Articulated hands/grippers",
+      "Microphones/audio",
+      "Motor electrical/thermal dynamics",
+      "Battery depletion"
+    ],
+    "note": "Bench integration checks only. These do not certify locomotion quality, manipulation skill or hardware safety."
+  },
+  "id": "ca0438fcc2114960",
+  "course": "courtyard",
+  "title": "Uneven courtyard",
+  "started_utc": "2026-11-15T19:19:55.741231+00:00",
+  "seed": 1,
+  "speed_mps": 0.35,
+  "laps": 3,
+  "horizon_s": 900.0,
+  "scene": {
+    "id": "courtyard",
+    "title": "Uneven courtyard",
+    "description": "Seeded shallow paving irregularities along a long outdoor-style circuit.",
+    "question": "Do individually small ground changes accumulate into a task failure?",
+    "version": 3,
+    "seed": 1,
+    "route": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        6.0,
+        0.0
+      ],
+      [
+        6.0,
+        3.0
+      ],
+      [
+        -6.0,
+        3.0
+      ],
+      [
+        -6.0,
+        6.0
+      ],
+      [
+        6.0,
+        6.0
+      ],
+      [
+        6.0,
+        9.0
+      ],
+      [
+        -8.0,
+        9.0
+      ],
+      [
+        -8.0,
+        -3.0
+      ],
+      [
+        0.0,
+        -3.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "lap_distance_m": 76.0,
+    "laps": 3,
+    "horizon_s": 900,
+    "objects": [
+      {
+        "name": "planter_0",
+        "shape": "box",
+        "pos": [
+          0,
+          1.5,
+          0.22
+        ],
+        "size": [
+          4.5,
+          0.22,
+          0.22
+        ],
+        "rgba": [
+          0.43,
+          0.4,
+          0.35,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "hedge_0",
+        "shape": "box",
+        "pos": [
+          0,
+          1.5,
+          0.55
+        ],
+        "size": [
+          4.45,
+          0.2,
+          0.18
+        ],
+        "rgba": [
+          0.2,
+          0.36,
+          0.2,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "planter_1",
+        "shape": "box",
+        "pos": [
+          0,
+          4.5,
+          0.22
+        ],
+        "size": [
+          4.5,
+          0.22,
+          0.22
+        ],
+        "rgba": [
+          0.43,
+          0.4,
+          0.35,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "hedge_1",
+        "shape": "box",
+        "pos": [
+          0,
+          4.5,
+          0.55
+        ],
+        "size": [
+          4.45,
+          0.2,
+          0.18
+        ],
+        "rgba": [
+          0.2,
+          0.36,
+          0.2,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "planter_2",
+        "shape": "box",
+        "pos": [
+          0,
+          7.5,
+          0.22
+        ],
+        "size": [
+          4.5,
+          0.22,
+          0.22
+        ],
+        "rgba": [
+          0.43,
+          0.4,
+          0.35,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "hedge_2",
+        "shape": "box",
+        "pos": [
+          0,
+          7.5,
+          0.55
+        ],
+        "size": [
+          4.45,
+          0.2,
+          0.18
+        ],
+        "rgba": [
+          0.2,
+          0.36,
+          0.2,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "surface_0",
+        "shape": "box",
+        "pos": [
+          -3,
+          3,
+          0.015118216247002568
+        ],
+        "size": [
+          0.45,
+          0.55,
+          0.015118216247002568
+        ],
+        "rgba": [
+          0.55,
+          0.55,
+          0.5,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "surface_1",
+        "shape": "box",
+        "pos": [
+          0,
+          3,
+          0.019504636963259353
+        ],
+        "size": [
+          0.45,
+          0.55,
+          0.019504636963259353
+        ],
+        "rgba": [
+          0.55,
+          0.55,
+          0.5,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "surface_2",
+        "shape": "box",
+        "pos": [
+          3,
+          3,
+          0.011441596127196337
+        ],
+        "size": [
+          0.45,
+          0.55,
+          0.011441596127196337
+        ],
+        "rgba": [
+          0.55,
+          0.55,
+          0.5,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "surface_3",
+        "shape": "box",
+        "pos": [
+          -3,
+          6,
+          0.01948649447137244
+        ],
+        "size": [
+          0.45,
+          0.55,
+          0.01948649447137244
+        ],
+        "rgba": [
+          0.55,
+          0.55,
+          0.5,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "surface_4",
+        "shape": "box",
+        "pos": [
+          0,
+          6,
+          0.013118314520104854
+        ],
+        "size": [
+          0.45,
+          0.55,
+          0.013118314520104854
+        ],
+        "rgba": [
+          0.55,
+          0.55,
+          0.5,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "surface_5",
+        "shape": "box",
+        "pos": [
+          3,
+          6,
+          0.014233264489725757
+        ],
+        "size": [
+          0.45,
+          0.55,
+          0.014233264489725757
+        ],
+        "rgba": [
+          0.55,
+          0.55,
+          0.5,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "surface_6",
+        "shape": "box",
+        "pos": [
+          -3,
+          9,
+          0.01827702593820442
+        ],
+        "size": [
+          0.45,
+          0.55,
+          0.01827702593820442
+        ],
+        "rgba": [
+          0.55,
+          0.55,
+          0.5,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      },
+      {
+        "name": "surface_7",
+        "shape": "box",
+        "pos": [
+          1,
+          9,
+          0.014091991363691613
+        ],
+        "size": [
+          0.45,
+          0.55,
+          0.014091991363691613
+        ],
+        "rgba": [
+          0.55,
+          0.55,
+          0.5,
+          1
+        ],
+        "fixed": true,
+        "friction": 0.9,
+        "mass": 10
+      }
+    ],
+    "capability": "Standard locomotion only; no pick/carry/place, automatic get-up, VLA or recovery-preservation controller."
+  },
+  "status": "running",
+  "execution_mode": "batch_native_full_model",
+  "provenance": {
+    "mujoco": "4.0.1",
+    "robot": "unitree_g1_29",
+    "policy": "g1_reference",
+    "joint_order": [
+      "left_hip_pitch_joint",
+      "left_hip_roll_joint",
+      "left_hip_yaw_joint",
+      "left_knee_joint",
+      "left_ankle_pitch_joint",
+      "left_ankle_roll_joint",
+      "right_hip_pitch_joint",
+      "right_hip_roll_joint",
+      "right_hip_yaw_joint",
+      "right_knee_joint",
+      "right_ankle_pitch_joint",
+      "right_ankle_roll_joint",
+      "waist_yaw_joint",
+      "waist_roll_joint",
+      "waist_pitch_joint",
+      "left_shoulder_pitch_joint",
+      "left_shoulder_roll_joint",
+      "left_shoulder_yaw_joint",
+      "left_elbow_joint",
+      "left_wrist_roll_joint",
+      "left_wrist_pitch_joint",
+      "left_wrist_yaw_joint",
+      "right_shoulder_pitch_joint",
+      "right_shoulder_roll_joint",
+      "right_shoulder_yaw_joint",
+      "right_elbow_joint",
+      "right_wrist_roll_joint",
+      "right_wrist_pitch_joint",
+      "right_wrist_yaw_joint"
+    ],
+    "effort_limits_nm": [
+      88.0,
+      139.0,
+      88.0,
+      139.0,
+      50.0,
+      50.0,
+      88.0,
+      139.0,
+      88.0,
+      139.0,
+      50.0,
+      50.0,
+      88.0,
+      50.0,
+      50.0,
+      25.0,
+      25.0,
+      25.0,
+      25.0,
+      25.0,
+      5.0,
+      5.0,
+      25.0,
+      25.0,
+      25.0,
+      25.0,
+      25.0,
+      5.0,
+      5.0
+    ],
+    "policy_sha256": "2a66ca6336eadb3c0b34b557763f3e06d01ff8fcf6260dd4cedbd69d6093fc28",
+    "spec_sha256": "f8b40158e4765623d7ecb5c688133eda1563a966c2a2c3f211d983b656e4e80d",
+    "robot_sha256": "4b8214ba445c1807086d3bea45cdba75a38a9e7571313f21b96a3638f7750549",
+    "scene_sha256": "3eea2b0994ce1708f168735c221d233f8e3a0d5325fab089d046628bd1f2b286",
+    "dt_s": 0.002
+  },
+  "report": "/research/ca0438fcc2114960/report.html",
+  "trace": "/research/ca0438fcc2114960/trace.jsonl",
+  "manifest": "/research/ca0438fcc2114960/manifest.json",
+  "model_sha256": "00fa28ccfc122528f3fb2328b6a5736ebbc92edf4c6a721599ec9b7bfdcd8b1a",
+  "video_status": "pending",
+  "videos": {
+    "review": "/research/ca0438fcc2114960/review.mp4",
+    "event": "/research/ca0438fcc2114960/event.mp4",
+    "poster": "/research/ca0438fcc2114960/poster.jpg"
+  },
+  "initial_qpos": [
+    0.00023643249400513364,
+    0.009009273926518705,
+    0.8,
+    0.9999857550159328,
+    0.0,
+    0.0,
+    -0.005337580464478188,
+    -0.1,
+    0.0,
+    0.0,
+    0.3,
+    -0.2,
+    0.0,
+    -0.1,
+    0.0,
+    0.0,
+    0.3,
+    -0.2,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.35,
+    0.18,
+    0.0,
+    0.87,
+    0.0,
+    0.0,
+    0.0,
+    0.35,
+    -0.18,
+    0.0,
+    0.87,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "navigation": {
+    "heading_gain": 1.5,
+    "yaw_limit": 0.6,
+    "amp_yaw_gain": 1,
+    "goal_radius_m": 0.4
+  }
+}
