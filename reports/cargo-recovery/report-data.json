@@ -1,0 +1,3096 @@
+{
+  "campaign_status": {
+    "files": {
+      "configuration.json": {
+        "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-campaigns/warehouse_final_v1/configuration.json",
+        "sha256": "685c5e8ae4103b332057469a42955d97c4ed9ff4718a07a0dad481cb9ed7882f"
+      },
+      "progress.json": {
+        "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-campaigns/warehouse_final_v1/progress.json",
+        "sha256": "da092667f0935032ce01a17961e6eef23360d598f4bc0682a5a44870b101744a"
+      },
+      "results.json": {
+        "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-campaigns/warehouse_final_v1/results.json",
+        "sha256": "4af4285b44a78b87d0091fcdeec5fcdd5ffb7fc76d5e3cec9209a1376630ece9"
+      }
+    },
+    "progress": {
+      "complete": 45,
+      "last": {
+        "checkpoint": "late_open_loaded_carry",
+        "completed": true,
+        "impulse_ns": 0.0,
+        "log": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-campaigns/warehouse_final_v1/logs/0043.log",
+        "number": 43,
+        "outcome": "completed",
+        "output": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/b7beb88ab45b45b3",
+        "parent": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe",
+        "parent_id": "cb9f3d1a7c0649fe",
+        "recovery": "lateral_escape",
+        "resume_s": 10.339999999990596,
+        "returncode": 0,
+        "run_id": "b7beb88ab45b45b3",
+        "sign": 1,
+        "status": "complete",
+        "wall_seconds": 67.01119875907898
+      },
+      "status": "running",
+      "technical_errors": 0,
+      "total": 225,
+      "wall_seconds": 641.3617784976959
+    }
+  },
+  "complete_five_option_banks": [],
+  "eligible_baselines": [
+    {
+      "deadline_s": 900.0,
+      "elapsed_s": 482.49999999963103,
+      "eligible": true,
+      "id": "32dc5deadbc841dd",
+      "links": {
+        "manifest": "data/forks/32dc5deadbc841dd/manifest.json",
+        "summary": "data/forks/32dc5deadbc841dd/summary.json"
+      },
+      "manifest_sha256": "b5f09205bcc435801af0d96b1a50a61b97f43d1db18ccf6152841b603b2103db",
+      "mass_kg": 2.0,
+      "model_sha256": "a6458305062e374a38fbb9e69ebc63cbb7abde4f7a5c4966589d47f6f6971dd2",
+      "outcome": "completed",
+      "parent_lineage": null,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "reasons": [],
+      "route_length_m": 47.25,
+      "seed": 0,
+      "source_hashes": {
+        "tools/run_cargo_mission.py": "a11e8ebd3549e05014521f2a28c8150ca06a214d5cd7f6f6cd31e3d75e052d3c",
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_metrics.py": "d8f2f330efa8c501bf258110abc8f85a5484f886f1d5fe65faa4bb8072fd0005",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "29b4f2322ed96c2c3fe90d1cba205adfd4eca23e13005e90c05a054100cf3edb",
+      "tag": "final_sync_nominal_seed_0"
+    },
+    {
+      "deadline_s": 900.0,
+      "elapsed_s": 489.17999999962495,
+      "eligible": true,
+      "id": "5add07da420147f5",
+      "links": {
+        "manifest": "data/forks/5add07da420147f5/manifest.json",
+        "summary": "data/forks/5add07da420147f5/summary.json"
+      },
+      "manifest_sha256": "a33630acc0e739de11d40098e548e6ab1e019c53a75bfb3258720ba085c1a178",
+      "mass_kg": 2.0,
+      "model_sha256": "a6458305062e374a38fbb9e69ebc63cbb7abde4f7a5c4966589d47f6f6971dd2",
+      "outcome": "completed",
+      "parent_lineage": null,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/5add07da420147f5",
+      "reasons": [],
+      "route_length_m": 47.25,
+      "seed": 1,
+      "source_hashes": {
+        "tools/run_cargo_mission.py": "a11e8ebd3549e05014521f2a28c8150ca06a214d5cd7f6f6cd31e3d75e052d3c",
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_metrics.py": "d8f2f330efa8c501bf258110abc8f85a5484f886f1d5fe65faa4bb8072fd0005",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "d336e173b42a28b7a2ed1bea7c05684d5d8678b81a81c93383af6030dd580e27",
+      "tag": "final_sync_nominal_seed_1"
+    },
+    {
+      "deadline_s": 900.0,
+      "elapsed_s": 490.0999999996241,
+      "eligible": true,
+      "id": "cb9f3d1a7c0649fe",
+      "links": {
+        "manifest": "data/forks/cb9f3d1a7c0649fe/manifest.json",
+        "summary": "data/forks/cb9f3d1a7c0649fe/summary.json"
+      },
+      "manifest_sha256": "27e4e300294e97a406ad67a3dd6f575e582c24151cfd93c6ba2dd85ece9b689d",
+      "mass_kg": 2.0,
+      "model_sha256": "a6458305062e374a38fbb9e69ebc63cbb7abde4f7a5c4966589d47f6f6971dd2",
+      "outcome": "completed",
+      "parent_lineage": null,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe",
+      "reasons": [],
+      "route_length_m": 47.25,
+      "seed": 2,
+      "source_hashes": {
+        "tools/run_cargo_mission.py": "a11e8ebd3549e05014521f2a28c8150ca06a214d5cd7f6f6cd31e3d75e052d3c",
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_metrics.py": "d8f2f330efa8c501bf258110abc8f85a5484f886f1d5fe65faa4bb8072fd0005",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "daa3e5f178bba428b5c69974aa2e43082a59e4c77dd4db08b9b34e585f977f51",
+      "tag": "final_sync_nominal_seed_2"
+    }
+  ],
+  "eligible_completed_fork_count": 46,
+  "eligible_fork_count": 0,
+  "excluded_baselines": [],
+  "fork_count": 53,
+  "fork_outcome_counts": {
+    "completed": 0,
+    "drop": 0,
+    "fall": 0,
+    "other": 0,
+    "placement failed": 0,
+    "timeout": 0
+  },
+  "forks": [
+    {
+      "action": "lateral_escape",
+      "checkpoint_digest": "44763e71316f761571064f8368583fe7489ebd515de83e431c4e7e3b9ba9e308",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "03d877821dcb4d65",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/03d877821dcb4d65/manifest.json",
+        "summary": "data/forks/03d877821dcb4d65/summary.json"
+      },
+      "manifest_sha256": "6e6b0bad840bb417e1e69e1cb0b293440d77777ce2bf9e2a41a2351d39b06e04",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 9.121847298443091,
+      "min_payload_bottom_height_m": 0.7598604945564833,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "5add07da420147f5",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/5add07da420147f5",
+      "parent_seed": 1,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/03d877821dcb4d65",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 7.379999999993288,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "4867e18a64c9bf77cf18608ac19f8541bdb3e818b0a770c2e3d44c8d952bae6c",
+      "task_clock_s": 488.19999999962585
+    },
+    {
+      "action": "stop",
+      "checkpoint_digest": "71e02c3f12b4a39b236f91ddbb352eb83b3defd388a71c039a5fc63c4bc1fe20",
+      "condition_role": "disturbed recovery fork",
+      "deadline_control": false,
+      "exclusion_reasons": [
+        "fork status is running",
+        "fork summary not yet available"
+      ],
+      "fork_status": "running",
+      "id": "0ddbb89ecf4b4ad9",
+      "impulse_ns": 4.0,
+      "included_in_counts": false,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/0ddbb89ecf4b4ad9/manifest.json"
+      },
+      "manifest_sha256": "029e173728f53abe3992913d812237c11ef3e83c9f4a549522e889976b96f267",
+      "max_motor_utilization": null,
+      "max_tilt_deg": null,
+      "min_payload_bottom_height_m": null,
+      "outcome": "unknown",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/0ddbb89ecf4b4ad9",
+      "placement_completed": false,
+      "raw_outcome": null,
+      "resumption_s": null,
+      "sign": null,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": null,
+      "task_clock_s": null
+    },
+    {
+      "action": "backstep",
+      "checkpoint_digest": "71e02c3f12b4a39b236f91ddbb352eb83b3defd388a71c039a5fc63c4bc1fe20",
+      "condition_role": "disturbed recovery fork",
+      "deadline_control": false,
+      "exclusion_reasons": [
+        "fork status is running",
+        "fork summary not yet available"
+      ],
+      "fork_status": "running",
+      "id": "15efe109e7534e51",
+      "impulse_ns": 4.0,
+      "included_in_counts": false,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/15efe109e7534e51/manifest.json"
+      },
+      "manifest_sha256": "b3899536fe54cfa547a0f75742ba7766f1d7eb23c673a2b4d2f9579f1efc4460",
+      "max_motor_utilization": null,
+      "max_tilt_deg": null,
+      "min_payload_bottom_height_m": null,
+      "outcome": "unknown",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/15efe109e7534e51",
+      "placement_completed": false,
+      "raw_outcome": null,
+      "resumption_s": null,
+      "sign": null,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": null,
+      "task_clock_s": null
+    },
+    {
+      "action": "stop",
+      "checkpoint_digest": "07397d465c8d4fb40c10b84fe9ea3d39bb009786adbd64d56d3b69f7de9c3078",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "163719da895c4197",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/163719da895c4197/manifest.json",
+        "summary": "data/forks/163719da895c4197/summary.json"
+      },
+      "manifest_sha256": "69bf666379425d195f9b0e00ba6ad099b6dd61bc8062dc8a96663993b1efa3b8",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 9.321344159521333,
+      "min_payload_bottom_height_m": 0.7594538602661473,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "cb9f3d1a7c0649fe",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe",
+      "parent_seed": 2,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/163719da895c4197",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 8.93999999999187,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "60d48e1d8857a6a3a4ccedd02326dda619ebd84cbfad5f47478356040459c7e1",
+      "task_clock_s": 490.59999999962366
+    },
+    {
+      "action": "lateral_escape",
+      "checkpoint_digest": "f41a9b65787faa1f317e9cae779f1dd768b4b313493802c5cb6f443ea1ff1ca2",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "16deabbb36904480",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/16deabbb36904480/manifest.json",
+        "summary": "data/forks/16deabbb36904480/summary.json"
+      },
+      "manifest_sha256": "1364f3eb7cf00221af133ad9e82d43197087beb47dea6b9f3ba15dd786db724a",
+      "max_motor_utilization": 0.843967002572669,
+      "max_tilt_deg": 9.29856210232073,
+      "min_payload_bottom_height_m": 0.7581367703764317,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/16deabbb36904480",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 7.379999999993288,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "b876ab416c4eb5b29428224bb0495df20da7c689430dd842b3b7d140ded5b2f3",
+      "task_clock_s": 488.1399999996259
+    },
+    {
+      "action": "backstep",
+      "checkpoint_digest": "07397d465c8d4fb40c10b84fe9ea3d39bb009786adbd64d56d3b69f7de9c3078",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "1b50099357c641da",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/1b50099357c641da/manifest.json",
+        "summary": "data/forks/1b50099357c641da/summary.json"
+      },
+      "manifest_sha256": "d7ab2186a1ce5de63c065db1b3ac63777a6f5a0e3fdd0fb6c6c4f8bb094b23a0",
+      "max_motor_utilization": 0.8624527323445889,
+      "max_tilt_deg": 9.007201225298939,
+      "min_payload_bottom_height_m": 0.7597900968780095,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "cb9f3d1a7c0649fe",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe",
+      "parent_seed": 2,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/1b50099357c641da",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 9.459999999991396,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "210729e5d4ccb8e6a29224859db67b807adb9ddf3459e66c94b0d76cd1db4f44",
+      "task_clock_s": 492.2199999996222
+    },
+    {
+      "action": "lateral_negative",
+      "checkpoint_digest": "44763e71316f761571064f8368583fe7489ebd515de83e431c4e7e3b9ba9e308",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "243257fbd2ec4da4",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/243257fbd2ec4da4/manifest.json",
+        "summary": "data/forks/243257fbd2ec4da4/summary.json"
+      },
+      "manifest_sha256": "c58a51b1a5160c5197219d298acae983e4d36073bf3a99f4d9bb404086f64c7b",
+      "max_motor_utilization": 0.8440294672711127,
+      "max_tilt_deg": 9.37519545236771,
+      "min_payload_bottom_height_m": 0.7598028342595502,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "5add07da420147f5",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/5add07da420147f5",
+      "parent_seed": 1,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/243257fbd2ec4da4",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 7.4199999999932515,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "4ec7b62df3f52436854285e4d9d9ecd8de520e11e19e99aba027e877abd0d32d",
+      "task_clock_s": 489.17999999962495
+    },
+    {
+      "action": "lateral_negative",
+      "checkpoint_digest": "f41a9b65787faa1f317e9cae779f1dd768b4b313493802c5cb6f443ea1ff1ca2",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "27622d63965c496e",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/27622d63965c496e/manifest.json",
+        "summary": "data/forks/27622d63965c496e/summary.json"
+      },
+      "manifest_sha256": "943b7621cf0d3ff56a831e8da02cb36d0f88671194d3bea7337dbede4a37029e",
+      "max_motor_utilization": 0.8342447941340123,
+      "max_tilt_deg": 9.019326564090948,
+      "min_payload_bottom_height_m": 0.7597456571358647,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/27622d63965c496e",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 7.4199999999932515,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "404ca26aabe26cd5126a5660bbb99c9e7f2cdc397eb5aaa35eb901f65a95fdcc",
+      "task_clock_s": 486.0199999996278
+    },
+    {
+      "action": "lateral_negative",
+      "checkpoint_digest": "d16862f3772e280db859ccfe777072d9d045d877412fbbbf9bae4e38be0acefa",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "2b5d9a79d8eb4f27",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/2b5d9a79d8eb4f27/manifest.json",
+        "summary": "data/forks/2b5d9a79d8eb4f27/summary.json"
+      },
+      "manifest_sha256": "9f171cd5d0b511c9f7be4ae6860311136186c3640f55045d6eec14f3b8646796",
+      "max_motor_utilization": 0.8638930458062202,
+      "max_tilt_deg": 9.23965979060743,
+      "min_payload_bottom_height_m": 0.7597724661227584,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/2b5d9a79d8eb4f27",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 8.979999999991833,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "0e3448b961b999491bf45bf4a6ea587c5b0d3e8b61e5194f6c8e2912261429d0",
+      "task_clock_s": 487.85999999962615
+    },
+    {
+      "action": "lateral_escape",
+      "checkpoint_digest": "279b4e5b29f69394309c0d57ce015bd210f930261b5e9cb827fb64ef0c441a21",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "2deb9a62f7f44d27",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/2deb9a62f7f44d27/manifest.json",
+        "summary": "data/forks/2deb9a62f7f44d27/summary.json"
+      },
+      "manifest_sha256": "9d9154fe406fc127fb830792f5bf62ea27955d9e95eac04053d5939e59c26b11",
+      "max_motor_utilization": 0.8583402120894185,
+      "max_tilt_deg": 9.183737820568332,
+      "min_payload_bottom_height_m": 0.7598996141386707,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "5add07da420147f5",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/5add07da420147f5",
+      "parent_seed": 1,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/2deb9a62f7f44d27",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 10.37999999999056,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "b2d7045281c82947d82f59bbe50780d178c26190e881cf18c3e14776e41becd6",
+      "task_clock_s": 492.59999999962184
+    },
+    {
+      "action": "continue",
+      "checkpoint_digest": "71e02c3f12b4a39b236f91ddbb352eb83b3defd388a71c039a5fc63c4bc1fe20",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "2ec911f8be2446db",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/2ec911f8be2446db/manifest.json",
+        "summary": "data/forks/2ec911f8be2446db/summary.json"
+      },
+      "manifest_sha256": "0cac0357aef42c3337a05ec0c3754e9520efc13c2276fb37344363ee2c06fb1b",
+      "max_motor_utilization": 0.8458836470129693,
+      "max_tilt_deg": 9.13671702377286,
+      "min_payload_bottom_height_m": 0.7575659405279185,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/2ec911f8be2446db",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 8.62000000000441,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "247280d23b9e501e7ccf05ea3e2e7734d90a110de10c944983f5e94e6524d893",
+      "task_clock_s": 482.49999999963103
+    },
+    {
+      "action": "backstep",
+      "checkpoint_digest": "71e02c3f12b4a39b236f91ddbb352eb83b3defd388a71c039a5fc63c4bc1fe20",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "31d7473d366c4626",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/31d7473d366c4626/manifest.json",
+        "summary": "data/forks/31d7473d366c4626/summary.json"
+      },
+      "manifest_sha256": "295a4457356b297e0be22055391eece9a29f5f80578e4fb0964b43e7d48c3fa2",
+      "max_motor_utilization": 0.8495911329102346,
+      "max_tilt_deg": 9.258357465697301,
+      "min_payload_bottom_height_m": 0.7598429639159144,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/31d7473d366c4626",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 11.980000000006129,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "8d33b6de21e5b8799f5ed0d4ba762769029cac1e1528d0fb746518e7dd5d49bd",
+      "task_clock_s": 491.61999999962273
+    },
+    {
+      "action": "continue",
+      "checkpoint_digest": "f41a9b65787faa1f317e9cae779f1dd768b4b313493802c5cb6f443ea1ff1ca2",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "3e043c6f645e483e",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/3e043c6f645e483e/manifest.json",
+        "summary": "data/forks/3e043c6f645e483e/summary.json"
+      },
+      "manifest_sha256": "d5d99eb10a113cc12776c5eba90315dd9c301a8ab9475d848072b2d4c02df73a",
+      "max_motor_utilization": 0.8458836470129693,
+      "max_tilt_deg": 8.92559112886352,
+      "min_payload_bottom_height_m": 0.7575659405279185,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/3e043c6f645e483e",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 4.299999999996089,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "149c8389b88c3e7250e5556848a833bd06c719a7c0a1fd0240843230ad061e5b",
+      "task_clock_s": 482.49999999963103
+    },
+    {
+      "action": "backstep",
+      "checkpoint_digest": "d2c39aa6e95596d9b37ecce4c8db236b30965aafb098a0aa44e09eb3c8ac2c16",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "487adf7891a14e9e",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/487adf7891a14e9e/manifest.json",
+        "summary": "data/forks/487adf7891a14e9e/summary.json"
+      },
+      "manifest_sha256": "76ec10ccc3382f7572e77dbe302f4f6cea934e7ad86cc32a29bd548946e9ac76",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 9.39065870354743,
+      "min_payload_bottom_height_m": 0.7596117460272227,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "cb9f3d1a7c0649fe",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe",
+      "parent_seed": 2,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/487adf7891a14e9e",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 8.259999999992488,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "40328e443452e45db2f41cb8b633e2ac3e6a3aa9b3bb8c1d2f13e81987746486",
+      "task_clock_s": 491.81999999962255
+    },
+    {
+      "action": "stop",
+      "checkpoint_digest": "f41a9b65787faa1f317e9cae779f1dd768b4b313493802c5cb6f443ea1ff1ca2",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "4c8512a2ef684ee2",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/4c8512a2ef684ee2/manifest.json",
+        "summary": "data/forks/4c8512a2ef684ee2/summary.json"
+      },
+      "manifest_sha256": "fc113403e35a3c9c8d42249740a029ee5d2d236bd4ddef4d420b00e024cb13ca",
+      "max_motor_utilization": 0.8728062361062449,
+      "max_tilt_deg": 9.114888773917125,
+      "min_payload_bottom_height_m": 0.7598321879267944,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/4c8512a2ef684ee2",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 6.499999999994088,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "44d5aa6505ebc9544bea351f675e4f9602e78dab73e9757327db74eed32082c1",
+      "task_clock_s": 488.4599999996256
+    },
+    {
+      "action": "stop",
+      "checkpoint_digest": "6be49e2a4606bef5db436961c4b4d86d575135b525edc06a36bd01882cda5edb",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "54df0db4e4664fd6",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/54df0db4e4664fd6/manifest.json",
+        "summary": "data/forks/54df0db4e4664fd6/summary.json"
+      },
+      "manifest_sha256": "9bc82833ccc5bde4715ede6a93d28d68316d5399c624862547f62f30e0ceec73",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 9.087511554232842,
+      "min_payload_bottom_height_m": 0.7589599082011038,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "5add07da420147f5",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/5add07da420147f5",
+      "parent_seed": 1,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/54df0db4e4664fd6",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 10.940000000005597,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "0395ac71bb5d91baee480949985cf36b26bcbc6d88d2ac271477252136246725",
+      "task_clock_s": 486.41999999962746
+    },
+    {
+      "action": "continue",
+      "checkpoint_digest": "cf6ce07931394a39e145a405d9dad65ec1a7f396a8e8ba8f9faa04836e95f532",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "5933c7a1d76c403a",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/5933c7a1d76c403a/manifest.json",
+        "summary": "data/forks/5933c7a1d76c403a/summary.json"
+      },
+      "manifest_sha256": "e7e8c4a71a43e71ceee3f6f2dcb11b08cae619846cc67821def80bba1c0e700f",
+      "max_motor_utilization": 0.8520000027519209,
+      "max_tilt_deg": 9.221973610242122,
+      "min_payload_bottom_height_m": 0.7598251007084231,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "cb9f3d1a7c0649fe",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe",
+      "parent_seed": 2,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/5933c7a1d76c403a",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 8.70000000000445,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "2211359622a38ca63cdce59abbb5832f464b0be4c8d17c7e77885182e6ae6422",
+      "task_clock_s": 490.0999999996241
+    },
+    {
+      "action": "continue",
+      "checkpoint_digest": "71e02c3f12b4a39b236f91ddbb352eb83b3defd388a71c039a5fc63c4bc1fe20",
+      "condition_role": "disturbed recovery fork",
+      "deadline_control": false,
+      "exclusion_reasons": [
+        "fork status is running",
+        "fork summary not yet available"
+      ],
+      "fork_status": "running",
+      "id": "5be783cdaf074b2e",
+      "impulse_ns": 4.0,
+      "included_in_counts": false,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/5be783cdaf074b2e/manifest.json"
+      },
+      "manifest_sha256": "fe44a789cf6c4b8bd521a13697e8cdfa40e4a8ed1c5f30d6a53992981919b132",
+      "max_motor_utilization": null,
+      "max_tilt_deg": null,
+      "min_payload_bottom_height_m": null,
+      "outcome": "unknown",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/5be783cdaf074b2e",
+      "placement_completed": false,
+      "raw_outcome": null,
+      "resumption_s": null,
+      "sign": null,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": null,
+      "task_clock_s": null
+    },
+    {
+      "action": "backstep",
+      "checkpoint_digest": "6be49e2a4606bef5db436961c4b4d86d575135b525edc06a36bd01882cda5edb",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "5db01a9f6040473c",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/5db01a9f6040473c/manifest.json",
+        "summary": "data/forks/5db01a9f6040473c/summary.json"
+      },
+      "manifest_sha256": "2a1e3c0d1f554e7a11c89f5c7114a52dbfb4dedb2d134feda3d5aab3a560091f",
+      "max_motor_utilization": 0.9131256251345794,
+      "max_tilt_deg": 9.277513249394739,
+      "min_payload_bottom_height_m": 0.7598354569536013,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "5add07da420147f5",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/5add07da420147f5",
+      "parent_seed": 1,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/5db01a9f6040473c",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 11.980000000006129,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "f768fb2d5c8ec7a8bbd0d9e158aba258a3c15e9ead4c6a49176d882d3443fc53",
+      "task_clock_s": 491.39999999962293
+    },
+    {
+      "action": "lateral_escape",
+      "checkpoint_digest": "71e02c3f12b4a39b236f91ddbb352eb83b3defd388a71c039a5fc63c4bc1fe20",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "661886302c1f4131",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/661886302c1f4131/manifest.json",
+        "summary": "data/forks/661886302c1f4131/summary.json"
+      },
+      "manifest_sha256": "b9cd9d409a91ac95e98ae484b29ae564712612cd15049ab0c3ba60a2c5171d91",
+      "max_motor_utilization": 0.8377008569386689,
+      "max_tilt_deg": 9.382156323140798,
+      "min_payload_bottom_height_m": 0.7598473248512524,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/661886302c1f4131",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 11.420000000005842,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "651b3577e2ae1eb2b6ab16d8464a08c89021c373ed2567109910d7335f3c91c3",
+      "task_clock_s": 489.49999999962466
+    },
+    {
+      "action": "backstep",
+      "checkpoint_digest": "279b4e5b29f69394309c0d57ce015bd210f930261b5e9cb827fb64ef0c441a21",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "68d148a840ec41df",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/68d148a840ec41df/manifest.json",
+        "summary": "data/forks/68d148a840ec41df/summary.json"
+      },
+      "manifest_sha256": "4245a13f56d348e4068d8211391242189c5ebf80e9535838ebeb2a7a4c8db77e",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 9.123491290650714,
+      "min_payload_bottom_height_m": 0.7597763335070596,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "5add07da420147f5",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/5add07da420147f5",
+      "parent_seed": 1,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/68d148a840ec41df",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 9.49999999999136,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "aea680b6e7ff4127076257ffed40a66804cfe81daccd74d105b37b7dd5433e28",
+      "task_clock_s": 490.8999999996234
+    },
+    {
+      "action": "continue",
+      "checkpoint_digest": "44763e71316f761571064f8368583fe7489ebd515de83e431c4e7e3b9ba9e308",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "7873781530e04172",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/7873781530e04172/manifest.json",
+        "summary": "data/forks/7873781530e04172/summary.json"
+      },
+      "manifest_sha256": "3efbee8692bc42d1d672dc1402f4cc377ac1d30efd5e0cb50bcfdafc7ef2f7fe",
+      "max_motor_utilization": 0.8671300256809211,
+      "max_tilt_deg": 9.147031118683536,
+      "min_payload_bottom_height_m": 0.7598059187672555,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "5add07da420147f5",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/5add07da420147f5",
+      "parent_seed": 1,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/7873781530e04172",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 4.219999999996162,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "4d8b4514130731b802ce3281a79f63cc626a20fdd66fd2055c31d488340f50f3",
+      "task_clock_s": 489.17999999962495
+    },
+    {
+      "action": "lateral_negative",
+      "checkpoint_digest": "cf6ce07931394a39e145a405d9dad65ec1a7f396a8e8ba8f9faa04836e95f532",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "799f8d01e2de487d",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/799f8d01e2de487d/manifest.json",
+        "summary": "data/forks/799f8d01e2de487d/summary.json"
+      },
+      "manifest_sha256": "9ddb473e536f862498b545a74aa8f2b3fcfb1305cebe6d0e02a21b6f8dd18bc9",
+      "max_motor_utilization": 0.8551810388235358,
+      "max_tilt_deg": 9.465166946715886,
+      "min_payload_bottom_height_m": 0.7598569471437966,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "cb9f3d1a7c0649fe",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe",
+      "parent_seed": 2,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/799f8d01e2de487d",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 12.98000000000664,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "538be46fe7db56b655c28b82c6c5e1336a9b0a1feca7c3e8a59399a3ee00591a",
+      "task_clock_s": 490.3399999996239
+    },
+    {
+      "action": "stop",
+      "checkpoint_digest": "d16862f3772e280db859ccfe777072d9d045d877412fbbbf9bae4e38be0acefa",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "7a09895016b34b74",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/7a09895016b34b74/manifest.json",
+        "summary": "data/forks/7a09895016b34b74/summary.json"
+      },
+      "manifest_sha256": "cf3721a7216e3e3d3aace2213023745986718be7dae07e212b4b50f04d6b8a5b",
+      "max_motor_utilization": 0.856953759903402,
+      "max_tilt_deg": 8.902321227994545,
+      "min_payload_bottom_height_m": 0.7595287565962557,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/7a09895016b34b74",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 8.979999999991833,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "fd51902f41b53140da53808007d14ef92318f9f6b30c52e90967effdede7e209",
+      "task_clock_s": 487.5799999996264
+    },
+    {
+      "action": "lateral_negative",
+      "checkpoint_digest": "71e02c3f12b4a39b236f91ddbb352eb83b3defd388a71c039a5fc63c4bc1fe20",
+      "condition_role": "disturbed recovery fork",
+      "deadline_control": false,
+      "exclusion_reasons": [
+        "fork status is running",
+        "fork summary not yet available"
+      ],
+      "fork_status": "running",
+      "id": "878a57c03b8b4960",
+      "impulse_ns": 4.0,
+      "included_in_counts": false,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/878a57c03b8b4960/manifest.json"
+      },
+      "manifest_sha256": "6ebc6cb1bca3dc78177d7da4f385a43a8bbc2f74b730158dc9fdb62c22e1bf48",
+      "max_motor_utilization": null,
+      "max_tilt_deg": null,
+      "min_payload_bottom_height_m": null,
+      "outcome": "unknown",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/878a57c03b8b4960",
+      "placement_completed": false,
+      "raw_outcome": null,
+      "resumption_s": null,
+      "sign": null,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": null,
+      "task_clock_s": null
+    },
+    {
+      "action": "stop",
+      "checkpoint_digest": "cf6ce07931394a39e145a405d9dad65ec1a7f396a8e8ba8f9faa04836e95f532",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "88767f50885348d2",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/88767f50885348d2/manifest.json",
+        "summary": "data/forks/88767f50885348d2/summary.json"
+      },
+      "manifest_sha256": "2c4f3409306a4c5f87d85081a6cb6a519e89d032c12bef7a4e75c69e6960a327",
+      "max_motor_utilization": 0.8272086690257284,
+      "max_tilt_deg": 9.239216903890693,
+      "min_payload_bottom_height_m": 0.7588338652388851,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "cb9f3d1a7c0649fe",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe",
+      "parent_seed": 2,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/88767f50885348d2",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 10.980000000005617,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "a3d4422f4a8caaed0015e43c8ed5dcc8da50271e65d7ec108a28a6723ed262d6",
+      "task_clock_s": 486.5799999996273
+    },
+    {
+      "action": "lateral_escape",
+      "checkpoint_digest": "d2c39aa6e95596d9b37ecce4c8db236b30965aafb098a0aa44e09eb3c8ac2c16",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "8cd4ec8d55144920",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/8cd4ec8d55144920/manifest.json",
+        "summary": "data/forks/8cd4ec8d55144920/summary.json"
+      },
+      "manifest_sha256": "f2d8b3509dddadd0dc69da7f3b6e1cf6ae04c03d304b2e2f88ed2f9b0a8bafd7",
+      "max_motor_utilization": 0.8592520432877903,
+      "max_tilt_deg": 9.069681533367458,
+      "min_payload_bottom_height_m": 0.7596192205786069,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "cb9f3d1a7c0649fe",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe",
+      "parent_seed": 2,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/8cd4ec8d55144920",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 7.339999999993324,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "f0e7ecfdf394958012b96b69bd224e302d7b6c15ead7f46ffedc0f6ede768df8",
+      "task_clock_s": 492.71999999962173
+    },
+    {
+      "action": "backstep",
+      "checkpoint_digest": "cf6ce07931394a39e145a405d9dad65ec1a7f396a8e8ba8f9faa04836e95f532",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "9018584b99b0462d",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/9018584b99b0462d/manifest.json",
+        "summary": "data/forks/9018584b99b0462d/summary.json"
+      },
+      "manifest_sha256": "76a5cd5457ecd3398d48e9f2e3379cbfa336fef576e92bfade466923d630f3a8",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 9.080370203576644,
+      "min_payload_bottom_height_m": 0.759649611779788,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "cb9f3d1a7c0649fe",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe",
+      "parent_seed": 2,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/9018584b99b0462d",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 12.14000000000621,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "d54903c9fcf37837b484c38ca7014c978d02b037fa502d619a19d06e737a933b",
+      "task_clock_s": 492.23999999962217
+    },
+    {
+      "action": "lateral_escape",
+      "checkpoint_digest": "71e02c3f12b4a39b236f91ddbb352eb83b3defd388a71c039a5fc63c4bc1fe20",
+      "condition_role": "disturbed recovery fork",
+      "deadline_control": false,
+      "exclusion_reasons": [
+        "fork status is running",
+        "fork summary not yet available"
+      ],
+      "fork_status": "running",
+      "id": "95265974742d46e5",
+      "impulse_ns": 4.0,
+      "included_in_counts": false,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/95265974742d46e5/manifest.json"
+      },
+      "manifest_sha256": "dd4e70cea15068d8b1369a5e61f59adf9a9ec5b796be3e9c7921732992232d44",
+      "max_motor_utilization": null,
+      "max_tilt_deg": null,
+      "min_payload_bottom_height_m": null,
+      "outcome": "unknown",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/95265974742d46e5",
+      "placement_completed": false,
+      "raw_outcome": null,
+      "resumption_s": null,
+      "sign": null,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": null,
+      "task_clock_s": null
+    },
+    {
+      "action": "lateral_negative",
+      "checkpoint_digest": "07397d465c8d4fb40c10b84fe9ea3d39bb009786adbd64d56d3b69f7de9c3078",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "9557263c77044342",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/9557263c77044342/manifest.json",
+        "summary": "data/forks/9557263c77044342/summary.json"
+      },
+      "manifest_sha256": "9a56f58696c00cc7364465ffdb147258e20ca8e24e87b471aa26a4c67393e974",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 9.169264050771615,
+      "min_payload_bottom_height_m": 0.7593372778110823,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "cb9f3d1a7c0649fe",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe",
+      "parent_seed": 2,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/9557263c77044342",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 9.019999999991796,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "8c2a13876c4589ca38d5b291d32fea551a5d8d3f5659b3ab8410f29fc9406fc6",
+      "task_clock_s": 490.4799999996238
+    },
+    {
+      "action": "backstep",
+      "checkpoint_digest": "f41a9b65787faa1f317e9cae779f1dd768b4b313493802c5cb6f443ea1ff1ca2",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "9c5fafcdb3324deb",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/9c5fafcdb3324deb/manifest.json",
+        "summary": "data/forks/9c5fafcdb3324deb/summary.json"
+      },
+      "manifest_sha256": "fe4c8e97200305290bfb23fda3c4e01094e157256924445389679313071a0014",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 9.193386410139764,
+      "min_payload_bottom_height_m": 0.7598429734799689,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/9c5fafcdb3324deb",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 8.299999999992451,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "e7429fc44c3470002f8f259f34f4a9bb30359a7342db2b6483b474a6b136b4bc",
+      "task_clock_s": 489.8799999996243
+    },
+    {
+      "action": "continue",
+      "checkpoint_digest": "6be49e2a4606bef5db436961c4b4d86d575135b525edc06a36bd01882cda5edb",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "9e8ca3a89027441d",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/9e8ca3a89027441d/manifest.json",
+        "summary": "data/forks/9e8ca3a89027441d/summary.json"
+      },
+      "manifest_sha256": "b2c387ec92d6b854e677727f5fa36b00e48ee43273e2e88faf7a651046130d52",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 9.525433264039242,
+      "min_payload_bottom_height_m": 0.7598693037656415,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "5add07da420147f5",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/5add07da420147f5",
+      "parent_seed": 1,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/9e8ca3a89027441d",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 8.62000000000441,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "0d0271f52a1f2b2e08d3d1369c33a94a6e9f1299c08a64f706020ab8d5410950",
+      "task_clock_s": 489.17999999962495
+    },
+    {
+      "action": "backstep",
+      "checkpoint_digest": "44763e71316f761571064f8368583fe7489ebd515de83e431c4e7e3b9ba9e308",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "9e9f9e6671594ad3",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/9e9f9e6671594ad3/manifest.json",
+        "summary": "data/forks/9e9f9e6671594ad3/summary.json"
+      },
+      "manifest_sha256": "0e44820b0e5ac4dd19a35071e37a3a6116773bd7de339f6cbc9d55eaf6e747f0",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 9.196680299260288,
+      "min_payload_bottom_height_m": 0.7598634980820648,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "5add07da420147f5",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/5add07da420147f5",
+      "parent_seed": 1,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/9e9f9e6671594ad3",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 8.099999999992633,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "c3015c2fb92ce34cee2a514659690a9c3eb94178bf0d0c21c5261f138151ae31",
+      "task_clock_s": 491.35999999962297
+    },
+    {
+      "action": "continue",
+      "checkpoint_digest": "fe23fefd6235017d9b1138216066a70bd7f2bbf39c0a485b974e9377eefd0f55",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [
+        "parent run not included in inputs",
+        "parent ineligible: parent run not included in inputs"
+      ],
+      "fork_status": "complete",
+      "id": "a6065520418e4830",
+      "impulse_ns": 0.0,
+      "included_in_counts": false,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/a6065520418e4830/manifest.json",
+        "summary": "data/forks/a6065520418e4830/summary.json"
+      },
+      "manifest_sha256": "23941db32c17ce55007345768066f540b5278aac8923f8565a03922ca8e87010",
+      "max_motor_utilization": 0.5884780880262314,
+      "max_tilt_deg": 9.160773698614399,
+      "min_payload_bottom_height_m": 0.7592859820691842,
+      "outcome": "completed",
+      "parent_eligible": false,
+      "parent_id": "acf55cc8daf14181",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/acf55cc8daf14181",
+      "parent_seed": null,
+      "parity": false,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/a6065520418e4830",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 8.66000000000443,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "65ecefc91040d298e1971b69ce042838740b4d9b6c8199ea0f9020d1b37bedac",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "169f3959a02d46358ab0fbc24c6838f1ead65ca49cbd106b7aeaf6923cea401d",
+      "task_clock_s": 490.59999999962366
+    },
+    {
+      "action": "stop",
+      "checkpoint_digest": "279b4e5b29f69394309c0d57ce015bd210f930261b5e9cb827fb64ef0c441a21",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "a64844f549a045ee",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/a64844f549a045ee/manifest.json",
+        "summary": "data/forks/a64844f549a045ee/summary.json"
+      },
+      "manifest_sha256": "ce4f6becce6a3419f4e7bbe337a78cd4ccaa6a4af3824bf8a138d1fa0be71966",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 9.262444200397006,
+      "min_payload_bottom_height_m": 0.759783971842537,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "5add07da420147f5",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/5add07da420147f5",
+      "parent_seed": 1,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/a64844f549a045ee",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 8.979999999991833,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "b32aa623e443eb0c2908b4776ede21e8a7c45ce9b03bfc9ebdcca2c0a035601e",
+      "task_clock_s": 487.9399999996261
+    },
+    {
+      "action": "continue",
+      "checkpoint_digest": "07397d465c8d4fb40c10b84fe9ea3d39bb009786adbd64d56d3b69f7de9c3078",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "aa3f9d43f9bb4d73",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/aa3f9d43f9bb4d73/manifest.json",
+        "summary": "data/forks/aa3f9d43f9bb4d73/summary.json"
+      },
+      "manifest_sha256": "7f2b40bd249156f3316eb160caf0f62d646c26cb5000e95a2da4a1e0980ab55f",
+      "max_motor_utilization": 0.8520000027519209,
+      "max_tilt_deg": 9.221973610242122,
+      "min_payload_bottom_height_m": 0.7598251007084231,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "cb9f3d1a7c0649fe",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe",
+      "parent_seed": 2,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/aa3f9d43f9bb4d73",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 6.779999999993834,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "ed42653ea0658fea511eae3eae7f2cd4441df9429652d65a399b2c3e5db566f7",
+      "task_clock_s": 490.0999999996241
+    },
+    {
+      "action": "stop",
+      "checkpoint_digest": "d2c39aa6e95596d9b37ecce4c8db236b30965aafb098a0aa44e09eb3c8ac2c16",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "ac1deaedbae5456f",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/ac1deaedbae5456f/manifest.json",
+        "summary": "data/forks/ac1deaedbae5456f/summary.json"
+      },
+      "manifest_sha256": "262f47068e74555803a57223b54bc7a1d89de35382d16522bc856758825217da",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 9.152679287591393,
+      "min_payload_bottom_height_m": 0.7584757447552763,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "cb9f3d1a7c0649fe",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe",
+      "parent_seed": 2,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/ac1deaedbae5456f",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 6.619999999993979,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "015953d048ab1c723db6317a449bc3047302a562fba4ca859091e98b3a0c7f02",
+      "task_clock_s": 489.8999999996243
+    },
+    {
+      "action": "lateral_negative",
+      "checkpoint_digest": "d2c39aa6e95596d9b37ecce4c8db236b30965aafb098a0aa44e09eb3c8ac2c16",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "ad0ce4d56d6e45ed",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/ad0ce4d56d6e45ed/manifest.json",
+        "summary": "data/forks/ad0ce4d56d6e45ed/summary.json"
+      },
+      "manifest_sha256": "65298ee6e0c440dbe916b006163d156324ee8e16bdb91947a400e66e334d56f0",
+      "max_motor_utilization": 0.847631875494578,
+      "max_tilt_deg": 9.225177339504022,
+      "min_payload_bottom_height_m": 0.759103772602379,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "cb9f3d1a7c0649fe",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe",
+      "parent_seed": 2,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/ad0ce4d56d6e45ed",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 7.379999999993288,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "e7d219740f4a80b601ee8527d77e4ced696f5411450037e432e39482988e3801",
+      "task_clock_s": 490.71999999962355
+    },
+    {
+      "action": "continue",
+      "checkpoint_digest": "d16862f3772e280db859ccfe777072d9d045d877412fbbbf9bae4e38be0acefa",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "af73d93735574f29",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/af73d93735574f29/manifest.json",
+        "summary": "data/forks/af73d93735574f29/summary.json"
+      },
+      "manifest_sha256": "e3f143b84cade841ac0e91906b44de4c3f6931aaa2d9b4b6aebc97fe61e592d1",
+      "max_motor_utilization": 0.8458836470129693,
+      "max_tilt_deg": 8.92559112886352,
+      "min_payload_bottom_height_m": 0.7575659405279185,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/af73d93735574f29",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 6.819999999993797,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "0bf49f476413a1a0a6d74b0f8384b3cad33f01bf97e4dcba2b2c327b10c10732",
+      "task_clock_s": 482.49999999963103
+    },
+    {
+      "action": "lateral_escape",
+      "checkpoint_digest": "cf6ce07931394a39e145a405d9dad65ec1a7f396a8e8ba8f9faa04836e95f532",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "b68cbb9aa70c40a8",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/b68cbb9aa70c40a8/manifest.json",
+        "summary": "data/forks/b68cbb9aa70c40a8/summary.json"
+      },
+      "manifest_sha256": "863a2e61814a1cdaaf7e62baf0c8ed4af7416954288863bb59b557ad20d0d3fb",
+      "max_motor_utilization": 0.84911137941398,
+      "max_tilt_deg": 9.552590360426208,
+      "min_payload_bottom_height_m": 0.7593706226977196,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "cb9f3d1a7c0649fe",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe",
+      "parent_seed": 2,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/b68cbb9aa70c40a8",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 11.420000000005842,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "410423362a0e6e0957be8dfe9723673995c6c2d6f013296232e54e196c123837",
+      "task_clock_s": 493.2999999996212
+    },
+    {
+      "action": "lateral_escape",
+      "checkpoint_digest": "07397d465c8d4fb40c10b84fe9ea3d39bb009786adbd64d56d3b69f7de9c3078",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "b7beb88ab45b45b3",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/b7beb88ab45b45b3/manifest.json",
+        "summary": "data/forks/b7beb88ab45b45b3/summary.json"
+      },
+      "manifest_sha256": "bee5352a6b450487189f835febd747f56e6af37307ff267010b89ffe921d0e81",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 9.107126948550876,
+      "min_payload_bottom_height_m": 0.7598907618280764,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "cb9f3d1a7c0649fe",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe",
+      "parent_seed": 2,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/b7beb88ab45b45b3",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 10.339999999990596,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "6b3bdde4c4a2cccb97b971eeab2c07fa3878d890d49e458b5f41b30c8d8d5760",
+      "task_clock_s": 492.9999999996215
+    },
+    {
+      "action": "continue",
+      "checkpoint_digest": "d2c39aa6e95596d9b37ecce4c8db236b30965aafb098a0aa44e09eb3c8ac2c16",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "b984c08678404a39",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/b984c08678404a39/manifest.json",
+        "summary": "data/forks/b984c08678404a39/summary.json"
+      },
+      "manifest_sha256": "9359d54187afc8ec3087d5c44597dd57894b77b88d245ac24218bf77e6c9aeb2",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 9.400610354725721,
+      "min_payload_bottom_height_m": 0.759849335261598,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "cb9f3d1a7c0649fe",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe",
+      "parent_seed": 2,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/b984c08678404a39",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 4.139999999996235,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "26b58e72808dfce6d626707c641dae4efb01828804e9d0b02f8f3d580f8b1c0e",
+      "task_clock_s": 490.0999999996241
+    },
+    {
+      "action": "lateral_escape",
+      "checkpoint_digest": "6be49e2a4606bef5db436961c4b4d86d575135b525edc06a36bd01882cda5edb",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "bf9e8b41638b4cff",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/bf9e8b41638b4cff/manifest.json",
+        "summary": "data/forks/bf9e8b41638b4cff/summary.json"
+      },
+      "manifest_sha256": "41912f38a6a1f4dfcd93a18559449ad319955f0b39d6a41afe55fdb7cecd6a80",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 9.45346615122119,
+      "min_payload_bottom_height_m": 0.7596932839619227,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "5add07da420147f5",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/5add07da420147f5",
+      "parent_seed": 1,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/bf9e8b41638b4cff",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 11.420000000005842,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "9b2fba1e803eca1e448f7f021f08b4b23dcaed7e281b752c02f6b5359403f61a",
+      "task_clock_s": 487.9399999996261
+    },
+    {
+      "action": "lateral_escape",
+      "checkpoint_digest": "d16862f3772e280db859ccfe777072d9d045d877412fbbbf9bae4e38be0acefa",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "c228fbb08a5249ee",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/c228fbb08a5249ee/manifest.json",
+        "summary": "data/forks/c228fbb08a5249ee/summary.json"
+      },
+      "manifest_sha256": "8c72024f4477afc68c3ee9af0a9e148d59d65b5b9a2bf78fedf232bd7970eed7",
+      "max_motor_utilization": 0.8258289798564159,
+      "max_tilt_deg": 9.396153383389688,
+      "min_payload_bottom_height_m": 0.7578274454967728,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/c228fbb08a5249ee",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 10.419999999990523,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "d12871873bd7aa0ea02708d69077e4220c7915443bf6f9bbdf475ea4576a0f30",
+      "task_clock_s": 488.8999999996252
+    },
+    {
+      "action": "continue",
+      "checkpoint_digest": "f41a9b65787faa1f317e9cae779f1dd768b4b313493802c5cb6f443ea1ff1ca2",
+      "condition_role": "disturbed recovery fork",
+      "deadline_control": false,
+      "exclusion_reasons": [
+        "fork status is running",
+        "fork summary not yet available"
+      ],
+      "fork_status": "running",
+      "id": "cc386776db9846ce",
+      "impulse_ns": 4.0,
+      "included_in_counts": false,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/cc386776db9846ce/manifest.json"
+      },
+      "manifest_sha256": "d823a136d160f0e8c61cd1fde9f6d8600b4e2034eb4d62c094a07b0173d1284a",
+      "max_motor_utilization": null,
+      "max_tilt_deg": null,
+      "min_payload_bottom_height_m": null,
+      "outcome": "unknown",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/cc386776db9846ce",
+      "placement_completed": false,
+      "raw_outcome": null,
+      "resumption_s": null,
+      "sign": null,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": null,
+      "task_clock_s": null
+    },
+    {
+      "action": "stop",
+      "checkpoint_digest": "44763e71316f761571064f8368583fe7489ebd515de83e431c4e7e3b9ba9e308",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "d207d058c7e5424b",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/d207d058c7e5424b/manifest.json",
+        "summary": "data/forks/d207d058c7e5424b/summary.json"
+      },
+      "manifest_sha256": "d4b8b47403d572bb7309d51f4c36743e640685a9fa6b7c60a9e9fb75563e7c78",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 9.387255779275504,
+      "min_payload_bottom_height_m": 0.7585449117250436,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "5add07da420147f5",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/5add07da420147f5",
+      "parent_seed": 1,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/d207d058c7e5424b",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 6.499999999994088,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "cd430432f75cb3774efd5c4e3020e4ca16fd5e7ea1a94173225e97732631acda",
+      "task_clock_s": 488.9199999996252
+    },
+    {
+      "action": "lateral_negative",
+      "checkpoint_digest": "71e02c3f12b4a39b236f91ddbb352eb83b3defd388a71c039a5fc63c4bc1fe20",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "d4be55d41f154452",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/d4be55d41f154452/manifest.json",
+        "summary": "data/forks/d4be55d41f154452/summary.json"
+      },
+      "manifest_sha256": "eea1e7c4228069f982f49e7a45d3c779d579d92b9541acb23378a02fb26c56b0",
+      "max_motor_utilization": 0.8397555429156695,
+      "max_tilt_deg": 9.249015482974201,
+      "min_payload_bottom_height_m": 0.7597681317923566,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/d4be55d41f154452",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 12.94000000000662,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "aba937b757c0e013cca5e92903629e6fe51c0d84897b57038571dc82c55e65bc",
+      "task_clock_s": 492.37999999962204
+    },
+    {
+      "action": "continue",
+      "checkpoint_digest": "279b4e5b29f69394309c0d57ce015bd210f930261b5e9cb827fb64ef0c441a21",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "d625d16e9ed94adb",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/d625d16e9ed94adb/manifest.json",
+        "summary": "data/forks/d625d16e9ed94adb/summary.json"
+      },
+      "manifest_sha256": "2d5b7a7a1204e22e4d9243dfb6e3d852a9591b7ccad848443e28ea7136de35a9",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 9.14767112520463,
+      "min_payload_bottom_height_m": 0.7598693037656415,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "5add07da420147f5",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/5add07da420147f5",
+      "parent_seed": 1,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/d625d16e9ed94adb",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 6.819999999993797,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "5d5ec51846d5bef33534385d0ced276f63ce0efefeb078fa7ba1a96a617dba8a",
+      "task_clock_s": 489.17999999962495
+    },
+    {
+      "action": "lateral_negative",
+      "checkpoint_digest": "279b4e5b29f69394309c0d57ce015bd210f930261b5e9cb827fb64ef0c441a21",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "e23967e98da444b4",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/e23967e98da444b4/manifest.json",
+        "summary": "data/forks/e23967e98da444b4/summary.json"
+      },
+      "manifest_sha256": "f798e8aa4d1e9145f118b375221d1d73c5dd532127451a88d24847adca8ceb8c",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 9.148869989872146,
+      "min_payload_bottom_height_m": 0.7598098588554858,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "5add07da420147f5",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/5add07da420147f5",
+      "parent_seed": 1,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/e23967e98da444b4",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 9.019999999991796,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "d41480884678b0f786fb1f7086fdd3a40d0a31582f634615e0c6d323f8e2fae4",
+      "task_clock_s": 489.099999999625
+    },
+    {
+      "action": "backstep",
+      "checkpoint_digest": "d16862f3772e280db859ccfe777072d9d045d877412fbbbf9bae4e38be0acefa",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "e7610bf6543b4c19",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/e7610bf6543b4c19/manifest.json",
+        "summary": "data/forks/e7610bf6543b4c19/summary.json"
+      },
+      "manifest_sha256": "a50e19781a2851d0b0bb33ad29f795ee3b31c1f94f5bb718430df6c0f7b639a0",
+      "max_motor_utilization": 0.848941101581784,
+      "max_tilt_deg": 9.141627486089343,
+      "min_payload_bottom_height_m": 0.7597419469766064,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/e7610bf6543b4c19",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 9.339999999991505,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "f8cb2de04319838ca236298ec6da635d21b66ad77b8bde560bdffde108c58611",
+      "task_clock_s": 485.6999999996281
+    },
+    {
+      "action": "lateral_negative",
+      "checkpoint_digest": "6be49e2a4606bef5db436961c4b4d86d575135b525edc06a36bd01882cda5edb",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "ecf610146eb44254",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/ecf610146eb44254/manifest.json",
+        "summary": "data/forks/ecf610146eb44254/summary.json"
+      },
+      "manifest_sha256": "0dafdab6e840dbebc097ad0f5dfb19cd8e73fa25acf333cd9dac36e850a1cdfa",
+      "max_motor_utilization": 0.8657257421652651,
+      "max_tilt_deg": 9.524503256660873,
+      "min_payload_bottom_height_m": 0.759818370861903,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "5add07da420147f5",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/5add07da420147f5",
+      "parent_seed": 1,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/ecf610146eb44254",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 12.98000000000664,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "aa17dca314cdc71398ee0ba967e09dbc94afadcf068a6ca697de5b993c58eada",
+      "task_clock_s": 487.51999999962646
+    },
+    {
+      "action": "stop",
+      "checkpoint_digest": "71e02c3f12b4a39b236f91ddbb352eb83b3defd388a71c039a5fc63c4bc1fe20",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "ee768ff8645449ba",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/ee768ff8645449ba/manifest.json",
+        "summary": "data/forks/ee768ff8645449ba/summary.json"
+      },
+      "manifest_sha256": "1d4d3dd0639ce9a5af3c6f5f4966a91c67bafdd795707e2a2f2533b067dd692e",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 9.163637534159617,
+      "min_payload_bottom_height_m": 0.7598433580397062,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/ee768ff8645449ba",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 10.980000000005617,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "761333d12270e30d2afb7360793bba7ab3e71b3f13f8cc6d8b13c95f70767b6e",
+      "task_clock_s": 487.5999999996264
+    },
+    {
+      "action": "continue",
+      "checkpoint_digest": "71e02c3f12b4a39b236f91ddbb352eb83b3defd388a71c039a5fc63c4bc1fe20",
+      "condition_role": "zero-force control",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "ef869df183c3437a",
+      "impulse_ns": 0.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": false,
+      "links": {
+        "manifest": "data/forks/ef869df183c3437a/manifest.json",
+        "summary": "data/forks/ef869df183c3437a/summary.json"
+      },
+      "manifest_sha256": "a674d07faba679d444d2dbe23c34bf91366a07e0e54464c511c92c36049758d9",
+      "max_motor_utilization": 0.8458836470129693,
+      "max_tilt_deg": 9.13671702377286,
+      "min_payload_bottom_height_m": 0.7575659405279185,
+      "outcome": "completed",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/ef869df183c3437a",
+      "placement_completed": true,
+      "raw_outcome": "completed",
+      "resumption_s": 8.62000000000441,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "e6d5257439c0b406c1329fec225cf2d5ea6bc1f6d05ae33c8fdfe838d8aa66fd",
+      "task_clock_s": 482.49999999963103
+    }
+  ],
+  "generated_utc": "2026-11-16T02:28:52+00:00",
+  "inputs": {
+    "campaign": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-campaigns/warehouse_final_v1",
+    "campaign_present": true,
+    "fork_run_directories": [
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/03d877821dcb4d65",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/0ddbb89ecf4b4ad9",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/15efe109e7534e51",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/163719da895c4197",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/16deabbb36904480",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/1b50099357c641da",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/243257fbd2ec4da4",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/27622d63965c496e",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/2b5d9a79d8eb4f27",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/2deb9a62f7f44d27",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/2ec911f8be2446db",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/31d7473d366c4626",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/3e043c6f645e483e",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/487adf7891a14e9e",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/4c8512a2ef684ee2",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/54df0db4e4664fd6",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/5933c7a1d76c403a",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/5be783cdaf074b2e",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/5db01a9f6040473c",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/661886302c1f4131",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/68d148a840ec41df",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/7873781530e04172",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/799f8d01e2de487d",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/7a09895016b34b74",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/878a57c03b8b4960",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/88767f50885348d2",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/8cd4ec8d55144920",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/9018584b99b0462d",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/95265974742d46e5",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/9557263c77044342",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/9c5fafcdb3324deb",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/9e8ca3a89027441d",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/9e9f9e6671594ad3",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/a6065520418e4830",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/a64844f549a045ee",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/aa3f9d43f9bb4d73",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/ac1deaedbae5456f",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/ad0ce4d56d6e45ed",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/af73d93735574f29",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/b68cbb9aa70c40a8",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/b7beb88ab45b45b3",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/b984c08678404a39",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/bf9e8b41638b4cff",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/c228fbb08a5249ee",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/cc386776db9846ce",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/d207d058c7e5424b",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/d4be55d41f154452",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/d625d16e9ed94adb",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/e23967e98da444b4",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/e7610bf6543b4c19",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/ecf610146eb44254",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/ee768ff8645449ba",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/ef869df183c3437a"
+    ],
+    "parent_run_directories": [
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/5add07da420147f5",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe"
+    ],
+    "parents": [
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/5add07da420147f5",
+      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe"
+    ]
+  },
+  "layout": {
+    "completion": "Physical release on dispatch table, stable supported placement for 3 seconds",
+    "controller": "Released GEAR-WBC lower body; experimental privileged-state IK and upper gravity compensation",
+    "delivery": {
+      "aabb_corners": [
+        [
+          6.84000001192093,
+          23.208380520628026,
+          0.0
+        ],
+        [
+          6.84000001192093,
+          23.208380520628026,
+          0.7601870290249056
+        ],
+        [
+          6.239999988079069,
+          23.208380520628026,
+          0.0
+        ],
+        [
+          6.239999988079069,
+          23.208380520628026,
+          0.7601870290249056
+        ],
+        [
+          6.84000001192093,
+          24.79161947937197,
+          0.0
+        ],
+        [
+          6.84000001192093,
+          24.79161947937197,
+          0.7601870290249056
+        ],
+        [
+          6.239999988079069,
+          24.79161947937197,
+          0.0
+        ],
+        [
+          6.239999988079069,
+          24.79161947937197,
+          0.7601870290249056
+        ]
+      ],
+      "aabb_max": [
+        6.84000001192093,
+        24.79161947937197,
+        0.7601870290249056
+      ],
+      "aabb_min": [
+        6.239999988079069,
+        23.208380520628026,
+        0.0
+      ],
+      "asset_name": "Adjustable_Table",
+      "body_root_name": "delivery_Adjustable_Table",
+      "prefix": "delivery_",
+      "source_file_hash": "01b3b676819ccfeac529acf2c4129ccfdd12cac65675227643396cee3f7473af",
+      "top_height": 0.7601870290249056
+    },
+    "destination_xy": [
+      6.45,
+      24.0
+    ],
+    "name": "warehouse_receiving_to_dispatch",
+    "nominal_route_variant": "terrain_avoiding_v2_clear_aisle_with_restricted_west_recovery_space",
+    "payload": "free rigid handled crate",
+    "qualification": "behavior_unqualified",
+    "rough_tiles": [
+      {
+        "centre": [
+          4.72,
+          8.58
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.005
+      },
+      {
+        "centre": [
+          4.72,
+          8.86
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.01
+      },
+      {
+        "centre": [
+          4.72,
+          9.14
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.015
+      },
+      {
+        "centre": [
+          4.72,
+          9.42
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.005
+      },
+      {
+        "centre": [
+          5.0,
+          8.58
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.01
+      },
+      {
+        "centre": [
+          5.0,
+          8.86
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.015
+      },
+      {
+        "centre": [
+          5.0,
+          9.14
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.005
+      },
+      {
+        "centre": [
+          5.0,
+          9.42
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.01
+      },
+      {
+        "centre": [
+          5.28,
+          8.58
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.015
+      },
+      {
+        "centre": [
+          5.28,
+          8.86
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.005
+      },
+      {
+        "centre": [
+          5.28,
+          9.14
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.01
+      },
+      {
+        "centre": [
+          5.28,
+          9.42
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.015
+      },
+      {
+        "centre": [
+          -0.76,
+          14.58
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.005
+      },
+      {
+        "centre": [
+          -0.76,
+          14.86
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.01
+      },
+      {
+        "centre": [
+          -0.76,
+          15.14
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.015
+      },
+      {
+        "centre": [
+          -0.76,
+          15.42
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.005
+      },
+      {
+        "centre": [
+          -0.48,
+          14.58
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.01
+      },
+      {
+        "centre": [
+          -0.48,
+          14.86
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.015
+      },
+      {
+        "centre": [
+          -0.48,
+          15.14
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.005
+      },
+      {
+        "centre": [
+          -0.48,
+          15.42
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.01
+      },
+      {
+        "centre": [
+          1.72,
+          17.58
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.005
+      },
+      {
+        "centre": [
+          1.72,
+          17.86
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.01
+      },
+      {
+        "centre": [
+          1.72,
+          18.14
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.015
+      },
+      {
+        "centre": [
+          1.72,
+          18.42
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.005
+      },
+      {
+        "centre": [
+          2.0,
+          17.58
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.01
+      },
+      {
+        "centre": [
+          2.0,
+          17.86
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.015
+      },
+      {
+        "centre": [
+          2.0,
+          18.14
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.005
+      },
+      {
+        "centre": [
+          2.0,
+          18.42
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.01
+      },
+      {
+        "centre": [
+          2.2800000000000002,
+          17.58
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.015
+      },
+      {
+        "centre": [
+          2.2800000000000002,
+          17.86
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.005
+      },
+      {
+        "centre": [
+          2.2800000000000002,
+          18.14
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.01
+      },
+      {
+        "centre": [
+          2.2800000000000002,
+          18.42
+        ],
+        "half_size_xy": [
+          0.135,
+          0.135
+        ],
+        "height_m": 0.015
+      }
+    ],
+    "route": [
+      [
+        -1.3,
+        0.0
+      ],
+      [
+        -1.3,
+        6.0
+      ],
+      [
+        5.9,
+        6.0
+      ],
+      [
+        5.9,
+        12.0
+      ],
+      [
+        -1.3,
+        12.0
+      ],
+      [
+        -1.3,
+        17.2
+      ],
+      [
+        5.9,
+        17.2
+      ],
+      [
+        5.9,
+        24.0
+      ],
+      [
+        6.18,
+        24.0
+      ]
+    ],
+    "route_length_m": 47.25
+  },
+  "limitations": [
+    "Baseline seeds are repeated simulations and are not independent physical robots.",
+    "Timeouts alone do not establish persistent irrecoverability.",
+    "Best-of-five outcome is a hindsight upper bound, not an implemented option selector.",
+    "All evidence is simulator-only with native policy inference and privileged-state experimental IK."
+  ],
+  "media": [
+    {
+      "clips": [
+        {
+          "bytes": 1585489,
+          "caption": "Pickup and lift \u00b7 0\u201332 s",
+          "path": "media/32dc5deadbc841dd/cargo-replay-0p00-32p00.mp4",
+          "sha256": "6afcd3661886671720cedaf46745c9928f7e23f5b91989bd3f5e6525bc623652"
+        },
+        {
+          "bytes": 2067611,
+          "caption": "Constrained route section \u00b7 296\u2013308 s",
+          "path": "media/32dc5deadbc841dd/cargo-replay-296p00-308p00.mp4",
+          "sha256": "6fb6f1199f1ff77f07099cc50e193e21bcfa1034cc8fecff776a7289d5ce902a"
+        },
+        {
+          "bytes": 1811560,
+          "caption": "Final approach, release, and placement \u00b7 462.5\u2013482.5 s",
+          "path": "media/32dc5deadbc841dd/cargo-replay-462p50-482p50.mp4",
+          "sha256": "a751b3070644e21b52975a50b768085ad85672dfdb792dc5372adc3afe8979ad"
+        }
+      ],
+      "json": [
+        {
+          "label": "manifest.json",
+          "path": "media/32dc5deadbc841dd/manifest.json",
+          "sha256": "b5f09205bcc435801af0d96b1a50a61b97f43d1db18ccf6152841b603b2103db"
+        },
+        {
+          "label": "summary.json",
+          "path": "media/32dc5deadbc841dd/summary.json",
+          "sha256": "29b4f2322ed96c2c3fe90d1cba205adfd4eca23e13005e90c05a054100cf3edb"
+        }
+      ],
+      "run_id": "32dc5deadbc841dd"
+    }
+  ],
+  "pending_or_excluded_fork_count": 7,
+  "placement_completion_count": 0,
+  "progress_standing_divergence_count": 0,
+  "protocol": {
+    "expected_route_m": 47.25,
+    "original_deadline_s": 900.0,
+    "payload_mass_kg": 2.0,
+    "response_bank": [
+      "continue",
+      "stop",
+      "backstep",
+      "lateral_escape",
+      "lateral_negative"
+    ]
+  },
+  "qualification_artifacts": [
+    {
+      "checkpoint": "open_loaded_carry",
+      "fork": "ef869df183c3437a",
+      "fork_original_task_clock_s": 482.49999999963103,
+      "max_native_error": 0.0,
+      "name": "exact zero-force final-checkpoint parity",
+      "native_arrays_equal": true,
+      "parent": "32dc5deadbc841dd",
+      "parent_elapsed_s": 482.49999999963103,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/vla/warehouse-final-zero-parity.json",
+      "sha256": "b5de883f377ed7927c13b20f4bd63803e1f95eab89cdc3b40f2fcd20c91aea6e"
+    }
+  ],
+  "qualified_baseline_count": 3,
+  "scope": "Simulated long-horizon physical cargo mission and matched recovery forks; no hardware/VLA claim.",
+  "source_hashes_seen": {
+    "tools/run_cargo_mission.py": [
+      "a11e8ebd3549e05014521f2a28c8150ca06a214d5cd7f6f6cd31e3d75e052d3c"
+    ],
+    "twinbench_engine/cargo.py": [
+      "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e"
+    ],
+    "twinbench_engine/cargo_metrics.py": [
+      "d8f2f330efa8c501bf258110abc8f85a5484f886f1d5fe65faa4bb8072fd0005"
+    ],
+    "twinbench_engine/cargo_mission.py": [
+      "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df"
+    ],
+    "twinbench_engine/cargo_placement.py": [
+      "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14"
+    ],
+    "twinbench_engine/control.py": [
+      "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a"
+    ],
+    "twinbench_engine/g1_wbc.py": [
+      "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2"
+    ],
+    "twinbench_engine/recovery_checkpoint.py": [
+      "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e"
+    ],
+    "twinbench_engine/sim.py": [
+      "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc"
+    ],
+    "twinbench_engine/task_assets.py": [
+      "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+    ]
+  },
+  "status": "matched recovery cases pending",
+  "task_resumption_count": 0,
+  "title": "Cargo recovery study: preliminary evidence report"
+}

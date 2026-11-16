@@ -1,0 +1,73 @@
+{
+  "id": "32dc5deadbc841dd",
+  "outcome": "completed",
+  "completed": true,
+  "elapsed_s": 482.49999999963103,
+  "route_length_m": 47.25,
+  "route_index": 9,
+  "mass_kg": 2.0,
+  "max_tilt_deg": 9.13671702377286,
+  "peak_actuator_utilization": 1.0,
+  "final_object": {
+    "position": [
+      6.419853771886377,
+      24.03490268812913,
+      0.8601550193918932
+    ],
+    "quat": [
+      0.9991439900079669,
+      -2.9705102011690887e-12,
+      7.185435135236745e-11,
+      0.04136770758645592
+    ],
+    "velocity": [
+      -3.0170843206662403e-10,
+      -2.5017017483756443e-11,
+      -2.5791659922202907e-14,
+      5.755678324135993e-13,
+      4.232987777322987e-09,
+      -1.2771887438696673e-17
+    ],
+    "hand_normal_force_n": {
+      "left": 0.0,
+      "right": 0.0
+    },
+    "broad_hand_normal_force_n": {
+      "left": 0.0,
+      "right": 0.0
+    },
+    "hand_world_force_n": {
+      "left": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "right": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "support_contacts": [
+      "delivery_Adjustable_Table"
+    ],
+    "contact_bodies": [
+      "delivery_Adjustable_Table"
+    ],
+    "bottom_height_m": 0.7601550193783992
+  },
+  "checkpoint_names": [
+    "carry_initial",
+    "late_open_loaded_carry",
+    "open_loaded_carry",
+    "phase_lower",
+    "phase_reach",
+    "phase_release",
+    "phase_verify",
+    "restricted_rough_approach",
+    "restricted_rough_exit",
+    "terminal"
+  ],
+  "model_sha256": "a6458305062e374a38fbb9e69ebc63cbb7abde4f7a5c4966589d47f6f6971dd2",
+  "limitation": "Nominal pilot only; no recoverability, VLA, hardware or policy novelty conclusion"
+}

@@ -9,6 +9,7 @@ let home=fs.readFileSync(path.join(root,'web/public/index.html'),'utf8');
 for(const [key,value] of Object.entries({REPOSITORY_URL:config.repository,RELEASE_URL:config.release,LIVE_URL:config.live,SITE_URL:config.site}))home=home.replaceAll(`__${key}__`,escape(value));
 fs.writeFileSync(path.join(out,'index.html'),home);fs.copyFileSync(path.join(root,'web/public/style.css'),path.join(out,'style.css'));
 const g1=path.join(root,'reports/g1-study');if(fs.existsSync(g1))fs.cpSync(g1,path.join(out,'g1-study'),{recursive:true});
+const cargo=path.join(root,'reports/cargo-recovery');if(fs.existsSync(cargo))fs.cpSync(cargo,path.join(out,'cargo-recovery'),{recursive:true});
 const report=path.join(out,'report');fs.mkdirSync(report,{recursive:true});
 for(const name of ['figures','clips','data'])fs.cpSync(path.join(root,'reports',name),path.join(report,name),{recursive:true});
 for(const name of ['WAKE_UP_REPORT.md','research-bundle.zip'])fs.copyFileSync(path.join(root,'reports',name),path.join(report,name));
