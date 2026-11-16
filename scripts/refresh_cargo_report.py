@@ -25,9 +25,9 @@ class References(HTMLParser):
             if key in values and not values[key].startswith(('http:','https:','#','data:','mailto:')):self.refs.append(values[key])
 
 
-def refresh(publish):
+def refresh(publish,campaigns):
     paths=' '.join('.cache/cargo-missions/'+p for p in PARENTS)
-    command=f'cd {REMOTE} && .venv-g1/bin/python engine/tools/build_cargo_recovery_report.py --parents '+ ' '.join('engine/'+p for p in paths.split())+' --campaign engine/.cache/cargo-recovery-campaigns/warehouse_final_v1 --output engine/.cache/cargo-report'
+    command=f'cd {REMOTE} && .venv-g1/bin/python engine/tools/build_cargo_recovery_report.py --parents '+ ' '.join('engine/'+p for p in paths.split())+' --campaign engine/.cache/cargo-recovery-campaigns/'+campaigns[0]+''.join(' --extra-campaign engine/.cache/cargo-recovery-campaigns/'+name for name in campaigns[1:])+' --output engine/.cache/cargo-report'
     print(remote(command).strip(),flush=True)
     STAGING.mkdir(parents=True,exist_ok=True)
     subprocess.run(['rsync','-a','-e','ssh -o UserKnownHostsFile='+str(ROOT/'.cache/thor_known_hosts'),HOST+':'+REMOTE+'/engine/.cache/cargo-report/',str(STAGING)+'/'],check=True)
@@ -55,14 +55,16 @@ def refresh(publish):
 
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--publish',action='store_true');ap.add_argument('--watch',action='store_true');ap.add_argument('--commit-final',action='store_true');args=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument('--publish',action='store_true');ap.add_argument('--watch',action='store_true');ap.add_argument('--commit-final',action='store_true');ap.add_argument('--campaigns',nargs='+',default=['warehouse_final_v1']);args=ap.parse_args()
+    import re
+    if any(not re.fullmatch('[A-Za-z0-9_-]+',name) for name in args.campaigns):raise ValueError('Invalid campaign name')
     last=-100;last_status=None
     while True:
         try:
-            progress=json.loads(remote(f'cat {REMOTE}/engine/.cache/cargo-recovery-campaigns/warehouse_final_v1/progress.json'))
-            count=progress.get('complete',0);status=progress.get('status');finished=status in ('complete','incomplete_technical_review')
+            progresses=[json.loads(remote(f'cat {REMOTE}/engine/.cache/cargo-recovery-campaigns/{name}/progress.json')) for name in args.campaigns]
+            count=sum(p.get('complete',0) for p in progresses);finished=all(p.get('status') in ('complete','incomplete_technical_review') for p in progresses);status='finished' if finished else 'running'
             if not args.watch or count-last>=25 or finished and status!=last_status:
-                refresh(args.publish);last=count;last_status=status
+                refresh(args.publish,args.campaigns);last=count;last_status=status
             if not args.watch or finished:
                 if args.commit_final and finished:
                     subprocess.run(['git','add','reports/cargo-recovery'],cwd=ROOT,check=True)

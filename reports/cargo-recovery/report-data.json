@@ -1,5 +1,5 @@
 {
-  "archived_unselected_run_count": 1,
+  "archived_unselected_run_count": 0,
   "availability_matrix": {
     "actions": [
       "continue",
@@ -5182,7 +5182,7 @@
   "eligible_completed_fork_count": 405,
   "eligible_fork_count": 360,
   "excluded_baselines": [],
-  "fork_count": 407,
+  "fork_count": 405,
   "fork_outcome_counts": {
     "completed": 357,
     "drop": 0,
@@ -9405,6 +9405,38 @@
       "parity": true,
       "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/3abf804f242a43a2",
       "placement_completed": false,
+      "placement_diagnostic_clip": {
+        "bytes": 497667,
+        "path": "media/3abf804f242a43a2/cargo-replay-185p00-205p18.mp4",
+        "sha256": "ca04a50eca2e513f83070f731dbe1e0fde7cff012013c5125a8739566a8e9929"
+      },
+      "placement_inset_sensitivity": {
+        "minimum_inward_corner_clearance_m": 0.00407372702573916,
+        "thresholds": [
+          {
+            "inset_m": 0.0,
+            "longest_stable_interval_s": 19.99999999998181,
+            "meets_three_second_rule": true
+          },
+          {
+            "inset_m": 0.005,
+            "longest_stable_interval_s": 0.0,
+            "meets_three_second_rule": false
+          },
+          {
+            "inset_m": 0.01,
+            "longest_stable_interval_s": 0.0,
+            "meets_three_second_rule": false
+          },
+          {
+            "inset_m": 0.02,
+            "longest_stable_interval_s": 0.0,
+            "meets_three_second_rule": false
+          }
+        ],
+        "trace_sha256": "7d3d3bc8c46c46d372bdbf74af15c295d003e9233ae13d200c626c173e57b33e",
+        "verification_samples": 501
+      },
       "qualification_only": false,
       "raw_outcome": "placement_failed",
       "resumption_s": 4.099999999996271,
@@ -17554,57 +17586,6 @@
       "task_clock_s": 488.53999999962554
     },
     {
-      "action": "continue",
-      "campaign_id": null,
-      "campaign_result_status": null,
-      "checkpoint": "open_loaded_carry",
-      "checkpoint_digest": "fe23fefd6235017d9b1138216066a70bd7f2bbf39c0a485b974e9377eefd0f55",
-      "condition_role": "zero-force control",
-      "deadline_control": false,
-      "exclusion_reasons": [
-        "parent run not included in inputs",
-        "parent ineligible: parent run not included in inputs",
-        "not listed in a selected campaign results file"
-      ],
-      "fork_status": "complete",
-      "id": "a6065520418e4830",
-      "impulse_ns": 0.0,
-      "included_in_counts": false,
-      "included_in_recovery_counts": false,
-      "links": {
-        "manifest": "data/forks/a6065520418e4830/manifest.json",
-        "summary": "data/forks/a6065520418e4830/summary.json"
-      },
-      "manifest_sha256": "23941db32c17ce55007345768066f540b5278aac8923f8565a03922ca8e87010",
-      "max_motor_utilization": 0.5884780880262314,
-      "max_tilt_deg": 9.160773698614399,
-      "min_payload_bottom_height_m": 0.7592859820691842,
-      "outcome": "completed",
-      "parent_eligible": false,
-      "parent_id": "acf55cc8daf14181",
-      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/acf55cc8daf14181",
-      "parent_seed": null,
-      "parity": false,
-      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/a6065520418e4830",
-      "placement_completed": true,
-      "qualification_only": false,
-      "raw_outcome": "completed",
-      "resumption_s": 8.66000000000443,
-      "sign": 1,
-      "source_hashes": {
-        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
-        "twinbench_engine/cargo_mission.py": "65ecefc91040d298e1971b69ce042838740b4d9b6c8199ea0f9020d1b37bedac",
-        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
-        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
-        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
-        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
-        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
-        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
-      },
-      "summary_sha256": "169f3959a02d46358ab0fbc24c6838f1ead65ca49cbd106b7aeaf6923cea401d",
-      "task_clock_s": 490.59999999962366
-    },
-    {
       "action": "stop",
       "campaign_id": "warehouse_boundary_positive_seed0",
       "campaign_result_status": "complete",
@@ -17634,6 +17615,33 @@
       "parity": true,
       "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/a61cc950ae054b8e",
       "placement_completed": false,
+      "placement_inset_sensitivity": {
+        "minimum_inward_corner_clearance_m": 0.008957060137103845,
+        "thresholds": [
+          {
+            "inset_m": 0.0,
+            "longest_stable_interval_s": 19.99999999998181,
+            "meets_three_second_rule": true
+          },
+          {
+            "inset_m": 0.005,
+            "longest_stable_interval_s": 19.99999999998181,
+            "meets_three_second_rule": true
+          },
+          {
+            "inset_m": 0.01,
+            "longest_stable_interval_s": 0.0,
+            "meets_three_second_rule": false
+          },
+          {
+            "inset_m": 0.02,
+            "longest_stable_interval_s": 0.0,
+            "meets_three_second_rule": false
+          }
+        ],
+        "trace_sha256": "aeb6f521ff5ee5b472be38540743f6d16a6858dba1279bd7bf9106823f13da5e",
+        "verification_samples": 501
+      },
       "qualification_only": false,
       "raw_outcome": "placement_failed",
       "resumption_s": 6.5799999999940155,
@@ -19044,6 +19052,33 @@
       "parity": true,
       "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/b94586c06e8c4bba",
       "placement_completed": false,
+      "placement_inset_sensitivity": {
+        "minimum_inward_corner_clearance_m": 0.0035351670983239103,
+        "thresholds": [
+          {
+            "inset_m": 0.0,
+            "longest_stable_interval_s": 19.99999999998181,
+            "meets_three_second_rule": true
+          },
+          {
+            "inset_m": 0.005,
+            "longest_stable_interval_s": 0.0,
+            "meets_three_second_rule": false
+          },
+          {
+            "inset_m": 0.01,
+            "longest_stable_interval_s": 0.0,
+            "meets_three_second_rule": false
+          },
+          {
+            "inset_m": 0.02,
+            "longest_stable_interval_s": 0.0,
+            "meets_three_second_rule": false
+          }
+        ],
+        "trace_sha256": "be43ec48227d3ed75bc1803d0f0a83b6946a7ed755f3320ca2c2d2819d70fe4d",
+        "verification_samples": 501
+      },
       "qualification_only": false,
       "raw_outcome": "placement_failed",
       "resumption_s": 8.259999999992488,
@@ -23292,55 +23327,6 @@
       "task_clock_s": 485.97999999962786
     },
     {
-      "action": "continue",
-      "campaign_id": null,
-      "campaign_result_status": null,
-      "checkpoint": "open_loaded_carry",
-      "checkpoint_digest": "71e02c3f12b4a39b236f91ddbb352eb83b3defd388a71c039a5fc63c4bc1fe20",
-      "condition_role": "zero-force control",
-      "deadline_control": false,
-      "exclusion_reasons": [
-        "qualification-only exact parity evidence; not a recovery campaign trial"
-      ],
-      "fork_status": "complete",
-      "id": "ef869df183c3437a",
-      "impulse_ns": 0.0,
-      "included_in_counts": false,
-      "included_in_recovery_counts": false,
-      "links": {
-        "manifest": "data/forks/ef869df183c3437a/manifest.json",
-        "summary": "data/forks/ef869df183c3437a/summary.json"
-      },
-      "manifest_sha256": "a674d07faba679d444d2dbe23c34bf91366a07e0e54464c511c92c36049758d9",
-      "max_motor_utilization": 0.8458836470129693,
-      "max_tilt_deg": 9.13671702377286,
-      "min_payload_bottom_height_m": 0.7575659405279185,
-      "outcome": "completed",
-      "parent_eligible": true,
-      "parent_id": "32dc5deadbc841dd",
-      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
-      "parent_seed": 0,
-      "parity": true,
-      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/ef869df183c3437a",
-      "placement_completed": true,
-      "qualification_only": true,
-      "raw_outcome": "completed",
-      "resumption_s": 8.62000000000441,
-      "sign": 1,
-      "source_hashes": {
-        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
-        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
-        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
-        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
-        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
-        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
-        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
-        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
-      },
-      "summary_sha256": "e6d5257439c0b406c1329fec225cf2d5ea6bc1f6d05ae33c8fdfe838d8aa66fd",
-      "task_clock_s": 482.49999999963103
-    },
-    {
       "action": "backstep",
       "campaign_id": "warehouse_final_v1",
       "campaign_result_status": "complete",
@@ -24328,7 +24314,116 @@
       "task_clock_s": 483.13999999963045
     }
   ],
-  "generated_utc": "2026-11-16T05:59:31+00:00",
+  "generated_utc": "2026-11-16T06:23:20+00:00",
+  "handoff_audit": {
+    "audit_type": "cargo_handoff",
+    "name": "corrected cargo handoff qualification audit",
+    "path": "data/qualification/cargo-handoff-audit.json",
+    "records": [
+      {
+        "gate": {
+          "criteria": {
+            "bottom_clearance_m": 0.03,
+            "hold_s": 2.0,
+            "max_tilt_deg": 30.0,
+            "maximum_sample_gap_s": 0.2,
+            "minimum_bilateral_hand_force_n": 1.0,
+            "tabletop_z_m": 0.75
+          },
+          "ending_unsupported_hold_s": 16.07999999999892,
+          "handoff_qualified": true,
+          "maximum_bottom_clearance_m": 0.11655523560388881,
+          "qualification_status": "pass_lift_only",
+          "scope": "Loaded-phase handoff gate: sustained unsupported bilateral holding must continue through the final sample",
+          "sustained_unsupported_lift_s": 16.07999999999892
+        },
+        "id": "32dc5deadbc841dd",
+        "mass_kg": 2.0
+      },
+      {
+        "gate": {
+          "criteria": {
+            "bottom_clearance_m": 0.03,
+            "hold_s": 2.0,
+            "max_tilt_deg": 30.0,
+            "maximum_sample_gap_s": 0.2,
+            "minimum_bilateral_hand_force_n": 1.0,
+            "tabletop_z_m": 0.75
+          },
+          "ending_unsupported_hold_s": 16.039999999998926,
+          "handoff_qualified": true,
+          "maximum_bottom_clearance_m": 0.11607893169655825,
+          "qualification_status": "pass_lift_only",
+          "scope": "Loaded-phase handoff gate: sustained unsupported bilateral holding must continue through the final sample",
+          "sustained_unsupported_lift_s": 16.039999999998926
+        },
+        "id": "5add07da420147f5",
+        "mass_kg": 2.0
+      },
+      {
+        "gate": {
+          "criteria": {
+            "bottom_clearance_m": 0.03,
+            "hold_s": 2.0,
+            "max_tilt_deg": 30.0,
+            "maximum_sample_gap_s": 0.2,
+            "minimum_bilateral_hand_force_n": 1.0,
+            "tabletop_z_m": 0.75
+          },
+          "ending_unsupported_hold_s": 16.039999999998926,
+          "handoff_qualified": true,
+          "maximum_bottom_clearance_m": 0.11718801750268326,
+          "qualification_status": "pass_lift_only",
+          "scope": "Loaded-phase handoff gate: sustained unsupported bilateral holding must continue through the final sample",
+          "sustained_unsupported_lift_s": 16.039999999998926
+        },
+        "id": "cb9f3d1a7c0649fe",
+        "mass_kg": 2.0
+      },
+      {
+        "gate": {
+          "criteria": {
+            "bottom_clearance_m": 0.03,
+            "hold_s": 2.0,
+            "max_tilt_deg": 30.0,
+            "maximum_sample_gap_s": 0.2,
+            "minimum_bilateral_hand_force_n": 1.0,
+            "tabletop_z_m": 0.75
+          },
+          "ending_unsupported_hold_s": 0.0,
+          "handoff_qualified": false,
+          "maximum_bottom_clearance_m": 0.11758095193109241,
+          "qualification_status": "pass_lift_only",
+          "scope": "Loaded-phase handoff gate: sustained unsupported bilateral holding must continue through the final sample",
+          "sustained_unsupported_lift_s": 6.480000000000658
+        },
+        "id": "1a0b334ddb144f24",
+        "mass_kg": 4.0
+      },
+      {
+        "gate": {
+          "criteria": {
+            "bottom_clearance_m": 0.03,
+            "hold_s": 2.0,
+            "max_tilt_deg": 30.0,
+            "maximum_sample_gap_s": 0.2,
+            "minimum_bilateral_hand_force_n": 1.0,
+            "tabletop_z_m": 0.75
+          },
+          "ending_unsupported_hold_s": 0.0,
+          "handoff_qualified": false,
+          "maximum_bottom_clearance_m": 0.015669461626403702,
+          "qualification_status": "failed_lift_gate",
+          "scope": "Loaded-phase handoff gate: sustained unsupported bilateral holding must continue through the final sample",
+          "sustained_unsupported_lift_s": 0.0
+        },
+        "id": "0d6e4ce4c53547af",
+        "mass_kg": 6.0
+      }
+    ],
+    "sha256": "df520915508d44fc93395e52275bb6355aff3b5f349fd3e36573543e0a8011ad",
+    "source_path": "/home/saidevdhal/twinbench-research/engine/.cache/vla/cargo-handoff-audit.json"
+  },
   "inputs": {
     "campaign_present": [
       true,
@@ -24606,7 +24701,6 @@
       "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/a2264aa487f14c06",
       "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/a2f8fe85007e4639",
       "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/a3a9079a2b734414",
-      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/a6065520418e4830",
       "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/a61cc950ae054b8e",
       "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/a64844f549a045ee",
       "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/a7e46ddb02394525",
@@ -24728,7 +24822,6 @@
       "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/ee768ff8645449ba",
       "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/ef26d1c1fd204add",
       "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/ef702e4799094b2c",
-      "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/ef869df183c3437a",
       "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/efbc107130834af6",
       "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/f09498c1167a4979",
       "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/f1cec2b30e564ae9",
@@ -25270,7 +25363,7 @@
     }
   ],
   "pending_campaign_case_count": 0,
-  "pending_or_excluded_fork_count": 1,
+  "pending_or_excluded_fork_count": 0,
   "placement_completion_count": 357,
   "progress_completion_divergence_count": 3,
   "protocol": {
@@ -25373,10 +25466,348 @@
       "sha256": "94515d1526f063a80665186523122e3a4173fc9719fe4da76c8e04fb52842cb8",
       "source_path": "/home/saidevdhal/twinbench-research/engine/.cache/vla/warehouse-all-zero-continue-parity.json",
       "status": "pass"
+    },
+    {
+      "audit_type": "cargo_handoff",
+      "name": "corrected cargo handoff qualification audit",
+      "path": "data/qualification/cargo-handoff-audit.json",
+      "records": [
+        {
+          "gate": {
+            "criteria": {
+              "bottom_clearance_m": 0.03,
+              "hold_s": 2.0,
+              "max_tilt_deg": 30.0,
+              "maximum_sample_gap_s": 0.2,
+              "minimum_bilateral_hand_force_n": 1.0,
+              "tabletop_z_m": 0.75
+            },
+            "ending_unsupported_hold_s": 16.07999999999892,
+            "handoff_qualified": true,
+            "maximum_bottom_clearance_m": 0.11655523560388881,
+            "qualification_status": "pass_lift_only",
+            "scope": "Loaded-phase handoff gate: sustained unsupported bilateral holding must continue through the final sample",
+            "sustained_unsupported_lift_s": 16.07999999999892
+          },
+          "id": "32dc5deadbc841dd",
+          "mass_kg": 2.0
+        },
+        {
+          "gate": {
+            "criteria": {
+              "bottom_clearance_m": 0.03,
+              "hold_s": 2.0,
+              "max_tilt_deg": 30.0,
+              "maximum_sample_gap_s": 0.2,
+              "minimum_bilateral_hand_force_n": 1.0,
+              "tabletop_z_m": 0.75
+            },
+            "ending_unsupported_hold_s": 16.039999999998926,
+            "handoff_qualified": true,
+            "maximum_bottom_clearance_m": 0.11607893169655825,
+            "qualification_status": "pass_lift_only",
+            "scope": "Loaded-phase handoff gate: sustained unsupported bilateral holding must continue through the final sample",
+            "sustained_unsupported_lift_s": 16.039999999998926
+          },
+          "id": "5add07da420147f5",
+          "mass_kg": 2.0
+        },
+        {
+          "gate": {
+            "criteria": {
+              "bottom_clearance_m": 0.03,
+              "hold_s": 2.0,
+              "max_tilt_deg": 30.0,
+              "maximum_sample_gap_s": 0.2,
+              "minimum_bilateral_hand_force_n": 1.0,
+              "tabletop_z_m": 0.75
+            },
+            "ending_unsupported_hold_s": 16.039999999998926,
+            "handoff_qualified": true,
+            "maximum_bottom_clearance_m": 0.11718801750268326,
+            "qualification_status": "pass_lift_only",
+            "scope": "Loaded-phase handoff gate: sustained unsupported bilateral holding must continue through the final sample",
+            "sustained_unsupported_lift_s": 16.039999999998926
+          },
+          "id": "cb9f3d1a7c0649fe",
+          "mass_kg": 2.0
+        },
+        {
+          "gate": {
+            "criteria": {
+              "bottom_clearance_m": 0.03,
+              "hold_s": 2.0,
+              "max_tilt_deg": 30.0,
+              "maximum_sample_gap_s": 0.2,
+              "minimum_bilateral_hand_force_n": 1.0,
+              "tabletop_z_m": 0.75
+            },
+            "ending_unsupported_hold_s": 0.0,
+            "handoff_qualified": false,
+            "maximum_bottom_clearance_m": 0.11758095193109241,
+            "qualification_status": "pass_lift_only",
+            "scope": "Loaded-phase handoff gate: sustained unsupported bilateral holding must continue through the final sample",
+            "sustained_unsupported_lift_s": 6.480000000000658
+          },
+          "id": "1a0b334ddb144f24",
+          "mass_kg": 4.0
+        },
+        {
+          "gate": {
+            "criteria": {
+              "bottom_clearance_m": 0.03,
+              "hold_s": 2.0,
+              "max_tilt_deg": 30.0,
+              "maximum_sample_gap_s": 0.2,
+              "minimum_bilateral_hand_force_n": 1.0,
+              "tabletop_z_m": 0.75
+            },
+            "ending_unsupported_hold_s": 0.0,
+            "handoff_qualified": false,
+            "maximum_bottom_clearance_m": 0.015669461626403702,
+            "qualification_status": "failed_lift_gate",
+            "scope": "Loaded-phase handoff gate: sustained unsupported bilateral holding must continue through the final sample",
+            "sustained_unsupported_lift_s": 0.0
+          },
+          "id": "0d6e4ce4c53547af",
+          "mass_kg": 6.0
+        }
+      ],
+      "sha256": "df520915508d44fc93395e52275bb6355aff3b5f349fd3e36573543e0a8011ad",
+      "source_path": "/home/saidevdhal/twinbench-research/engine/.cache/vla/cargo-handoff-audit.json"
     }
   ],
-  "qualification_only_fork_count": 1,
+  "qualification_only_fork_count": 0,
   "qualified_baseline_count": 3,
+  "reviewed_placement_cases": [
+    {
+      "action": "continue",
+      "campaign_id": "warehouse_boundary_negative_seed0",
+      "campaign_result_status": "complete",
+      "checkpoint": "restricted_rough_approach",
+      "checkpoint_digest": "f41a9b65787faa1f317e9cae779f1dd768b4b313493802c5cb6f443ea1ff1ca2",
+      "condition_role": "disturbed recovery fork",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "3abf804f242a43a2",
+      "impulse_ns": 24.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": true,
+      "links": {
+        "manifest": "data/forks/3abf804f242a43a2/manifest.json",
+        "summary": "data/forks/3abf804f242a43a2/summary.json"
+      },
+      "manifest_sha256": "9e5589eae19145410463ece19cc4d4926ff17c02799ffa328f71d38d4ecfc328",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 10.545795005244853,
+      "min_payload_bottom_height_m": 0.7595973097561608,
+      "outcome": "placement failed",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/3abf804f242a43a2",
+      "placement_completed": false,
+      "placement_diagnostic_clip": {
+        "bytes": 497667,
+        "path": "media/3abf804f242a43a2/cargo-replay-185p00-205p18.mp4",
+        "sha256": "ca04a50eca2e513f83070f731dbe1e0fde7cff012013c5125a8739566a8e9929"
+      },
+      "placement_inset_sensitivity": {
+        "minimum_inward_corner_clearance_m": 0.00407372702573916,
+        "thresholds": [
+          {
+            "inset_m": 0.0,
+            "longest_stable_interval_s": 19.99999999998181,
+            "meets_three_second_rule": true
+          },
+          {
+            "inset_m": 0.005,
+            "longest_stable_interval_s": 0.0,
+            "meets_three_second_rule": false
+          },
+          {
+            "inset_m": 0.01,
+            "longest_stable_interval_s": 0.0,
+            "meets_three_second_rule": false
+          },
+          {
+            "inset_m": 0.02,
+            "longest_stable_interval_s": 0.0,
+            "meets_three_second_rule": false
+          }
+        ],
+        "trace_sha256": "7d3d3bc8c46c46d372bdbf74af15c295d003e9233ae13d200c626c173e57b33e",
+        "verification_samples": 501
+      },
+      "qualification_only": false,
+      "raw_outcome": "placement_failed",
+      "resumption_s": 4.099999999996271,
+      "sign": -1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "5503596bbe5353cd007fcf9afa7f9c245415b74b76bde49f0898b773ab1e85ee",
+      "task_clock_s": 503.3399999996121
+    },
+    {
+      "action": "stop",
+      "campaign_id": "warehouse_boundary_positive_seed0",
+      "campaign_result_status": "complete",
+      "checkpoint": "restricted_rough_approach",
+      "checkpoint_digest": "f41a9b65787faa1f317e9cae779f1dd768b4b313493802c5cb6f443ea1ff1ca2",
+      "condition_role": "disturbed recovery fork",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "a61cc950ae054b8e",
+      "impulse_ns": 40.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": true,
+      "links": {
+        "manifest": "data/forks/a61cc950ae054b8e/manifest.json",
+        "summary": "data/forks/a61cc950ae054b8e/summary.json"
+      },
+      "manifest_sha256": "3c7ed57bd4d7b6b97aeef132a1011215feed753db8d32747799efd234de59ffd",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 9.345665555002014,
+      "min_payload_bottom_height_m": 0.7592034805944726,
+      "outcome": "placement failed",
+      "parent_eligible": true,
+      "parent_id": "32dc5deadbc841dd",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/32dc5deadbc841dd",
+      "parent_seed": 0,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/a61cc950ae054b8e",
+      "placement_completed": false,
+      "placement_inset_sensitivity": {
+        "minimum_inward_corner_clearance_m": 0.008957060137103845,
+        "thresholds": [
+          {
+            "inset_m": 0.0,
+            "longest_stable_interval_s": 19.99999999998181,
+            "meets_three_second_rule": true
+          },
+          {
+            "inset_m": 0.005,
+            "longest_stable_interval_s": 19.99999999998181,
+            "meets_three_second_rule": true
+          },
+          {
+            "inset_m": 0.01,
+            "longest_stable_interval_s": 0.0,
+            "meets_three_second_rule": false
+          },
+          {
+            "inset_m": 0.02,
+            "longest_stable_interval_s": 0.0,
+            "meets_three_second_rule": false
+          }
+        ],
+        "trace_sha256": "aeb6f521ff5ee5b472be38540743f6d16a6858dba1279bd7bf9106823f13da5e",
+        "verification_samples": 501
+      },
+      "qualification_only": false,
+      "raw_outcome": "placement_failed",
+      "resumption_s": 6.5799999999940155,
+      "sign": 1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "dbfef5f5209e16277ab49121c7f92cc1df6613c2e78e9cc4c020658f026d94e0",
+      "task_clock_s": 502.299999999613
+    },
+    {
+      "action": "stop",
+      "campaign_id": "warehouse_negative_y_v1",
+      "campaign_result_status": "complete",
+      "checkpoint": "late_open_loaded_carry",
+      "checkpoint_digest": "07397d465c8d4fb40c10b84fe9ea3d39bb009786adbd64d56d3b69f7de9c3078",
+      "condition_role": "disturbed recovery fork",
+      "deadline_control": false,
+      "exclusion_reasons": [],
+      "fork_status": "complete",
+      "id": "b94586c06e8c4bba",
+      "impulse_ns": 16.0,
+      "included_in_counts": true,
+      "included_in_recovery_counts": true,
+      "links": {
+        "manifest": "data/forks/b94586c06e8c4bba/manifest.json",
+        "summary": "data/forks/b94586c06e8c4bba/summary.json"
+      },
+      "manifest_sha256": "a335f4649d38630a6d209c4ae4547f9e41745db78b026c407d3fd5803f6ba820",
+      "max_motor_utilization": 1.0,
+      "max_tilt_deg": 9.102783254540903,
+      "min_payload_bottom_height_m": 0.7599055898261526,
+      "outcome": "placement failed",
+      "parent_eligible": true,
+      "parent_id": "cb9f3d1a7c0649fe",
+      "parent_path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe",
+      "parent_seed": 2,
+      "parity": true,
+      "path": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-recovery-forks/b94586c06e8c4bba",
+      "placement_completed": false,
+      "placement_inset_sensitivity": {
+        "minimum_inward_corner_clearance_m": 0.0035351670983239103,
+        "thresholds": [
+          {
+            "inset_m": 0.0,
+            "longest_stable_interval_s": 19.99999999998181,
+            "meets_three_second_rule": true
+          },
+          {
+            "inset_m": 0.005,
+            "longest_stable_interval_s": 0.0,
+            "meets_three_second_rule": false
+          },
+          {
+            "inset_m": 0.01,
+            "longest_stable_interval_s": 0.0,
+            "meets_three_second_rule": false
+          },
+          {
+            "inset_m": 0.02,
+            "longest_stable_interval_s": 0.0,
+            "meets_three_second_rule": false
+          }
+        ],
+        "trace_sha256": "be43ec48227d3ed75bc1803d0f0a83b6946a7ed755f3320ca2c2d2819d70fe4d",
+        "verification_samples": 501
+      },
+      "qualification_only": false,
+      "raw_outcome": "placement_failed",
+      "resumption_s": 8.259999999992488,
+      "sign": -1,
+      "source_hashes": {
+        "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+        "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+        "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+        "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+        "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+        "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+        "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+        "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+      },
+      "summary_sha256": "d2cf4e72e99fb3c83a28656b6e50e232d7d0c911bff14e6d2140c55e48d85c47",
+      "task_clock_s": 509.4599999996065
+    }
+  ],
   "scope": "Simulated long-horizon physical cargo mission and matched recovery forks; no hardware/VLA claim.",
   "source_hashes_seen": {
     "tools/run_cargo_mission.py": [
@@ -25410,7 +25841,7 @@
       "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
     ]
   },
-  "status": "preliminary \u00b7 360 eligible disturbed cases, 1 archived runs excluded",
+  "status": "preliminary \u00b7 360 eligible disturbed cases, 0 archived runs excluded",
   "task_resumption_count": 360,
   "title": "Cargo recovery study: preliminary evidence report"
 }

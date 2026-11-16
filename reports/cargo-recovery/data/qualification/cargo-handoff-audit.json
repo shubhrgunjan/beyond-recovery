@@ -1,0 +1,105 @@
+{
+  "scope": "Read-only rescore of existing pickup prefixes; no physics rerun",
+  "records": [
+    {
+      "id": "32dc5deadbc841dd",
+      "mass_kg": 2.0,
+      "gate": {
+        "qualification_status": "pass_lift_only",
+        "sustained_unsupported_lift_s": 16.07999999999892,
+        "maximum_bottom_clearance_m": 0.11655523560388881,
+        "criteria": {
+          "tabletop_z_m": 0.75,
+          "bottom_clearance_m": 0.03,
+          "hold_s": 2.0,
+          "max_tilt_deg": 30.0,
+          "minimum_bilateral_hand_force_n": 1.0,
+          "maximum_sample_gap_s": 0.2
+        },
+        "scope": "Loaded-phase handoff gate: sustained unsupported bilateral holding must continue through the final sample",
+        "ending_unsupported_hold_s": 16.07999999999892,
+        "handoff_qualified": true
+      }
+    },
+    {
+      "id": "5add07da420147f5",
+      "mass_kg": 2.0,
+      "gate": {
+        "qualification_status": "pass_lift_only",
+        "sustained_unsupported_lift_s": 16.039999999998926,
+        "maximum_bottom_clearance_m": 0.11607893169655825,
+        "criteria": {
+          "tabletop_z_m": 0.75,
+          "bottom_clearance_m": 0.03,
+          "hold_s": 2.0,
+          "max_tilt_deg": 30.0,
+          "minimum_bilateral_hand_force_n": 1.0,
+          "maximum_sample_gap_s": 0.2
+        },
+        "scope": "Loaded-phase handoff gate: sustained unsupported bilateral holding must continue through the final sample",
+        "ending_unsupported_hold_s": 16.039999999998926,
+        "handoff_qualified": true
+      }
+    },
+    {
+      "id": "cb9f3d1a7c0649fe",
+      "mass_kg": 2.0,
+      "gate": {
+        "qualification_status": "pass_lift_only",
+        "sustained_unsupported_lift_s": 16.039999999998926,
+        "maximum_bottom_clearance_m": 0.11718801750268326,
+        "criteria": {
+          "tabletop_z_m": 0.75,
+          "bottom_clearance_m": 0.03,
+          "hold_s": 2.0,
+          "max_tilt_deg": 30.0,
+          "minimum_bilateral_hand_force_n": 1.0,
+          "maximum_sample_gap_s": 0.2
+        },
+        "scope": "Loaded-phase handoff gate: sustained unsupported bilateral holding must continue through the final sample",
+        "ending_unsupported_hold_s": 16.039999999998926,
+        "handoff_qualified": true
+      }
+    },
+    {
+      "id": "1a0b334ddb144f24",
+      "mass_kg": 4.0,
+      "gate": {
+        "qualification_status": "pass_lift_only",
+        "sustained_unsupported_lift_s": 6.480000000000658,
+        "maximum_bottom_clearance_m": 0.11758095193109241,
+        "criteria": {
+          "tabletop_z_m": 0.75,
+          "bottom_clearance_m": 0.03,
+          "hold_s": 2.0,
+          "max_tilt_deg": 30.0,
+          "minimum_bilateral_hand_force_n": 1.0,
+          "maximum_sample_gap_s": 0.2
+        },
+        "scope": "Loaded-phase handoff gate: sustained unsupported bilateral holding must continue through the final sample",
+        "ending_unsupported_hold_s": 0.0,
+        "handoff_qualified": false
+      }
+    },
+    {
+      "id": "0d6e4ce4c53547af",
+      "mass_kg": 6.0,
+      "gate": {
+        "qualification_status": "failed_lift_gate",
+        "sustained_unsupported_lift_s": 0.0,
+        "maximum_bottom_clearance_m": 0.015669461626403702,
+        "criteria": {
+          "tabletop_z_m": 0.75,
+          "bottom_clearance_m": 0.03,
+          "hold_s": 2.0,
+          "max_tilt_deg": 30.0,
+          "minimum_bilateral_hand_force_n": 1.0,
+          "maximum_sample_gap_s": 0.2
+        },
+        "scope": "Loaded-phase handoff gate: sustained unsupported bilateral holding must continue through the final sample",
+        "ending_unsupported_hold_s": 0.0,
+        "handoff_qualified": false
+      }
+    }
+  ]
+}
