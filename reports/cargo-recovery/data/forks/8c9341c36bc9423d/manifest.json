@@ -1,0 +1,88 @@
+{
+  "experiment": "cargo_recovery_counterfactual_fork",
+  "id": "8c9341c36bc9423d",
+  "implementation_limitations": [
+    "Finite native G1 GEAR-WBC inference with privileged-state IK; no VLA decisions or hardware test.",
+    "A positive outcome is bounded to this checkpoint, route, payload, disturbance, and recovery command."
+  ],
+  "outcome": "completed",
+  "parent_checkpoint": "late_open_loaded_carry",
+  "parent_checkpoint_digest": "07397d465c8d4fb40c10b84fe9ea3d39bb009786adbd64d56d3b69f7de9c3078",
+  "parent_model_sha256": "a6458305062e374a38fbb9e69ebc63cbb7abde4f7a5c4966589d47f6f6971dd2",
+  "parent_run": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe",
+  "parent_summary_completed": true,
+  "policy_identity_from_checkpoint": {
+    "checkpoints": {
+      "balance": {
+        "declared_sha256": "f645da599d4ca3d29ed273c8f4712620bb680d34977469ca3aeabe5bb9631c18",
+        "path": "/home/saidevdhal/twinbench-research/engine/policies/g1_wbc/balance.onnx",
+        "sha256": "f645da599d4ca3d29ed273c8f4712620bb680d34977469ca3aeabe5bb9631c18"
+      },
+      "primary": {
+        "declared_sha256": "7c82255b6905ffcc4468fa7f8ddcf7b70db168cf1042107ccab887cb6a8e5407",
+        "path": "/home/saidevdhal/twinbench-research/engine/policies/g1_wbc/policy.onnx",
+        "sha256": "7c82255b6905ffcc4468fa7f8ddcf7b70db168cf1042107ccab887cb6a8e5407"
+      }
+    },
+    "class": "G1WBCPolicy",
+    "name": "g1_wbc",
+    "onnx_path": "/home/saidevdhal/twinbench-research/engine/policies/g1_wbc/policy.onnx",
+    "onnx_sha256": "7c82255b6905ffcc4468fa7f8ddcf7b70db168cf1042107ccab887cb6a8e5407",
+    "spec_path": "/home/saidevdhal/twinbench-research/engine/policies/g1_wbc/policy_spec.json",
+    "spec_sha256": "1c343f066d5d3015628bf5bac0279bf8cf3207f0b699a1c68682dd65509cbb0a"
+  },
+  "protocol": {
+    "action_detection_delay_s": 0.2,
+    "base_axis": "checkpoint base-local +Y axis expressed in world coordinates",
+    "checkpoint_base_rotation": [
+      [
+        0.019606291853093927,
+        -0.999418536313319,
+        -0.027895924310091594
+      ],
+      [
+        0.995708157618385,
+        0.022042399821989855,
+        -0.08988546858246228
+      ],
+      [
+        0.09044809656356828,
+        -0.026013878669483362,
+        0.9955613592062504
+      ]
+    ],
+    "deadline_control": false,
+    "effective_deadline_s_from_pick_start": 900.0,
+    "force_duration_s": 0.2,
+    "force_magnitude_n": 80.0,
+    "fork_sim_time_s": 333.9799999997688,
+    "impulse_magnitude_ns": 16.0,
+    "mission_update_hz": 50,
+    "original_deadline_s_from_pick_start": 900.0,
+    "original_task_time_at_fork_s": 330.97999999976884,
+    "physics_hz": 200,
+    "recovery": "lateral_escape",
+    "route_arc_m_at_fork": 32.85189532893952,
+    "task_resumption_rule": "first sample after intervention with route-arc advance >=0.5 m from fork, tilt <20 deg, and retained payload (bottom >0.5 m, unsupported, and both hand normal forces >1 N)",
+    "trace_hz": 25,
+    "world_force_vector_n": [
+      -79.95348290506553,
+      1.7633919857591884,
+      -2.0811102935586687
+    ]
+  },
+  "runner_sha256": "3ef8991be33514024cefdf225b6bd1b56e5fb350f798eab48e97624dee602916",
+  "scope": "Engineering-only simulation fork; not hardware recovery evidence",
+  "source_hashes": {
+    "twinbench_engine/cargo.py": "c2c5dd2e4de695bfc63c964081137a0a29767aef8083ea1e6a742a537db3812e",
+    "twinbench_engine/cargo_mission.py": "11326508019f6a935ef7d0164d3f063d9b5e58c9deabfc7aa3ed4f0042c825df",
+    "twinbench_engine/cargo_placement.py": "33d14ed45e14e67708d3fcb3b50761cab921ddefcb15e317d51cd4c0ac589e14",
+    "twinbench_engine/control.py": "227d047e4173aca8feca496f9d5e503b0976f67d61fbf938d176bf90851f635a",
+    "twinbench_engine/g1_wbc.py": "b5f48722b8e31cc5bb41c4834378551412c4195e8b33cc38c6cb8f1340269fe2",
+    "twinbench_engine/recovery_checkpoint.py": "479694f1be2a6a26b35146bcd5c205b843b731d698111b087b47d513e119237e",
+    "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
+    "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
+  },
+  "status": "complete",
+  "trace_samples": 4017
+}

@@ -5,6 +5,7 @@
     "Finite native G1 GEAR-WBC inference with privileged-state IK; no VLA decisions or hardware test.",
     "A positive outcome is bounded to this checkpoint, route, payload, disturbance, and recovery command."
   ],
+  "outcome": "completed",
   "parent_checkpoint": "open_loaded_carry",
   "parent_checkpoint_digest": "71e02c3f12b4a39b236f91ddbb352eb83b3defd388a71c039a5fc63c4bc1fe20",
   "parent_model_sha256": "a6458305062e374a38fbb9e69ebc63cbb7abde4f7a5c4966589d47f6f6971dd2",
@@ -82,5 +83,6 @@
     "twinbench_engine/sim.py": "56cbf67080db85170e7e59d7a33c75ddc0ecfcd3c550d6b32d307f2c690e88cc",
     "twinbench_engine/task_assets.py": "d59e7f163ce19330c87e220b906bc5610e7dfcda684630c0a064008c73e2ea9a"
   },
-  "status": "running"
+  "status": "complete",
+  "trace_samples": 11266
 }

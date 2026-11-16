@@ -1,0 +1,440 @@
+{
+  "deadline_control": false,
+  "effective_deadline_s": 900.0,
+  "final_object": {
+    "bottom_height_m": 0.7601550193854344,
+    "broad_hand_normal_force_n": {
+      "left": 0.0,
+      "right": 0.0
+    },
+    "contact_bodies": [
+      "delivery_Adjustable_Table"
+    ],
+    "hand_normal_force_n": {
+      "left": 0.0,
+      "right": 0.0
+    },
+    "hand_world_force_n": {
+      "left": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "right": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "position": [
+      6.413081795379924,
+      24.009908375666207,
+      0.8601550193918917
+    ],
+    "quat": [
+      0.999613897238674,
+      -1.5119334701566002e-12,
+      5.442063494151611e-11,
+      0.027785903751924735
+    ],
+    "support_contacts": [
+      "delivery_Adjustable_Table"
+    ],
+    "velocity": [
+      -2.9611857467137383e-10,
+      -1.6477733599631534e-11,
+      -2.15882740505408e-13,
+      6.632262867307833e-13,
+      1.003492491692466e-08,
+      5.176852735080799e-17
+    ]
+  },
+  "final_phase": "verify",
+  "final_route_index": 9,
+  "first_task_resumption_s_after_fork": 9.419999999991433,
+  "force_magnitude_n": 40.0,
+  "fork_elapsed_s": 161.77999999985286,
+  "id": "0f0d528d2ac24ef5",
+  "impulse_magnitude_ns": 8.0,
+  "impulse_sign_base_local_y": 1,
+  "last_trace_sample": {
+    "actuator_force": [
+      4.17164129030086,
+      -1.2765120989084162,
+      0.7988180565318072,
+      -12.350985263706859,
+      1.9945821416202445,
+      0.5848023774584595,
+      5.418175038083483,
+      0.10298354674025817,
+      -0.021879560623297673,
+      -12.529322259940805,
+      2.05766331331323,
+      -0.11376241698470732,
+      0.04249401964137828,
+      0.783786246734015,
+      -11.11727626417403,
+      -3.7734344811195113,
+      5.378608456364297,
+      0.8136782640701299,
+      -2.6580618234525106,
+      -0.6198818807784185,
+      -1.00853888494908,
+      0.02347043254346265,
+      -0.09573534164965274,
+      0.30839330536649756,
+      0.1898594331421215,
+      0.03466292060423582,
+      0.03281789403135978,
+      0.0344542014305893,
+      0.03281854709600991,
+      -5.053135661914057,
+      -4.10087165081207,
+      -0.7908697261267207,
+      -2.6982168016490133,
+      0.6299307233969352,
+      -1.0171398853138025,
+      -0.04097468163571183,
+      -0.08080988024423108,
+      -0.3057052064104205,
+      -0.19492862585711584,
+      -0.03579327171084555,
+      -0.03302255028279885,
+      -0.03563852417034126,
+      -0.03302390945741023
+    ],
+    "base_height_m": 0.7471046968861036,
+    "command": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "elapsed_s": 161.77999999985286,
+    "motor_utilization_max": 1.0,
+    "phase": "verify",
+    "placement": {
+      "criteria": {
+        "active_upward_tabletop_contact": true,
+        "all_eight_box_corners_inside_inset_footprint": true,
+        "angular_speed_below_0_10_radps": true,
+        "box_bottom_near_tabletop_plane": true,
+        "box_upright_under_15_deg": true,
+        "hands_released_below_1n": true,
+        "linear_speed_below_0_025_mps": true,
+        "robot_released_below_1n": true
+      },
+      "object": {
+        "angular_speed_radps": 1.5138757080711476e-09,
+        "bottom_plane_delta_m": -3.200964236793613e-05,
+        "box_bottom_z_m": 0.7601550193825377,
+        "corner_inside_inset": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "corners_world_m": [
+          [
+            6.311028696944845,
+            23.86401401285292,
+            0.7601550194012467
+          ],
+          [
+            6.311028696961826,
+            23.864014012853865,
+            0.9601550194012471
+          ],
+          [
+            6.2954745986436995,
+            24.143581661242425,
+            0.760155019401246
+          ],
+          [
+            6.295474598660681,
+            24.14358166124337,
+            0.9601550194012464
+          ],
+          [
+            6.530688992108029,
+            23.876235090089533,
+            0.7601550193825385
+          ],
+          [
+            6.53068899212501,
+            23.87623509009048,
+            0.9601550193825389
+          ],
+          [
+            6.515134893806883,
+            24.15580273847904,
+            0.7601550193825377
+          ],
+          [
+            6.5151348938238645,
+            24.155802738479984,
+            0.9601550193825381
+          ]
+        ],
+        "hand_normal_force_n": {
+          "left": 0.0,
+          "right": 0.0
+        },
+        "linear_speed_mps": 2.2759662146561317e-10,
+        "name": "cargo_box",
+        "position_m": [
+          6.413081795384355,
+          24.009908375666452,
+          0.8601550193918924
+        ],
+        "quaternion_wxyz": [
+          0.999613897238674,
+          -1.182824999832551e-12,
+          4.2502341286486705e-11,
+          0.027785903751924735
+        ],
+        "robot_contact_body_names": [],
+        "robot_contact_normal_force_n": 0.0,
+        "robot_contact_normal_force_n_by_body": {},
+        "upright_angle_deg": 0.0
+      },
+      "qualified_sample": true,
+      "robot_contacts": [],
+      "surface": {
+        "area_m2": 0.8867524085162586,
+        "geom_ids": [
+          233
+        ],
+        "plane_z_m": 0.7601870290249056,
+        "polygon_xy_m": [
+          [
+            6.243054040670393,
+            23.251459635624727
+          ],
+          [
+            6.243465163707731,
+            23.247054852375825
+          ],
+          [
+            6.244698503017424,
+            23.24279669655307
+          ],
+          [
+            6.246754118204115,
+            23.239126004109224
+          ],
+          [
+            6.249455758333204,
+            23.23574904335483
+          ],
+          [
+            6.252803453207014,
+            23.232959307560762
+          ],
+          [
+            6.2566210114955885,
+            23.230903662571748
+          ],
+          [
+            6.260732212066649,
+            23.229728974232515
+          ],
+          [
+            6.2651957654952986,
+            23.229288615116914
+          ],
+          [
+            6.8148042345047,
+            23.229288615116914
+          ],
+          [
+            6.81926778793335,
+            23.229728974232515
+          ],
+          [
+            6.823379018306732,
+            23.230903662571748
+          ],
+          [
+            6.827196546792984,
+            23.232959307560762
+          ],
+          [
+            6.830544241666794,
+            23.23574904335483
+          ],
+          [
+            6.833245881795883,
+            23.239126004109224
+          ],
+          [
+            6.8353014969825745,
+            23.24279669655307
+          ],
+          [
+            6.836534836292267,
+            23.247054852375825
+          ],
+          [
+            6.836945959329605,
+            23.251459635624727
+          ],
+          [
+            6.836945959329605,
+            24.700950659642068
+          ],
+          [
+            6.836534836292267,
+            24.70535544289097
+          ],
+          [
+            6.8353014969825745,
+            24.709613598713723
+          ],
+          [
+            6.833245881795883,
+            24.71328429115757
+          ],
+          [
+            6.830544241666794,
+            24.716661251911965
+          ],
+          [
+            6.827196546792984,
+            24.719450987706033
+          ],
+          [
+            6.823379018306732,
+            24.721506632695046
+          ],
+          [
+            6.81926778793335,
+            24.72268132103428
+          ],
+          [
+            6.8148042345047,
+            24.72312179935917
+          ],
+          [
+            6.2651957654952986,
+            24.72312179935917
+          ],
+          [
+            6.260732212066649,
+            24.72268132103428
+          ],
+          [
+            6.2566210114955885,
+            24.721506632695046
+          ],
+          [
+            6.252803453207014,
+            24.719450987706033
+          ],
+          [
+            6.249455758333204,
+            24.716661251911965
+          ],
+          [
+            6.246754118204115,
+            24.71328429115757
+          ],
+          [
+            6.244698503017424,
+            24.709613598713723
+          ],
+          [
+            6.243465163707731,
+            24.70535544289097
+          ],
+          [
+            6.243054040670393,
+            24.700950659642068
+          ]
+        ]
+      },
+      "thresholds": {
+        "bottom_plane_delta_range_m": [
+          -0.01,
+          0.02
+        ],
+        "footprint_inset_m": 0.01,
+        "maximum_angular_speed_radps": 0.1,
+        "maximum_hand_force_n": 1.0,
+        "maximum_linear_speed_mps": 0.025,
+        "maximum_upright_angle_deg": 15.0,
+        "surface_contact_plane_tolerance_m": 0.01
+      },
+      "upward_tabletop_contacts": [
+        {
+          "contact_id": 16,
+          "position_m": [
+            6.2954745986436995,
+            24.143581661242425,
+            0.7601710242130758
+          ],
+          "table_geom_id": 233,
+          "table_geom_name": "delivery_GS_Desk_Top.001_0_0_visual_collision_0",
+          "upward_force_n": 4.904999998964154
+        },
+        {
+          "contact_id": 17,
+          "position_m": [
+            6.515134893806883,
+            24.15580273847904,
+            0.7601710242037216
+          ],
+          "table_geom_id": 233,
+          "table_geom_name": "delivery_GS_Desk_Top.001_0_0_visual_collision_0",
+          "upward_force_n": 4.905000001036592
+        },
+        {
+          "contact_id": 18,
+          "position_m": [
+            6.530688992108029,
+            23.876235090089533,
+            0.7601710242037221
+          ],
+          "table_geom_id": 233,
+          "table_geom_name": "delivery_GS_Desk_Top.001_0_0_visual_collision_0",
+          "upward_force_n": 4.905000001037281
+        },
+        {
+          "contact_id": 19,
+          "position_m": [
+            6.311028696944845,
+            23.86401401285292,
+            0.7601710242130761
+          ],
+          "table_geom_id": 233,
+          "table_geom_name": "delivery_GS_Desk_Top.001_0_0_visual_collision_0",
+          "upward_force_n": 4.904999998964847
+        }
+      ]
+    },
+    "recovery_phase": "mission_policy",
+    "route_arc_m": 47.22659005856724,
+    "route_index": 9,
+    "t": 495.75999999962164,
+    "task_time_s": 492.7599999996217,
+    "tilt_deg": 3.001155699311787,
+    "type": "sample"
+  },
+  "limitation": "Bounded engineering fork with finite native G1 inference and privileged IK; no hardware, VLA, general recovery, or causal controller comparison claim.",
+  "max_motor_utilization": 1.0,
+  "max_tilt_deg": 9.516977868395822,
+  "min_payload_bottom_height_m": 0.7597725291887233,
+  "original_deadline_s": 900.0,
+  "original_mission_completed": true,
+  "outcome": "completed",
+  "parent_checkpoint": "late_open_loaded_carry",
+  "parent_checkpoint_digest": "07397d465c8d4fb40c10b84fe9ea3d39bb009786adbd64d56d3b69f7de9c3078",
+  "parent_run": "/home/saidevdhal/twinbench-research/engine/.cache/cargo-missions/cb9f3d1a7c0649fe",
+  "recovery": "lateral_negative",
+  "task_clock_s": 492.7599999996217,
+  "task_resumption_rule": "first sample after intervention with route-arc advance >=0.5 m from fork, tilt <20 deg, and retained payload (bottom >0.5 m, unsupported, and both hand normal forces >1 N)",
+  "terminal_checkpoint_digest": "13d37104863cc3fef71e81c66adfdf91f226be5c006b2ef4accb3b3a496dfa77"
+}
