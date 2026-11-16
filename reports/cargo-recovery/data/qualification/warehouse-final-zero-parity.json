@@ -1,0 +1,10 @@
+{
+  "parent": "32dc5deadbc841dd",
+  "fork": "ef869df183c3437a",
+  "max_native_error": 0.0,
+  "native_arrays_equal": true,
+  "parent_elapsed": 482.49999999963103,
+  "fork_original_task_clock": 482.49999999963103,
+  "zero_impulse": 0,
+  "checkpoint": "open_loaded_carry"
+}

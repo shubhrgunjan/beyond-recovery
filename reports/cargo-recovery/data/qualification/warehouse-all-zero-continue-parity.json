@@ -1,0 +1,69 @@
+{
+  "status": "pass",
+  "comparisons": [
+    {
+      "parent": "32dc5deadbc841dd",
+      "fork": "2ec911f8be2446db",
+      "checkpoint": "open_loaded_carry",
+      "max_native_error": 0.0,
+      "native_arrays_equal": true
+    },
+    {
+      "parent": "32dc5deadbc841dd",
+      "fork": "3e043c6f645e483e",
+      "checkpoint": "restricted_rough_approach",
+      "max_native_error": 0.0,
+      "native_arrays_equal": true
+    },
+    {
+      "parent": "32dc5deadbc841dd",
+      "fork": "af73d93735574f29",
+      "checkpoint": "late_open_loaded_carry",
+      "max_native_error": 0.0,
+      "native_arrays_equal": true
+    },
+    {
+      "parent": "5add07da420147f5",
+      "fork": "9e8ca3a89027441d",
+      "checkpoint": "open_loaded_carry",
+      "max_native_error": 0.0,
+      "native_arrays_equal": true
+    },
+    {
+      "parent": "5add07da420147f5",
+      "fork": "7873781530e04172",
+      "checkpoint": "restricted_rough_approach",
+      "max_native_error": 0.0,
+      "native_arrays_equal": true
+    },
+    {
+      "parent": "5add07da420147f5",
+      "fork": "d625d16e9ed94adb",
+      "checkpoint": "late_open_loaded_carry",
+      "max_native_error": 0.0,
+      "native_arrays_equal": true
+    },
+    {
+      "parent": "cb9f3d1a7c0649fe",
+      "fork": "5933c7a1d76c403a",
+      "checkpoint": "open_loaded_carry",
+      "max_native_error": 0.0,
+      "native_arrays_equal": true
+    },
+    {
+      "parent": "cb9f3d1a7c0649fe",
+      "fork": "b984c08678404a39",
+      "checkpoint": "restricted_rough_approach",
+      "max_native_error": 0.0,
+      "native_arrays_equal": true
+    },
+    {
+      "parent": "cb9f3d1a7c0649fe",
+      "fork": "aa3f9d43f9bb4d73",
+      "checkpoint": "late_open_loaded_carry",
+      "max_native_error": 0.0,
+      "native_arrays_equal": true
+    }
+  ],
+  "scope": "All three parents and three carry states, zero impulse and ordinary continuation; no physics rerun"
+}
